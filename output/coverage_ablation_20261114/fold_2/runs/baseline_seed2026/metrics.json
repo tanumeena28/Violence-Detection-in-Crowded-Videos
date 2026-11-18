@@ -1,0 +1,58 @@
+{
+  "variant": "baseline",
+  "seed": 2026,
+  "parameters": 36001,
+  "device": "cuda",
+  "use_coverage": false,
+  "epochs_executed": 43,
+  "selected_epoch": 13,
+  "threshold": 0.48,
+  "training_seconds": 3.774609700019937,
+  "train_clips": 147,
+  "val_clips": 49,
+  "test_clips": 49,
+  "validation": {
+    "n": 49,
+    "accuracy": 0.8367346938775511,
+    "macro_f1": 0.8366666666666667,
+    "precision_violent": 0.84,
+    "recall_violent": 0.84,
+    "roc_auc": 0.885,
+    "confusion_matrix": [
+      [
+        20,
+        4
+      ],
+      [
+        4,
+        21
+      ]
+    ]
+  },
+  "test": {
+    "n": 49,
+    "accuracy": 0.7959183673469388,
+    "macro_f1": 0.7951505016722409,
+    "precision_violent": 0.7777777777777778,
+    "recall_violent": 0.84,
+    "roc_auc": 0.8583333333333334,
+    "confusion_matrix": [
+      [
+        18,
+        6
+      ],
+      [
+        4,
+        21
+      ]
+    ]
+  },
+  "majority_baseline_test_accuracy": 0.5102040767669678,
+  "feature_shape": [
+    32,
+    8,
+    68
+  ],
+  "pose_signature": "b2fde119883aa286515b369b57e25ba3de6a4325428e8fb6be186ce3533aee91",
+  "protocol": "Custom stratified source-grouped outer folds with the preceding fold used for validation and remaining folds for training. Training-only normalization; validation-selected checkpoints and thresholds. Existing videos have been inspected previously: exploratory repeated evaluation, not a fresh untouched test or reproduction of the dataset's supplied five-fold protocol. Filename grouping does not replace full-video source/label review."
+}

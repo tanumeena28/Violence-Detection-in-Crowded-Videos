@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-15",
+  "dataset": "Hockey Fight",
+  "mirror": "34data/hockey-fight-videos",
+  "revision": "2009e360f0887c9d0495f684a488519a625b0293",
+  "archives_sha256": {
+    "data_001.zip": "178484464a9bdce5bed5d65852ce5117c14edb903fbfe93b53e6a0eaa4349e1d",
+    "data_002.zip": "68db3527560c7c36a9f5c241b26f11eba949bbd2c144380ea078eb2f86a769fa"
+  },
+  "clips": 1000,
+  "class_counts": {
+    "0": 500,
+    "1": 500
+  },
+  "manifest_sha256": "a6ee62f3d22ea56f978292d9f1144d73f4628ed2ec635ac1572664bbb8e0f44d",
+  "models": {
+    "crowd_pose_interactions": {
+      "path": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\centering_corrected_cpu_20261115\\fold_1\\runs\\interactions_seed42\\model.pt",
+      "sha256": "11cf6c9ca0b5b2294e391d26631adbc786d259359d976c5ed7cd6cf199ff5c73"
+    },
+    "rwf_frozen_video": {
+      "path": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\rwf_supervised_20261115\\model.json",
+      "sha256": "50283bc44a38c60451e4dc54a392960e84f61c8887aef3c425ad133279e1b642"
+    },
+    "rwf_finetuned_video": {
+      "path": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\rwf_finetune_v2_20261115\\model.pt",
+      "sha256": "04692366a21cd5469573733281d3124289e1584df6fdd7c175dd42aa558cab4f"
+    }
+  },
+  "finetune_candidate": "Chosen epoch and threshold sealed on RWF validation before this external protocol and before any external scoring",
+  "selection": "All released mirror clips; no external fitting, normalization, threshold or model selection",
+  "sampling": "Same uniform 32 full-clip samples and official R3D-18 transform; pose settings from retained checkpoint",
+  "device": "cuda",
+  "external_scores_seen_before_protocol": false,
+  "primary": "Fixed RWF supervised video head; crowd pose is a transfer diagnostic",
+  "limits": "Sports broadcast domain, not a surveillance deployment benchmark. Mirror class labels are supplied and unreviewed. Filenames do not identify source games, so source independence, near-duplicates and Kinetics pretraining overlap remain unaudited."
+}

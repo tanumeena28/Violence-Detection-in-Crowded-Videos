@@ -1,0 +1,54 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "id": "5ceaddf20758537a",
+      "model": "fine",
+      "score_drift": 0.0,
+      "decision_reproduced": true
+    },
+    {
+      "id": "5ceaddf20758537a",
+      "model": "frozen",
+      "score_drift": 5.551115123125783e-17,
+      "decision_reproduced": true
+    },
+    {
+      "id": "f198edbd92b56d3c",
+      "model": "fine",
+      "score_drift": 0.0,
+      "decision_reproduced": true
+    },
+    {
+      "id": "f198edbd92b56d3c",
+      "model": "frozen",
+      "score_drift": 0.0,
+      "decision_reproduced": true
+    },
+    {
+      "id": "3c3c5633754c4d24",
+      "model": "fine",
+      "score_drift": 0.0,
+      "decision_reproduced": true
+    },
+    {
+      "id": "3c3c5633754c4d24",
+      "model": "frozen",
+      "score_drift": 1.6653345369377348e-16,
+      "decision_reproduced": true
+    },
+    {
+      "id": "7de3d48f9f91a362",
+      "model": "fine",
+      "score_drift": 0.0,
+      "decision_reproduced": true
+    },
+    {
+      "id": "7de3d48f9f91a362",
+      "model": "frozen",
+      "score_drift": 5.551115123125783e-17,
+      "decision_reproduced": true
+    }
+  ],
+  "tolerance": 0.0003
+}

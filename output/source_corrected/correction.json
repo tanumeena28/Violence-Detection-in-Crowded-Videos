@@ -1,0 +1,79 @@
+{
+  "original_manifest_sha256": "2cad94b006e99c1aca3c9a539709c5733af25a9d8102c2712311abb2f470a1b3",
+  "corrected_manifest_sha256": "eefaff23881ba331d1c69afb1ab7c20e609adf48831ab7dae4fc24edf091c0bb",
+  "excluded_clips": [
+    {
+      "id": "96710966507869d7",
+      "path": "data/movies/2/Violence/fans_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwrOc8xmlpY.avi",
+      "sha256": "96710966507869d769aab1a039c41b76c6c59667ae988a29a7abefce15857a6b",
+      "source_group": "football_hooligans_preston_north_end_mix__prestonparasoccer__qwroc8xmlpy",
+      "label": 1,
+      "fold": 2,
+      "split": "train",
+      "fps": 25.0,
+      "frames": 81,
+      "width": 320,
+      "height": 240
+    },
+    {
+      "id": "e7165d720931dfbc",
+      "path": "data/movies/2/Violence/football_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwrOc8xmlpY.avi",
+      "sha256": "e7165d720931dfbcb16edfa7335871b3feb0b7c5dd3ec9e6f6b08a6b00cb957f",
+      "source_group": "football_hooligans_preston_north_end_mix__prestonparasoccer__qwroc8xmlpy",
+      "label": 1,
+      "fold": 2,
+      "split": "train",
+      "fps": 25.0,
+      "frames": 123,
+      "width": 320,
+      "height": 240
+    },
+    {
+      "id": "cacf7bff89f4fe90",
+      "path": "data/movies/3/Violence/football_violence__FUCK_YOU_FOOTBALL_HOOLIGANS_RUSSIA_and_UKRAINE_part1__W00FAM__DB.avi",
+      "sha256": "cacf7bff89f4fe9012ac7bee44f22f4f47bc7f20789fbf48064f63751830683f",
+      "source_group": "fuck_you_football_hooligans_russia_and_ukraine_part1__w00fam__db",
+      "label": 1,
+      "fold": 3,
+      "split": "train",
+      "fps": 25.0,
+      "frames": 46,
+      "width": 320,
+      "height": 240
+    }
+  ],
+  "original_overlap_candidates": [
+    {
+      "first_id": "96710966507869d7",
+      "second_id": "f747c93e3407f19c",
+      "first_path": "data/movies/2/Violence/fans_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwrOc8xmlpY.avi",
+      "second_path": "data/movies/4/Violence/soccer_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwr.avi",
+      "first_split": "train",
+      "second_split": "val",
+      "source_group": "football_hooligans_preston_north_end_mix__prestonparasoccer__qwr",
+      "evidence": "Matching title/uploader and exact or prefix-compatible source ID; frames require review."
+    },
+    {
+      "first_id": "e7165d720931dfbc",
+      "second_id": "f747c93e3407f19c",
+      "first_path": "data/movies/2/Violence/football_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwrOc8xmlpY.avi",
+      "second_path": "data/movies/4/Violence/soccer_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwr.avi",
+      "first_split": "train",
+      "second_split": "val",
+      "source_group": "football_hooligans_preston_north_end_mix__prestonparasoccer__qwr",
+      "evidence": "Matching title/uploader and exact or prefix-compatible source ID; frames require review."
+    },
+    {
+      "first_id": "cacf7bff89f4fe90",
+      "second_id": "f93c01316e7a4eca",
+      "first_path": "data/movies/3/Violence/football_violence__FUCK_YOU_FOOTBALL_HOOLIGANS_RUSSIA_and_UKRAINE_part1__W00FAM__DB.avi",
+      "second_path": "data/movies/4/Violence/Hooligans_violence__FUCK_YOU_FOOTBALL_HOOLIGANS_RUSSIA_and_UKRAINE_part1__W00FAM__DB9PSdrfulE.avi",
+      "first_split": "train",
+      "second_split": "val",
+      "source_group": "fuck_you_football_hooligans_russia_and_ukraine_part1__w00fam__db",
+      "evidence": "Matching title/uploader and exact or prefix-compatible source ID; frames require review."
+    }
+  ],
+  "known_corrected_overlap_candidates": [],
+  "protocol": "Same four variants, hidden=48, seed=42, epochs=180, patience=30. Fresh train-only statistics, fresh checkpoints and validation-selected thresholds. Original 47 test clips retained. Exploratory correction after test inspection, not a fresh unseen benchmark."
+}

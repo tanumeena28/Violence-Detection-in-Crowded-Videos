@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One-time RWF transfer evaluation</title><style>body{font:16px system-ui;background:#f3f5f7;color:#17232d;margin:0}
+main{max-width:1080px;margin:35px auto;padding:30px;background:white;border-radius:12px}p{line-height:1.6}
+table{border-collapse:collapse;width:100%}td,th{padding:12px;border-bottom:1px solid #ddd;text-align:left}
+.scroll{overflow:auto}.note{padding:16px;background:#fff4da}img{max-width:100%}a{color:#086b86}</style></head>
+<body><main><p>2026-11-15</p><h1>One-time RWF-2000 transfer evaluation</h1>
+<p>The saved combined crowd model was evaluated with its fixed threshold 0.54 on the released RWF evaluation split.
+Its crowd-training normalization is reused. One known earlier demo clip is also excluded in a supplementary result.</p>
+<div class="scroll"><table><tr><th>Evaluation</th><th>Clips</th><th>Accuracy</th><th>Macro-F1</th><th>ROC-AUC</th></tr><tr><td>All released evaluation clips</td><td>400</td><td>56.0%</td><td>0.506</td><td>0.578</td></tr><tr><td>Excluding known prior demo</td><td>399</td><td>56.1%</td><td>0.508</td><td>0.577</td></tr><tr><td>Pose-supported subset (secondary)</td><td>347</td><td>54.2%</td><td>0.410</td><td>0.508</td></tr></table></div><p>Fight precision: 0.536; recall: 0.890.
+Low-pose clips: 53. All clips remain in primary metrics.</p>
+<img src="figures/transfer.png" alt="Transfer classification confusion matrix"><p class="note">Exploratory transfer of a crowd-trained classifier to the released RWF-2000 evaluation split. No RWF training, normalization fitting, checkpoint selection or threshold tuning is performed. This is different from supervised training and evaluation on RWF. Supplied labels are retained. One known clip was inspected in an earlier demo; other prior viewing and unknown shared footage cannot be ruled out. Scores are not calibrated probabilities. All clips remain in primary metrics, including low-pose cases.</p>
+<p>Evaluation wall time: 3.17 minutes. Fresh full-video decode and sampled pose extraction, cache writes/loads, fixed feature normalization and GPU classification. Includes model initialization; excludes inventory preparation and report generation. Not a cold/warm per-video latency benchmark.</p>
+<p><a href="RESULTS.md">Research notes</a> | <a href="predictions.csv">Predictions</a> | <a href="metrics.json">Metrics</a> |
+<a href="audit.json">Audit</a> | <a href="protocol.json">Frozen protocol</a></p></main></body></html>

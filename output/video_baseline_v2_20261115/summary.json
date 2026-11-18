@@ -1,0 +1,462 @@
+{
+  "status": "complete",
+  "model": "rgb_r3d18_frozen",
+  "clips": 245,
+  "source_groups": 204,
+  "folds": 5,
+  "fold_mean": {
+    "accuracy": {
+      "mean": 0.9102040816326531,
+      "descriptive_std": 0.04471204551062581
+    },
+    "macro_f1": {
+      "mean": 0.9088793135715229,
+      "descriptive_std": 0.046918910042246506
+    },
+    "roc_auc": {
+      "mean": 0.9786666666666667,
+      "descriptive_std": 0.011983785341498361
+    },
+    "precision_violent": {
+      "mean": 0.9194638694638695,
+      "descriptive_std": 0.09899592910072443
+    },
+    "recall_violent": {
+      "mean": 0.9179999999999999,
+      "descriptive_std": 0.058373795490785065
+    }
+  },
+  "runs": [
+    {
+      "variant": "rgb_r3d18_frozen",
+      "features": 512,
+      "classifier_parameters": 513,
+      "threshold": 0.4,
+      "selected_C": 0.1,
+      "candidates": [
+        {
+          "C": 0.01,
+          "validation_log_loss": 0.21994142536161676
+        },
+        {
+          "C": 0.1,
+          "validation_log_loss": 0.15467616955224398
+        },
+        {
+          "C": 1.0,
+          "validation_log_loss": 0.16222312329834718
+        },
+        {
+          "C": 10.0,
+          "validation_log_loss": 0.2280576692023538
+        }
+      ],
+      "train_clips": 147,
+      "val_clips": 49,
+      "test_clips": 49,
+      "train": {
+        "n": 147,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "precision_violent": 1.0,
+        "recall_violent": 1.0,
+        "roc_auc": 1.0,
+        "confusion_matrix": [
+          [
+            73,
+            0
+          ],
+          [
+            0,
+            74
+          ]
+        ]
+      },
+      "validation": {
+        "n": 49,
+        "accuracy": 0.9591836734693877,
+        "macro_f1": 0.9591666666666667,
+        "precision_violent": 0.9583333333333334,
+        "recall_violent": 0.9583333333333334,
+        "roc_auc": 0.985,
+        "confusion_matrix": [
+          [
+            24,
+            1
+          ],
+          [
+            1,
+            23
+          ]
+        ]
+      },
+      "test": {
+        "n": 49,
+        "accuracy": 0.8979591836734694,
+        "macro_f1": 0.8979591836734694,
+        "precision_violent": 0.9166666666666666,
+        "recall_violent": 0.88,
+        "roc_auc": 0.975,
+        "confusion_matrix": [
+          [
+            22,
+            2
+          ],
+          [
+            3,
+            22
+          ]
+        ]
+      },
+      "protocol": "Same source-grouped crowd folds. Train-only scaling and logistic head; validation log-loss selects C and macro-F1 selects threshold. Frozen pretrained encoder.",
+      "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.",
+      "encoder_parameters": 33166272,
+      "fold": 1
+    },
+    {
+      "variant": "rgb_r3d18_frozen",
+      "features": 512,
+      "classifier_parameters": 513,
+      "threshold": 0.21000000000000002,
+      "selected_C": 0.01,
+      "candidates": [
+        {
+          "C": 0.01,
+          "validation_log_loss": 0.29972857560935434
+        },
+        {
+          "C": 0.1,
+          "validation_log_loss": 0.33467993656106104
+        },
+        {
+          "C": 1.0,
+          "validation_log_loss": 0.44725317970581047
+        },
+        {
+          "C": 10.0,
+          "validation_log_loss": 0.5922890668964739
+        }
+      ],
+      "train_clips": 147,
+      "val_clips": 49,
+      "test_clips": 49,
+      "train": {
+        "n": 147,
+        "accuracy": 0.9523809523809523,
+        "macro_f1": 0.952301487971075,
+        "precision_violent": 0.9125,
+        "recall_violent": 1.0,
+        "roc_auc": 1.0,
+        "confusion_matrix": [
+          [
+            67,
+            7
+          ],
+          [
+            0,
+            73
+          ]
+        ]
+      },
+      "validation": {
+        "n": 49,
+        "accuracy": 0.8979591836734694,
+        "macro_f1": 0.8964059196617336,
+        "precision_violent": 0.8333333333333334,
+        "recall_violent": 1.0,
+        "roc_auc": 0.9583333333333333,
+        "confusion_matrix": [
+          [
+            19,
+            5
+          ],
+          [
+            0,
+            25
+          ]
+        ]
+      },
+      "test": {
+        "n": 49,
+        "accuracy": 0.8367346938775511,
+        "macro_f1": 0.8310344827586207,
+        "precision_violent": 0.7575757575757576,
+        "recall_violent": 1.0,
+        "roc_auc": 0.9833333333333334,
+        "confusion_matrix": [
+          [
+            16,
+            8
+          ],
+          [
+            0,
+            25
+          ]
+        ]
+      },
+      "protocol": "Same source-grouped crowd folds. Train-only scaling and logistic head; validation log-loss selects C and macro-F1 selects threshold. Frozen pretrained encoder.",
+      "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.",
+      "encoder_parameters": 33166272,
+      "fold": 2
+    },
+    {
+      "variant": "rgb_r3d18_frozen",
+      "features": 512,
+      "classifier_parameters": 513,
+      "threshold": 0.71,
+      "selected_C": 1.0,
+      "candidates": [
+        {
+          "C": 0.01,
+          "validation_log_loss": 0.2301114054984112
+        },
+        {
+          "C": 0.1,
+          "validation_log_loss": 0.16971839651797335
+        },
+        {
+          "C": 1.0,
+          "validation_log_loss": 0.15654061943943734
+        },
+        {
+          "C": 10.0,
+          "validation_log_loss": 0.16333616211931717
+        }
+      ],
+      "train_clips": 147,
+      "val_clips": 49,
+      "test_clips": 49,
+      "train": {
+        "n": 147,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "precision_violent": 1.0,
+        "recall_violent": 1.0,
+        "roc_auc": 1.0,
+        "confusion_matrix": [
+          [
+            74,
+            0
+          ],
+          [
+            0,
+            73
+          ]
+        ]
+      },
+      "validation": {
+        "n": 49,
+        "accuracy": 0.9387755102040817,
+        "macro_f1": 0.9387755102040817,
+        "precision_violent": 0.9583333333333334,
+        "recall_violent": 0.92,
+        "roc_auc": 0.9866666666666667,
+        "confusion_matrix": [
+          [
+            23,
+            1
+          ],
+          [
+            2,
+            23
+          ]
+        ]
+      },
+      "test": {
+        "n": 49,
+        "accuracy": 0.9387755102040817,
+        "macro_f1": 0.9386733416770964,
+        "precision_violent": 0.9230769230769231,
+        "recall_violent": 0.96,
+        "roc_auc": 0.9916666666666666,
+        "confusion_matrix": [
+          [
+            22,
+            2
+          ],
+          [
+            1,
+            24
+          ]
+        ]
+      },
+      "protocol": "Same source-grouped crowd folds. Train-only scaling and logistic head; validation log-loss selects C and macro-F1 selects threshold. Frozen pretrained encoder.",
+      "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.",
+      "encoder_parameters": 33166272,
+      "fold": 3
+    },
+    {
+      "variant": "rgb_r3d18_frozen",
+      "features": 512,
+      "classifier_parameters": 513,
+      "threshold": 0.6799999999999999,
+      "selected_C": 0.1,
+      "candidates": [
+        {
+          "C": 0.01,
+          "validation_log_loss": 0.19947867700423502
+        },
+        {
+          "C": 0.1,
+          "validation_log_loss": 0.138419763772429
+        },
+        {
+          "C": 1.0,
+          "validation_log_loss": 0.1399279833991118
+        },
+        {
+          "C": 10.0,
+          "validation_log_loss": 0.16406729746158297
+        }
+      ],
+      "train_clips": 147,
+      "val_clips": 49,
+      "test_clips": 49,
+      "train": {
+        "n": 147,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "precision_violent": 1.0,
+        "recall_violent": 1.0,
+        "roc_auc": 1.0,
+        "confusion_matrix": [
+          [
+            73,
+            0
+          ],
+          [
+            0,
+            74
+          ]
+        ]
+      },
+      "validation": {
+        "n": 49,
+        "accuracy": 0.9795918367346939,
+        "macro_f1": 0.9795577805590321,
+        "precision_violent": 0.9615384615384616,
+        "recall_violent": 1.0,
+        "roc_auc": 0.9966666666666667,
+        "confusion_matrix": [
+          [
+            23,
+            1
+          ],
+          [
+            0,
+            25
+          ]
+        ]
+      },
+      "test": {
+        "n": 49,
+        "accuracy": 0.9387755102040817,
+        "macro_f1": 0.9383647798742139,
+        "precision_violent": 1.0,
+        "recall_violent": 0.875,
+        "roc_auc": 0.9833333333333333,
+        "confusion_matrix": [
+          [
+            25,
+            0
+          ],
+          [
+            3,
+            21
+          ]
+        ]
+      },
+      "protocol": "Same source-grouped crowd folds. Train-only scaling and logistic head; validation log-loss selects C and macro-F1 selects threshold. Frozen pretrained encoder.",
+      "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.",
+      "encoder_parameters": 33166272,
+      "fold": 4
+    },
+    {
+      "variant": "rgb_r3d18_frozen",
+      "features": 512,
+      "classifier_parameters": 513,
+      "threshold": 0.51,
+      "selected_C": 0.1,
+      "candidates": [
+        {
+          "C": 0.01,
+          "validation_log_loss": 0.23701537847473395
+        },
+        {
+          "C": 0.1,
+          "validation_log_loss": 0.21258697981374008
+        },
+        {
+          "C": 1.0,
+          "validation_log_loss": 0.2498894570341599
+        },
+        {
+          "C": 10.0,
+          "validation_log_loss": 0.3070013116481054
+        }
+      ],
+      "train_clips": 147,
+      "val_clips": 49,
+      "test_clips": 49,
+      "train": {
+        "n": 147,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "precision_violent": 1.0,
+        "recall_violent": 1.0,
+        "roc_auc": 1.0,
+        "confusion_matrix": [
+          [
+            72,
+            0
+          ],
+          [
+            0,
+            75
+          ]
+        ]
+      },
+      "validation": {
+        "n": 49,
+        "accuracy": 0.9387755102040817,
+        "macro_f1": 0.9383647798742139,
+        "precision_violent": 1.0,
+        "recall_violent": 0.875,
+        "roc_auc": 0.9683333333333333,
+        "confusion_matrix": [
+          [
+            25,
+            0
+          ],
+          [
+            3,
+            21
+          ]
+        ]
+      },
+      "test": {
+        "n": 49,
+        "accuracy": 0.9387755102040817,
+        "macro_f1": 0.9383647798742139,
+        "precision_violent": 1.0,
+        "recall_violent": 0.875,
+        "roc_auc": 0.96,
+        "confusion_matrix": [
+          [
+            25,
+            0
+          ],
+          [
+            3,
+            21
+          ]
+        ]
+      },
+      "protocol": "Same source-grouped crowd folds. Train-only scaling and logistic head; validation log-loss selects C and macro-F1 selects threshold. Frozen pretrained encoder.",
+      "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.",
+      "encoder_parameters": 33166272,
+      "fold": 5
+    }
+  ],
+  "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness."
+}

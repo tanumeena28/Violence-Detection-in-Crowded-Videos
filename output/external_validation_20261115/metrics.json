@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-15",
+  "models": {
+    "rwf_frozen_video": {
+      "threshold": 0.5,
+      "all_clips": {
+        "n": 1000,
+        "accuracy": 0.708,
+        "macro_f1": 0.6861241056686846,
+        "precision_violent": 0.940677966101695,
+        "recall_violent": 0.444,
+        "roc_auc": 0.8863519999999999,
+        "confusion_matrix": [
+          [
+            486,
+            14
+          ],
+          [
+            278,
+            222
+          ]
+        ]
+      }
+    },
+    "rwf_finetuned_video": {
+      "threshold": 0.23,
+      "all_clips": {
+        "n": 1000,
+        "accuracy": 0.811,
+        "macro_f1": 0.8099308610936518,
+        "precision_violent": 0.8658823529411764,
+        "recall_violent": 0.736,
+        "roc_auc": 0.893268,
+        "confusion_matrix": [
+          [
+            443,
+            57
+          ],
+          [
+            132,
+            368
+          ]
+        ]
+      }
+    },
+    "crowd_pose_interactions": {
+      "threshold": 0.62,
+      "all_clips": {
+        "n": 1000,
+        "accuracy": 0.409,
+        "macro_f1": 0.36140624611684213,
+        "precision_violent": 0.4411384217335058,
+        "recall_violent": 0.682,
+        "roc_auc": 0.420026,
+        "confusion_matrix": [
+          [
+            68,
+            432
+          ],
+          [
+            159,
+            341
+          ]
+        ]
+      },
+      "pose_supported_clips": 982,
+      "pose_supported_subset": {
+        "n": 982,
+        "accuracy": 0.4063136456211813,
+        "macro_f1": 0.3533657945949853,
+        "precision_violent": 0.44386422976501305,
+        "recall_violent": 0.6841046277665996,
+        "roc_auc": 0.4133688730320064,
+        "confusion_matrix": [
+          [
+            59,
+            426
+          ],
+          [
+            157,
+            340
+          ]
+        ]
+      }
+    }
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "all_clips": 1000,
+  "labels": "Unchanged supplied dataset labels, independently unreviewed",
+  "scoring_record_seconds": 466.63773470011074,
+  "runtime_boundary": "Shared full decode and all declared GPU models per clip; initialization/reporting excluded. Offline, not streaming."
+}

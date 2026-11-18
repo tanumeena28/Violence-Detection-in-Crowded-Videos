@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "videos_verified": 4,
+  "artifacts_sha256": {
+    "demos.json": "922618bfd5cdaad22b94c1cd2d29cdad4b354322551fa5778c273b7c6f700d6f",
+    "index.html": "8350a22a63aacaedf47ceee1d5da3c2abe7628050db5483f0cffade916d1ebb8",
+    "protocol.json": "7dbbf06498ffabb08041d2d45394a7ceb1ef873d057ba29e7aa819f3d9913b67",
+    "README.md": "2599b8388095cdc8e3d200472407120d8430510b26c66af45f2a864f6ddb4fbb",
+    "videos/false_negative.jpg": "d1faa85ce2c7e056db6b9459a835d1054ca8a4daf2e84084f3739fe2fa073473",
+    "videos/false_negative.mp4": "d5ad824476a36ee106215b3eb44f49ed8e704e07ed3e1f37a93cfe93be7c5fe1",
+    "videos/false_positive.jpg": "3012dcddb6d5f6b128a1c6c1c8bd7362ff33952273e18798297fe6b10609bd9d",
+    "videos/false_positive.mp4": "128aa383d1fc95790546d68fbc941061a4bc15388f0011447eecae11cdcfa182",
+    "videos/true_negative.jpg": "147bf3f295c47db0f5c2c32f549ab6c0804d9abe3d6fc970b6f3ddac2cd4464c",
+    "videos/true_negative.mp4": "2009f62d6d35b7d3e759b81bb2393cf262fc3eedc2e5f00bedb5fcdc290bf4f2",
+    "videos/true_positive.jpg": "30f16b49c091683de706a46abda8d3d55678be04341a1d6924a438f70375f84a",
+    "videos/true_positive.mp4": "1b2b780038128998984d3885dd450d0fb811120113c19a2f4d2d18f523c42542"
+  }
+}

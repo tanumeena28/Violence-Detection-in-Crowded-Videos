@@ -1,0 +1,18 @@
+{
+  "id": "45a79307715b173a",
+  "path": "data/movies/5/Violence/Hooligans_violence__I_D_Trailer__ImLonelyLinda__5Y26VMm4L7o.avi",
+  "label": 1,
+  "decoded_frames": 26,
+  "header_frames": 26,
+  "duration_seconds": 1.04,
+  "decode_seconds": 0.027519600000232458,
+  "pose_tracking_seconds": 2.7130558000062592,
+  "features_transfer_seconds": 0.003668899997137487,
+  "classifier_seconds": 0.04507349999039434,
+  "pipeline_seconds": 2.7893177999940235,
+  "score": 0.9616283178329468,
+  "threshold": 0.62,
+  "prediction": 1,
+  "model_initialization_seconds": 0.8096042000106536,
+  "child_seconds_including_imports": 7.477337699994678
+}

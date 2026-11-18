@@ -1,0 +1,15 @@
+# Frozen pretrained video reference
+
+Uniform 32-frame whole-clip samples; two chronological nonoverlapping 16-frame windows; average pooled encoder vectors.
+
+| Metric | Fold mean | Descriptive SD |
+|---|---:|---:|
+| accuracy | 0.9102 | 0.0447 |
+| macro_f1 | 0.9089 | 0.0469 |
+| roc_auc | 0.9787 | 0.0120 |
+| precision_violent | 0.9195 | 0.0990 |
+| recall_violent | 0.9180 | 0.0584 |
+
+Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.
+
+All 245 feature caches and 5 logistic heads are verified. Full decodes and sampled frame indices match the prior pose-cache reference. 1 clips have header-count discrepancies; all remain included.

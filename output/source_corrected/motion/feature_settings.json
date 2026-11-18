@@ -1,0 +1,38 @@
+{
+  "schema": "adjacent-flow-difference-grid2-v1",
+  "opencv": "4.14.0",
+  "resize": [
+    160,
+    120
+  ],
+  "anchors": "existing pose-cache frame indices",
+  "pair": "anchor and next decoded frame; final anchor uses preceding frame",
+  "grid": [
+    2,
+    2
+  ],
+  "flow": "Farneback",
+  "pyr_scale": 0.5,
+  "levels": 3,
+  "winsize": 15,
+  "iterations": 3,
+  "poly_n": 5,
+  "poly_sigma": 1.2,
+  "channels": [
+    "absolute_gray_difference",
+    "flow_speed",
+    "median_subtracted_flow_speed",
+    "horizontal_velocity",
+    "vertical_velocity"
+  ],
+  "temporal_statistics": [
+    "mean",
+    "std",
+    "p90",
+    "max"
+  ],
+  "velocity_units": "fraction of resized image width or height per second",
+  "signature": "309d1e22b986aeb19bba70d9b5bf1a3e557903862c39758a516c5cab62944577",
+  "clips": 242,
+  "wall_seconds": 0.9263784999930067
+}

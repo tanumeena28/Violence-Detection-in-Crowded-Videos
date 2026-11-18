@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "fully_decoded_clips": 400,
+  "header_decode_mismatches": [],
+  "source_hashes_verified": true,
+  "frozen_models_and_thresholds_verified": true,
+  "unique_byte_hashes": 400,
+  "duplicate_groups": [],
+  "metrics_reproduced_from_saved_scores": true,
+  "evaluation_fitting_or_selection": false
+}

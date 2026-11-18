@@ -1,0 +1,15 @@
+# Preserve byte-sensitive experiment artifacts and frozen Python sources.
+*.py -text
+*.json -text
+*.csv -text
+output/** -text
+*.md text eol=lf
+*.txt text eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.pt binary
+*.pptx binary
+*.pdf binary
+# Output markdown is also part of historical artifact hashes.
+output/**/*.md -text

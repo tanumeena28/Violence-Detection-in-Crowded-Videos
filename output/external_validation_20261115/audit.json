@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "fully_decoded_clips": 1000,
+  "header_decode_mismatches": [],
+  "source_hashes_verified": true,
+  "frozen_models_and_thresholds_verified": true,
+  "unique_byte_hashes": 997,
+  "duplicate_groups": [
+    [
+      {
+        "id": "d5b24c4e986278d2",
+        "label": 0,
+        "path": "data/external/HockeyFight/videos/no123_xvid.avi"
+      },
+      {
+        "id": "4399e5b13e301315",
+        "label": 0,
+        "path": "data/external/HockeyFight/videos/no136_xvid.avi"
+      }
+    ],
+    [
+      {
+        "id": "7e7d9cd9449e872a",
+        "label": 0,
+        "path": "data/external/HockeyFight/videos/no13_xvid.avi"
+      },
+      {
+        "id": "558791a26603c7db",
+        "label": 0,
+        "path": "data/external/HockeyFight/videos/no14_xvid.avi"
+      }
+    ],
+    [
+      {
+        "id": "27286b03464602e2",
+        "label": 0,
+        "path": "data/external/HockeyFight/videos/no401_xvid.avi"
+      },
+      {
+        "id": "ede832971579ab62",
+        "label": 0,
+        "path": "data/external/HockeyFight/videos/no402_xvid.avi"
+      }
+    ]
+  ],
+  "metrics_reproduced_from_saved_scores": true,
+  "evaluation_fitting_or_selection": false
+}

@@ -1,0 +1,539 @@
+{
+  "source_manifest_sha256": "2cad94b006e99c1aca3c9a539709c5733af25a9d8102c2712311abb2f470a1b3",
+  "implementation_sha256": "dbf41eecf813b82cf2b900d560f10c508b832d9c330565a8035ec3b800abaf55",
+  "settings": {
+    "sample_fps": 4,
+    "hash": "63-bit DCT median hash",
+    "views": [
+      "full",
+      "central 80 percent"
+    ],
+    "maximum_hamming": 6,
+    "minimum_gray_correlation": 0.94,
+    "minimum_gray_std": 8.0,
+    "offset_tolerance_seconds": 0.3,
+    "minimum_matches": 3,
+    "minimum_span_seconds": 0.5,
+    "maximum_median_hamming": 4.0
+  },
+  "clips": 245,
+  "decoded_frames": 22027,
+  "sampled_frames": 3638,
+  "pairs_compared": 29856,
+  "canonical_source_groups": 215,
+  "source_group_aliases": {
+    "football_hooligans_preston_north_end_mix__prestonparasoccer__qwroc8xmlpy": "football_hooligans_preston_north_end_mix__prestonparasoccer__qwr",
+    "fuck_you_football_hooligans_russia_and_ukraine_part1__w00fam__db9psdrfule": "fuck_you_football_hooligans_russia_and_ukraine_part1__w00fam__db"
+  },
+  "flagged_pairs": 5,
+  "candidate_pairs": [
+    {
+      "first_id": "8fe66e2ce7b90e19",
+      "second_id": "82686eba2cc546fa",
+      "first_path": "data/movies/3/Violence/football_violence__Football_hooligans_Watford_Luton_2002__MrSmasherlad__ClZOLHYj_7Y.avi",
+      "second_path": "data/movies/4/Violence/fans_violence__Football_Hooligans_Watford_v_Luton_2002_Version_1__MorningGlory1997__vLOTaR9eMlg.avi",
+      "view": "full",
+      "matches": [
+        [
+          7,
+          0,
+          0,
+          0.9974021911621094
+        ],
+        [
+          8,
+          1,
+          0,
+          0.9977158308029175
+        ],
+        [
+          10,
+          3,
+          0,
+          0.9975101351737976
+        ],
+        [
+          11,
+          4,
+          2,
+          0.9970272779464722
+        ],
+        [
+          12,
+          5,
+          0,
+          0.9974561929702759
+        ],
+        [
+          13,
+          6,
+          0,
+          0.9971572160720825
+        ],
+        [
+          14,
+          7,
+          2,
+          0.9717649221420288
+        ],
+        [
+          15,
+          8,
+          2,
+          0.9974079132080078
+        ],
+        [
+          16,
+          9,
+          2,
+          0.9977759718894958
+        ],
+        [
+          17,
+          10,
+          0,
+          0.9977505803108215
+        ],
+        [
+          18,
+          11,
+          0,
+          0.9981329441070557
+        ],
+        [
+          19,
+          12,
+          0,
+          0.9883291721343994
+        ],
+        [
+          20,
+          13,
+          2,
+          0.9880935549736023
+        ]
+      ],
+      "minimum_hamming": 0,
+      "matched_frames": 13,
+      "span_seconds": 3.12,
+      "flagged": true,
+      "median_hamming": 0.0,
+      "contact_sheet": "pairs/pair_001.jpg"
+    },
+    {
+      "first_id": "fcbf664653aa0f0a",
+      "second_id": "96d9cdad6aef91b2",
+      "first_path": "data/movies/3/Violence/Hooligans_violence__Football_Hooligans_Carlisle_v_Preston_1993__prestonparasoccer__J.avi",
+      "second_path": "data/movies/3/Violence/football_violence__Football_Hooligans_Carlisle_v_Preston_1993__prestonparasoccer__JfLHSqKm9zg.avi",
+      "view": "full",
+      "matches": [
+        [
+          12,
+          2,
+          0,
+          0.9965546727180481
+        ],
+        [
+          13,
+          3,
+          4,
+          0.9501552581787109
+        ],
+        [
+          14,
+          4,
+          2,
+          0.9527914524078369
+        ],
+        [
+          15,
+          5,
+          4,
+          0.9430224299430847
+        ],
+        [
+          16,
+          6,
+          0,
+          0.9568992853164673
+        ],
+        [
+          17,
+          7,
+          2,
+          0.9432372450828552
+        ],
+        [
+          18,
+          8,
+          6,
+          0.9579281806945801
+        ],
+        [
+          19,
+          9,
+          4,
+          0.9586001634597778
+        ],
+        [
+          20,
+          10,
+          4,
+          0.9603268504142761
+        ],
+        [
+          21,
+          11,
+          6,
+          0.958516538143158
+        ]
+      ],
+      "minimum_hamming": 0,
+      "matched_frames": 10,
+      "span_seconds": 2.16,
+      "flagged": true,
+      "median_hamming": 4.0,
+      "contact_sheet": "pairs/pair_002.jpg"
+    },
+    {
+      "first_id": "771403238cf3fe19",
+      "second_id": "6572441543ca8117",
+      "first_path": "data/movies/1/Violence/balcony_football_violence__Brannik_Football_Violence__Nattevandring__ysW-tGv-YjI.avi",
+      "second_path": "data/movies/2/Violence/football_violence__football_violence__Brannik_Football_Violence__Elbsturm1488__7NyYlQX-tiI.avi",
+      "view": "full",
+      "matches": [
+        [
+          2,
+          8,
+          2,
+          0.9452369809150696
+        ],
+        [
+          4,
+          10,
+          0,
+          0.9991108179092407
+        ],
+        [
+          5,
+          11,
+          2,
+          0.9879826903343201
+        ],
+        [
+          6,
+          12,
+          2,
+          0.9456498622894287
+        ],
+        [
+          7,
+          13,
+          2,
+          0.9604362845420837
+        ],
+        [
+          9,
+          15,
+          6,
+          0.9654287099838257
+        ],
+        [
+          10,
+          16,
+          2,
+          0.9756823778152466
+        ],
+        [
+          11,
+          17,
+          6,
+          0.9764439463615417
+        ]
+      ],
+      "minimum_hamming": 0,
+      "matched_frames": 8,
+      "span_seconds": 2.16,
+      "flagged": true,
+      "median_hamming": 2.0,
+      "contact_sheet": "pairs/pair_003.jpg"
+    },
+    {
+      "first_id": "28ab271f29229af0",
+      "second_id": "a329e1a20f6c4867",
+      "first_path": "data/movies/3/Violence/Hooligans_violence__Hooligans_war_in_Russian_vk__artemorlik__6UNj6fEgz8U.avi",
+      "second_path": "data/movies/4/Violence/football_violence__project_d_football_violence__henkiejwt__MFDeI2bK2Pk.avi",
+      "view": "full",
+      "matches": [
+        [
+          0,
+          10,
+          2,
+          0.9948021173477173
+        ],
+        [
+          2,
+          12,
+          2,
+          0.9433998465538025
+        ],
+        [
+          5,
+          15,
+          2,
+          0.9946858286857605
+        ]
+      ],
+      "minimum_hamming": 2,
+      "matched_frames": 3,
+      "span_seconds": 1.2,
+      "flagged": true,
+      "median_hamming": 2.0,
+      "contact_sheet": "pairs/pair_004.jpg"
+    },
+    {
+      "first_id": "82d46e6ce0284fe0",
+      "second_id": "5773e3cc2af9d919",
+      "first_path": "data/movies/2/Violence/fans_violence__FootBall_Fans_Violence__xxxXLsDXxxx__EaCpQJLdxJ8.avi",
+      "second_path": "data/movies/3/Violence/group_violence__group_violence__football_violence__aliiie__qfKD35PYwok.avi",
+      "view": "full",
+      "matches": [
+        [
+          13,
+          0,
+          2,
+          0.9928725361824036
+        ],
+        [
+          16,
+          3,
+          2,
+          0.9905248880386353
+        ],
+        [
+          17,
+          4,
+          4,
+          0.9684643149375916
+        ]
+      ],
+      "minimum_hamming": 2,
+      "matched_frames": 3,
+      "span_seconds": 0.96,
+      "flagged": true,
+      "median_hamming": 2.0,
+      "contact_sheet": "pairs/pair_005.jpg"
+    },
+    {
+      "first_id": "5206be9cf9e78d76",
+      "second_id": "5773e3cc2af9d919",
+      "first_path": "data/movies/2/Violence/football_fans__FootBall_Fans_Violence__xxxXLsDXxxx__EaCpQJLdxJ8.avi",
+      "second_path": "data/movies/3/Violence/group_violence__group_violence__football_violence__aliiie__qfKD35PYwok.avi",
+      "view": "full",
+      "matches": [
+        [
+          10,
+          0,
+          2,
+          0.9897158145904541
+        ],
+        [
+          13,
+          3,
+          2,
+          0.9878934621810913
+        ]
+      ],
+      "minimum_hamming": 0,
+      "matched_frames": 2,
+      "span_seconds": 0.7007000000000003,
+      "flagged": false,
+      "median_hamming": 2.0,
+      "contact_sheet": "pairs/pair_006.jpg"
+    },
+    {
+      "first_id": "9b2b593ec13ef99c",
+      "second_id": "230d77458e88d875",
+      "first_path": "data/movies/2/Violence/football_violence__Football_hooligans_fighting_in_Helsinki_WCQL_Finland_Russia__f43344__n3yajhkWI6w.avi",
+      "second_path": "data/movies/3/Violence/Hooligans_violence__Football_Hooligans_Finland_v_Russia_World_Cup_Qualifier_June_2009__lancashirelads__SmxsnplMtb8.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 0,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_007.jpg"
+    },
+    {
+      "first_id": "c00d9390d2f5b988",
+      "second_id": "ef46d2ffce37be88",
+      "first_path": "data/movies/1/Violence/fans_violence__F_GHT_S_MORE_MPORTANT_THAN_FOOTBALL_sometimes__shevchenko776__9a616Ppoeak.avi",
+      "second_path": "data/movies/2/Violence/football_violence__football_match_violence__mld0491__WL6AUKgOYSs.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 2,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_008.jpg"
+    },
+    {
+      "first_id": "75789edc4a7385a4",
+      "second_id": "3265c85a78001df0",
+      "first_path": "data/movies/3/Violence/football_violence__A_Town_Called_Football_by_Nil_Satis__louderthanyourface__Ptvoh4L_FxY.avi",
+      "second_path": "data/movies/4/Violence/balcony_football_violence__Football_Hooligans_Watford_v_Luton_2002_Version_1__MorningGlory1997__vLOTaR9eMlg.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 4,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_009.jpg"
+    },
+    {
+      "first_id": "75789edc4a7385a4",
+      "second_id": "abf8f406f202c6eb",
+      "first_path": "data/movies/3/Violence/football_violence__A_Town_Called_Football_by_Nil_Satis__louderthanyourface__Ptvoh4L_FxY.avi",
+      "second_path": "data/movies/4/Violence/football_violence__Football_Hooligans_Watford_v_Luton_2002_Version_1__MorningGlory1997__vLOTaR9eMlg.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 4,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_010.jpg"
+    },
+    {
+      "first_id": "abaf7c71a48c36e7",
+      "second_id": "3a26c36c402a1d3e",
+      "first_path": "data/movies/4/Violence/soccer_violence__hu_hu_hu_hooligans__misom0000__w_p6cBeTHkg.avi",
+      "second_path": "data/movies/4/Violence/stadium_violence__soccer_riot_compilation__qqcolaman__URwiZLZipeg.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 4,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_011.jpg"
+    },
+    {
+      "first_id": "4d66c9870e3fb896",
+      "second_id": "a13c86042a4f3e02",
+      "first_path": "data/movies/5/Violence/football_violence__Hooligans_no_talk_just_fights_docu_part_09__haagsejef23__kRlCAD-3H40.avi",
+      "second_path": "data/movies/4/Violence/fans_violence__English_Hooligans_vs_Turkey_Ultras__Vandal83__J8S2-pGz8ao.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 10,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_012.jpg"
+    },
+    {
+      "first_id": "641efaf3ad8c65b4",
+      "second_id": "0eee32064f88755a",
+      "first_path": "data/movies/1/Violence/fans_violence__Marseille_World_Cup_fans_riot__tizwaz35__I9sUIDRjpoo.avi",
+      "second_path": "data/movies/2/Violence/football_violence__Hooligans_no_talk_just_fights_docu_part_04__haagsejef23__GcP3SiwkmGo.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 10,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_013.jpg"
+    },
+    {
+      "first_id": "96d9cdad6aef91b2",
+      "second_id": "16c083cf37416aac",
+      "first_path": "data/movies/3/Violence/football_violence__Football_Hooligans_Carlisle_v_Preston_1993__prestonparasoccer__JfLHSqKm9zg.avi",
+      "second_path": "data/movies/4/NonViolence/football_crowds_cheering__Scenes_from_Friday_s_ESPN_College_Game_Day_at_UK__UKSGREAT__dXA5.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 10,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_014.jpg"
+    },
+    {
+      "first_id": "1093fbacee51f3a3",
+      "second_id": "9f50e214fa2345b1",
+      "first_path": "data/movies/1/NonViolence/stadium_crowds__Outside_Yankee_Stadium_Following_World_Series_Win_vs_Phillies_11.avi",
+      "second_path": "data/movies/4/Violence/soccer_violence__FOOTBALL_WARS__negronera18__JRyQYbq9Zr4.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 12,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_015.jpg"
+    },
+    {
+      "first_id": "18d85e79a09b86ea",
+      "second_id": "018420ac2280e79d",
+      "first_path": "data/movies/2/NonViolence/football_crowds_cheering__UF_Cheering_style__Playersgod__RaBmHs4MdLo.avi",
+      "second_path": "data/movies/3/NonViolence/football_crowds_cheering__World_Cup_2010_Korea_vs_Uruguay_Han_River_Seoul_Korea_Ties_Game_.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 12,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_016.jpg"
+    },
+    {
+      "first_id": "1d88eb63badeca97",
+      "second_id": "c21d38b8386d3006",
+      "first_path": "data/movies/5/NonViolence/football_crowds_cheering__Goldfellas_GT_vs_Maryland_1999_Crowd_Shot__tonyanddanielleoliva__xiCWDdaUSbg.avi",
+      "second_path": "data/movies/5/Violence/Hooligans_violence__The_Best_Fans_in_the_World_Part_4_Hooligans__crvenobeli__3mXS25x.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 12,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_017.jpg"
+    },
+    {
+      "first_id": "2d4c34aa3de9294b",
+      "second_id": "089ab3a1630a2c6f",
+      "first_path": "data/movies/2/NonViolence/football_crowds_cheering__Alabama_Ole_Miss_08_Rammer_Jammer__jaydubya10__mviEzH28NiE.avi",
+      "second_path": "data/movies/4/NonViolence/stadium_crowds__FBR_Open_16th_Hole_Highlights__TheFBROpen__zJHVTcnGzcI.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 12,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_018.jpg"
+    },
+    {
+      "first_id": "3265c85a78001df0",
+      "second_id": "eb3013500e21194d",
+      "first_path": "data/movies/4/Violence/balcony_football_violence__Football_Hooligans_Watford_v_Luton_2002_Version_1__MorningGlory1997__vLOTaR9eMlg.avi",
+      "second_path": "data/movies/4/Violence/football_violence__Football_Hooligans_Leeds_v_Wolves_2005__MorningGlory1997__f66MTrNLPL0.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 12,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_019.jpg"
+    },
+    {
+      "first_id": "45a79307715b173a",
+      "second_id": "018420ac2280e79d",
+      "first_path": "data/movies/5/Violence/Hooligans_violence__I_D_Trailer__ImLonelyLinda__5Y26VMm4L7o.avi",
+      "second_path": "data/movies/3/NonViolence/football_crowds_cheering__World_Cup_2010_Korea_vs_Uruguay_Han_River_Seoul_Korea_Ties_Game_.avi",
+      "view": "full",
+      "matches": [],
+      "minimum_hamming": 12,
+      "matched_frames": 0,
+      "span_seconds": 0.0,
+      "flagged": false,
+      "contact_sheet": "pairs/pair_020.jpg"
+    }
+  ],
+  "review_scope": "Full decoding and dense content-overlap triage. Candidate images require review; labels are unchanged.",
+  "limitations": "Sampling and hashes can miss brief, cropped, edited or re-encoded shared footage. Matching views can resemble each other. This does not certify source independence or full-video labels."
+}

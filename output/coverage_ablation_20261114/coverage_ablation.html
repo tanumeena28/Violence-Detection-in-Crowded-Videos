@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Explicit coverage ablation</title><style>body{font:16px system-ui;background:#f3f5f7;color:#17232d;margin:0}
+main{max-width:1180px;margin:35px auto;padding:30px;background:white;border-radius:12px}p{line-height:1.6}
+table{border-collapse:collapse;width:100%}th,td{padding:12px;border-bottom:1px solid #ddd;text-align:left}
+.scroll{overflow:auto}.note{background:#fff4da;padding:16px}img{max-width:100%}a{color:#086b86}</style></head>
+<body><main><p>2026-11-14</p><h1>Explicit coverage ablation</h1><p>Explicit pose-coverage input replaced with zero; head dimensions and RNG draws retained.</p>
+<p>The same 245 clips, 204 groups, folds and seeds are used in both experiments.
+Training and validation selections are recomputed. Accuracy changes use percentage points, with coverage-off minus coverage-on.</p>
+<div class="scroll"><table><tr><th>Model</th><th>Coverage on</th><th>Coverage off</th><th>Accuracy change (pp)</th><th>Macro-F1 change</th><th>AUC change</th><th>Improved/tied/worse runs</th></tr><tr><td>Skeleton baseline</td><td>76.1%</td><td>76.1%</td><td>+0.00</td><td>+0.000</td><td>-0.001</td><td>1/13/1</td></tr><tr><td>Reliability</td><td>76.9%</td><td>76.9%</td><td>+0.00</td><td>-0.000</td><td>+0.001</td><td>0/15/0</td></tr><tr><td>Interactions</td><td>76.1%</td><td>75.9%</td><td>-0.14</td><td>-0.001</td><td>+0.002</td><td>0/14/1</td></tr><tr><td>Combined</td><td>74.8%</td><td>74.8%</td><td>+0.00</td><td>+0.000</td><td>-0.001</td><td>0/15/0</td></tr></table></div><img src="figures/coverage_ablation.png" alt="Mean accuracy and paired accuracy changes">
+<p class="note">This is an exploratory paired comparison on previously inspected footage. Fold/seed observations are dependent; descriptive deviations and win counts are not confidence intervals or significance tests. Zeroing the explicit scalar leaves observation masks, missing joints, confidence channels and interaction counts available. It cannot establish that a model uses only body motion or eliminate all detection cues.</p><p>All 140 saved fits were verified.
+The unchanged controls reproduce identical test scores and decisions. TCN score reproduction used cuda.
+Reference artifacts were read without modification.</p>
+<p><a href="COVERAGE_ABLATION.md">Research notes</a> | <a href="coverage_comparison.json">Detailed comparison</a> |
+<a href="coverage_paired_runs.csv">Paired runs</a> | <a href="index.html">Coverage-off experiment</a> |
+<a href="../cross_validation_20261107/index.html">Coverage-on reference</a></p></main></body></html>

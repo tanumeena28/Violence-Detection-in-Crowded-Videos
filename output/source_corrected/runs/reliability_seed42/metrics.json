@@ -1,0 +1,57 @@
+{
+  "variant": "reliability",
+  "seed": 42,
+  "parameters": 37633,
+  "device": "cuda",
+  "epochs_executed": 32,
+  "selected_epoch": 2,
+  "threshold": 0.52,
+  "training_seconds": 3.467912599997362,
+  "train_clips": 147,
+  "val_clips": 48,
+  "test_clips": 47,
+  "validation": {
+    "n": 48,
+    "accuracy": 0.8541666666666666,
+    "macro_f1": 0.8541033434650456,
+    "precision_violent": 0.84,
+    "recall_violent": 0.875,
+    "roc_auc": 0.9114583333333334,
+    "confusion_matrix": [
+      [
+        20,
+        4
+      ],
+      [
+        3,
+        21
+      ]
+    ]
+  },
+  "test": {
+    "n": 47,
+    "accuracy": 0.6382978723404256,
+    "macro_f1": 0.6382978723404256,
+    "precision_violent": 0.6521739130434783,
+    "recall_violent": 0.625,
+    "roc_auc": 0.7807971014492754,
+    "confusion_matrix": [
+      [
+        15,
+        8
+      ],
+      [
+        9,
+        15
+      ]
+    ]
+  },
+  "majority_baseline_test_accuracy": 0.5106382966041565,
+  "feature_shape": [
+    32,
+    8,
+    102
+  ],
+  "pose_signature": "b2fde119883aa286515b369b57e25ba3de6a4325428e8fb6be186ce3533aee91",
+  "protocol": "Single pilot holdout, validation-selected checkpoint and threshold. Test metrics are exploratory, not a completed benchmark."
+}

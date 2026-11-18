@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "reference_files_checked": 947,
+  "changed_files": [],
+  "reference_protocol_sha256": "d34242a284a3484fd9d8d1269d3b0355800495172967bf7ae3f175427b2edac8",
+  "ablation_protocol_sha256": "3e793badc913a7b21249133c6e1b407c191729e59eca392fb5a45feeb4b3a693"
+}

@@ -1,0 +1,85 @@
+{
+  "variant": "rgb_r3d18_frozen",
+  "features": 512,
+  "classifier_parameters": 513,
+  "threshold": 0.71,
+  "selected_C": 1.0,
+  "candidates": [
+    {
+      "C": 0.01,
+      "validation_log_loss": 0.2301114054984112
+    },
+    {
+      "C": 0.1,
+      "validation_log_loss": 0.16971839651797335
+    },
+    {
+      "C": 1.0,
+      "validation_log_loss": 0.15654061943943734
+    },
+    {
+      "C": 10.0,
+      "validation_log_loss": 0.16333616211931717
+    }
+  ],
+  "train_clips": 147,
+  "val_clips": 49,
+  "test_clips": 49,
+  "train": {
+    "n": 147,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "precision_violent": 1.0,
+    "recall_violent": 1.0,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        74,
+        0
+      ],
+      [
+        0,
+        73
+      ]
+    ]
+  },
+  "validation": {
+    "n": 49,
+    "accuracy": 0.9387755102040817,
+    "macro_f1": 0.9387755102040817,
+    "precision_violent": 0.9583333333333334,
+    "recall_violent": 0.92,
+    "roc_auc": 0.9866666666666667,
+    "confusion_matrix": [
+      [
+        23,
+        1
+      ],
+      [
+        2,
+        23
+      ]
+    ]
+  },
+  "test": {
+    "n": 49,
+    "accuracy": 0.9387755102040817,
+    "macro_f1": 0.9386733416770964,
+    "precision_violent": 0.9230769230769231,
+    "recall_violent": 0.96,
+    "roc_auc": 0.9916666666666666,
+    "confusion_matrix": [
+      [
+        22,
+        2
+      ],
+      [
+        1,
+        24
+      ]
+    ]
+  },
+  "protocol": "Same source-grouped crowd folds. Train-only scaling and logistic head; validation log-loss selects C and macro-F1 selects threshold. Frozen pretrained encoder.",
+  "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.",
+  "encoder_parameters": 33166272
+}

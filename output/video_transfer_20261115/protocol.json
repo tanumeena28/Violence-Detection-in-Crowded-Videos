@@ -1,0 +1,29 @@
+{
+  "source_baseline_protocol_sha256": "6562f52565b5c65360c2aac05d2d9808ca0f6baae57b7bd5c5df245a4c395bf0",
+  "manifest_sha256": "64f7cbd6e91633172673a13cd215a15669f4eef6b6c6e1a59d55e67490625734",
+  "weights_sha256": "b3b3357ead25631ec9c57362ff2128a92d0427e01e2cd184951a44380c3f2e9d",
+  "head_sha256": {
+    "head_fold_1.json": "163ea965f5ba4ee1a2e5b8e35d3473609bc7f1a36d93673a1cc111f794469835",
+    "head_fold_2.json": "95b25ded4eee60db4067cbcb23d1a60fce6356f7f6cb80cbca54d728fb1843ee",
+    "head_fold_3.json": "d0d2a3274f722f59cc18f486d9a08970e812fe362a310a0a888407142235641e",
+    "head_fold_4.json": "c7b443668b683a8efd00ae951a584ed20f0ea325d96b2b5bc4d9a4e59958c87b",
+    "head_fold_5.json": "c790149ddcd0df8f85f84a36e987740bb4d7d1b390451a59a4b0f94737d965f1"
+  },
+  "sampling": "Uniform 32-frame whole-clip samples; two chronological nonoverlapping 16-frame windows; average pooled encoder vectors",
+  "preprocessing": "Official weights transform: RGB, resize [128,171], center crop [112,112], mean [0.43216,0.394666,0.37645], std [0.22803,0.22145,0.216989]",
+  "primary_head": 1,
+  "thresholds": [
+    0.4,
+    0.21000000000000002,
+    0.71,
+    0.6799999999999999,
+    0.51
+  ],
+  "ensemble": "Equal mean of five head scores; mean of fixed crowd-validation thresholds",
+  "script_sha256": "f246597e2ce9ac121a1d20b4248cf8ad0b4af2e3588295699daffa0ee6b294ac",
+  "torch": "2.11.0+cu128",
+  "known_prior_demo_ids": [
+    "0d819873ff00800e"
+  ],
+  "limitations": "Exploratory transfer to previously evaluated RWF footage. No RWF fitting, normalization, threshold optimization or model selection. Primary head is crowd fold 1 by fixed convention, not selected for test performance. Other crowd fold heads and a predeclared equal-weight ensemble are supplementary. The ensemble threshold is the arithmetic mean of the five crowd-validation-selected thresholds. Scores are not calibrated probabilities. No supervised RWF or untouched benchmark claim is made; pretraining/source overlap is unaudited."
+}

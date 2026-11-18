@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "historical_directories": [
+    {
+      "directory": "output\\cross_validation_20261107",
+      "files_preserved": 947,
+      "all_files_bit_exact": true
+    },
+    {
+      "directory": "output\\coverage_ablation_20261114",
+      "files_preserved": 981,
+      "all_files_bit_exact": true
+    },
+    {
+      "directory": "output\\rwf_transfer_20261115",
+      "files_preserved": 444,
+      "all_files_bit_exact": true
+    }
+  ],
+  "local_links_verified": 21,
+  "completed_experiments": {
+    "centering_reference_cpu_20261115": "complete",
+    "centering_corrected_cpu_20261115": "complete",
+    "input_controls_20261115": "complete",
+    "video_baseline_v2_20261115": "complete",
+    "runtime_20261115": "complete"
+  },
+  "implementation_tests_passed": 43,
+  "paper_drafting_deferred": true,
+  "independent_human_review_pending": true,
+  "review_page_javascript_syntax_verified": true,
+  "video_transfer_completed_artifact_check_passed": true,
+  "encoder_reproduction_audit": "encoder_reproduction_audit.json"
+}

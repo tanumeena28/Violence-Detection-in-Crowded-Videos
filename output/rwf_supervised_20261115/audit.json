@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "development_caches_verified": 1588,
+  "evaluation_clips_verified": 400,
+  "source_groups_disjoint": true,
+  "train_only_scaling_verified": true,
+  "validation_threshold_and_selected_C_record_verified": true,
+  "scores_and_decisions_reproduced": true,
+  "head_seal_unchanged_after_evaluation": true,
+  "verification": "Saved features and head; no fitting or GPU extraction"
+}

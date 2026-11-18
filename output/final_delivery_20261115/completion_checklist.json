@@ -1,0 +1,18 @@
+{
+  "scope": "Clip-level crowd violence technical project; paper excluded",
+  "gpu_policy": "CUDA for supported model extraction, training, inference and verification; CPU handles decoding, files and reports",
+  "tasks": {
+    "controlled_experiments": "complete",
+    "fresh_source_evaluation": "complete",
+    "bounded_fine_tuning": "complete",
+    "independent_human_review": "deferred_no_reviewer_available",
+    "final_demo_and_runbook": "complete",
+    "final_preservation_and_checks": "complete"
+  },
+  "overall_complete": false,
+  "automatable_technical_work_complete": true,
+  "remaining_required_work": [
+    "Independent full-video label/difficulty review"
+  ],
+  "paper": "Deferred by user"
+}

@@ -1,0 +1,9 @@
+{
+  "checkpoint": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\centering_corrected_cpu_20261115\\fold_1\\runs\\interactions_seed42\\model.pt",
+  "checkpoint_sha256": "11cf6c9ca0b5b2294e391d26631adbc786d259359d976c5ed7cd6cf199ff5c73",
+  "selection": "First filename in each TP/TN/FP/FN category above the pre-existing 25% usable-pose cutoff in fold 1. Outcome-selected diagnostic examples, not representative error-rate estimates.",
+  "feature_schema": "coco17-continuous-hip-offset-v2",
+  "threshold": 0.62,
+  "script_sha256": "bacfd08321a42f1d0b275895ad683097691eaaa7b8ac91105281b4b612456a56",
+  "scope": "Offline whole-clip prediction with sampled pose overlays; track IDs do not identify aggressors."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "c8606ab614072f95",
+  "path": "data/movies/1/NonViolence/stadium_crowds__USC_Football_Team_arriving_at_Lincoln_stadium_2007__jmsotojr__um.avi",
+  "label": 0,
+  "decoded_frames": 81,
+  "header_frames": 81,
+  "duration_seconds": 3.24,
+  "decode_seconds": 0.036495699983788654,
+  "pose_tracking_seconds": 2.789299399999436,
+  "features_transfer_seconds": 0.00561829999787733,
+  "classifier_seconds": 0.045209000003524125,
+  "pipeline_seconds": 2.876622399984626,
+  "score": 0.006626416463404894,
+  "threshold": 0.62,
+  "prediction": 0,
+  "model_initialization_seconds": 0.7896788000070956,
+  "child_seconds_including_imports": 7.458718899986707
+}

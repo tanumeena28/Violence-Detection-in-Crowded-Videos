@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "passed": 60,
+  "elapsed_seconds": 59.71,
+  "date": "2026-11-15",
+  "test_discovery": "pytest.ini restricts discovery to tests/; excludes standalone historical analysis scripts",
+  "new_checks": "Exact bounded samples, single-frame window tails, protocol tampering rejection and validation batch shape"
+}

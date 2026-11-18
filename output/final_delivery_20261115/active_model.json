@@ -1,0 +1,8 @@
+{
+  "experiment": "output/rwf_finetune_v2_20261115",
+  "model_sha256": "04692366a21cd5469573733281d3124289e1584df6fdd7c175dd42aa558cab4f",
+  "selection_basis": "Sealed validation promotion only, before evaluation results",
+  "epoch": 2,
+  "threshold": 0.23,
+  "promotion_sha256": "fee722fa4094678818727055dfd822995c51ea6469b8df28443ef7d340530604"
+}

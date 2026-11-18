@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "checked_local_links": [
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "evaluation_comparison.png"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "rwf_evaluation/index.html"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "../external_validation_20261115/index.html"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "RUNBOOK.md"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demo_audit.json"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "preservation_audit.json"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "../blind_review_20261115/index.html"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/true_positive.jpg"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/true_positive.mp4"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/true_negative.jpg"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/true_negative.mp4"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/false_positive.jpg"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/false_positive.mp4"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/false_negative.jpg"
+    },
+    {
+      "page": "output/final_delivery_20261115/index.html",
+      "target": "demos/false_negative.mp4"
+    },
+    {
+      "page": "output/final_delivery_20261115/rwf_evaluation/index.html",
+      "target": "RESULTS.md"
+    },
+    {
+      "page": "output/final_delivery_20261115/rwf_evaluation/index.html",
+      "target": "predictions.csv"
+    },
+    {
+      "page": "output/final_delivery_20261115/rwf_evaluation/index.html",
+      "target": "audit.json"
+    },
+    {
+      "page": "output/final_delivery_20261115/rwf_evaluation/index.html",
+      "target": "protocol.json"
+    },
+    {
+      "page": "output/external_validation_20261115/index.html",
+      "target": "RESULTS.md"
+    },
+    {
+      "page": "output/external_validation_20261115/index.html",
+      "target": "predictions.csv"
+    },
+    {
+      "page": "output/external_validation_20261115/index.html",
+      "target": "audit.json"
+    },
+    {
+      "page": "output/external_validation_20261115/index.html",
+      "target": "protocol.json"
+    }
+  ]
+}

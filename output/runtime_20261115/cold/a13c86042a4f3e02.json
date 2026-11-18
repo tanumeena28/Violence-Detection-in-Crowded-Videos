@@ -1,0 +1,18 @@
+{
+  "id": "a13c86042a4f3e02",
+  "path": "data/movies/4/Violence/fans_violence__English_Hooligans_vs_Turkey_Ultras__Vandal83__J8S2-pGz8ao.avi",
+  "label": 1,
+  "decoded_frames": 105,
+  "header_frames": 105,
+  "duration_seconds": 4.2,
+  "decode_seconds": 0.04006679999292828,
+  "pose_tracking_seconds": 2.7659499000001233,
+  "features_transfer_seconds": 0.003861500008497387,
+  "classifier_seconds": 0.04925320000620559,
+  "pipeline_seconds": 2.8591314000077546,
+  "score": 0.9949716329574585,
+  "threshold": 0.62,
+  "prediction": 1,
+  "model_initialization_seconds": 0.7884316999989096,
+  "child_seconds_including_imports": 7.426949199987575
+}

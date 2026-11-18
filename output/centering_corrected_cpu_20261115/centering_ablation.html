@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Continuous hip-centering correction</title><style>body{font:16px system-ui;background:#f3f5f7;color:#17232d;margin:0}
+main{max-width:1180px;margin:35px auto;padding:30px;background:white;border-radius:12px}p{line-height:1.6}
+table{border-collapse:collapse;width:100%}th,td{padding:12px;border-bottom:1px solid #ddd;text-align:left}
+.scroll{overflow:auto}.note{background:#fff4da;padding:16px}img{max-width:100%}a{color:#086b86}</style></head>
+<body><main><p>2026-11-15</p><h1>Continuous hip-centering correction</h1><p>Missing hip origins use an interpolated hip-to-box offset within continuous observed track segments. Reliable hip origins, no-hip fallback, network size and initialization are preserved.</p>
+<p>The same 245 clips, 204 groups, folds and seeds are used in both experiments.
+Training and validation selections are recomputed. Accuracy changes use percentage points. Changes are continuous centering minus original centering.</p>
+<div class="scroll"><table><tr><th>Model</th><th>Original centering</th><th>Continuous centering</th><th>Accuracy change (pp)</th><th>Macro-F1 change</th><th>AUC change</th><th>Improved/tied/worse runs</th></tr><tr><td>Skeleton baseline</td><td>77.6%</td><td>77.0%</td><td>-0.54</td><td>-0.0075</td><td>-0.0044</td><td>5/4/6</td></tr><tr><td>Reliability</td><td>77.1%</td><td>78.1%</td><td>+0.95</td><td>+0.0080</td><td>-0.0006</td><td>8/5/2</td></tr><tr><td>Interactions</td><td>76.5%</td><td>78.6%</td><td>+2.18</td><td>+0.0228</td><td>-0.0050</td><td>7/7/1</td></tr><tr><td>Combined</td><td>75.0%</td><td>74.7%</td><td>-0.27</td><td>-0.0051</td><td>-0.0011</td><td>5/6/4</td></tr></table></div><img src="figures/centering_ablation.png" alt="Mean accuracy and paired accuracy changes">
+<p class="note">Exploratory paired comparison on previously inspected footage. Fold/seed observations are dependent; deviations and win counts are descriptive, not confidence intervals or significance tests. Interpolation uses the whole clip and can still be affected by box jitter, incorrect joints and track errors. Detection masks and confidence remain available. A feature correction does not prove external generalization.</p><p>All 140 saved fits were verified.
+The unchanged controls reproduce identical test scores and decisions. TCN score reproduction used cpu.
+Reference artifacts were read without modification.</p>
+<p><a href="CENTERING_COMPARISON.md">Research notes</a> | <a href="centering_comparison.json">Detailed comparison</a> |
+<a href="centering_paired_runs.csv">Paired runs</a> | <a href="index.html">New experiment</a> |
+<a href="../centering_reference_cpu_20261115/index.html">Reference experiment</a></p></main></body></html>

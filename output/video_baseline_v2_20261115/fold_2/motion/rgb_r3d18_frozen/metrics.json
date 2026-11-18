@@ -1,0 +1,85 @@
+{
+  "variant": "rgb_r3d18_frozen",
+  "features": 512,
+  "classifier_parameters": 513,
+  "threshold": 0.21000000000000002,
+  "selected_C": 0.01,
+  "candidates": [
+    {
+      "C": 0.01,
+      "validation_log_loss": 0.29972857560935434
+    },
+    {
+      "C": 0.1,
+      "validation_log_loss": 0.33467993656106104
+    },
+    {
+      "C": 1.0,
+      "validation_log_loss": 0.44725317970581047
+    },
+    {
+      "C": 10.0,
+      "validation_log_loss": 0.5922890668964739
+    }
+  ],
+  "train_clips": 147,
+  "val_clips": 49,
+  "test_clips": 49,
+  "train": {
+    "n": 147,
+    "accuracy": 0.9523809523809523,
+    "macro_f1": 0.952301487971075,
+    "precision_violent": 0.9125,
+    "recall_violent": 1.0,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        67,
+        7
+      ],
+      [
+        0,
+        73
+      ]
+    ]
+  },
+  "validation": {
+    "n": 49,
+    "accuracy": 0.8979591836734694,
+    "macro_f1": 0.8964059196617336,
+    "precision_violent": 0.8333333333333334,
+    "recall_violent": 1.0,
+    "roc_auc": 0.9583333333333333,
+    "confusion_matrix": [
+      [
+        19,
+        5
+      ],
+      [
+        0,
+        25
+      ]
+    ]
+  },
+  "test": {
+    "n": 49,
+    "accuracy": 0.8367346938775511,
+    "macro_f1": 0.8310344827586207,
+    "precision_violent": 0.7575757575757576,
+    "recall_violent": 1.0,
+    "roc_auc": 0.9833333333333334,
+    "confusion_matrix": [
+      [
+        16,
+        8
+      ],
+      [
+        0,
+        25
+      ]
+    ]
+  },
+  "protocol": "Same source-grouped crowd folds. Train-only scaling and logistic head; validation log-loss selects C and macro-F1 selects threshold. Frozen pretrained encoder.",
+  "limitations": "Exploratory crowd evaluation on previously inspected footage. Frozen Kinetics-400 pretraining, two uniformly sampled 16-frame windows and a logistic head; no encoder fine-tuning. This is a pretrained video reference, not reproduction of a published violence benchmark. Pretraining/source overlap has not been audited. Fold SD is descriptive; the folds are dependent. This experiment does not measure RWF transfer or establish independent label correctness.",
+  "encoder_parameters": 33166272
+}

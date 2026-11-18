@@ -1,0 +1,18 @@
+{
+  "id": "00ee0c5c5d3c8830",
+  "path": "data/movies/4/NonViolence/football_crowds_cheering__Spartans_What_Is_Your_Profession_Chant__PaulWaLL4EvR__KeWNYvvINZ.avi",
+  "label": 0,
+  "decoded_frames": 119,
+  "header_frames": 119,
+  "duration_seconds": 3.9706333333333332,
+  "decode_seconds": 0.04148909999639727,
+  "pose_tracking_seconds": 2.6558651000086684,
+  "features_transfer_seconds": 0.0009381999843753874,
+  "classifier_seconds": 0.042869600001722574,
+  "pipeline_seconds": 2.7411619999911636,
+  "score": 0.18573126196861267,
+  "threshold": 0.62,
+  "prediction": 0,
+  "model_initialization_seconds": 0.7827266000094824,
+  "child_seconds_including_imports": 7.330350099975476
+}

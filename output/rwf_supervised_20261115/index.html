@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Supervised RWF experiment</title><style>body{font:17px system-ui;max-width:1050px;margin:35px auto;padding:20px;line-height:1.6}pre{white-space:pre-wrap}a{color:#087f8c}</style><h1>Supervised RWF frozen-video reference</h1><pre># Supervised RWF frozen-video reference
+
+Frozen Kinetics-400 R3D-18 encoder, two 16-frame windows, fresh logistic head. Source-grouped validation comes only from released training footage.
+
+| Partition | Clips | Accuracy | Macro-F1 | AUC |
+|---|---:|---:|---:|---:|
+| Training | 1271 | 91.0% | 0.910 | 0.976 |
+| Validation | 317 | 82.0% | 0.819 | 0.901 |
+| Released evaluation | 400 | 84.0% | 0.840 | 0.900 |
+
+Selected C: 0.01; validation-selected threshold: 0.50. The head was sealed before evaluation features were loaded.
+
+Supervised RWF development experiment with a frozen Kinetics-400 encoder and logistic head. Released training footage supplies both fitting and source-grouped validation. The 400 released evaluation clips have already been inspected/scored in earlier transfer experiments, so this is exploratory development evaluation, not an untouched test claim or direct accuracy improvement over crowd-only transfer. Source IDs and byte hashes do not rule out renamed/shared footage. Independent labels and pretraining/source overlap remain unaudited. Scores are not calibrated.
+
+[Protocol](protocol.json) | [Source audit](source_audit.json) | [Fit selection](selection.json) | [Verification](audit.json) | [Metrics](metrics.json)
+</pre><p><a href="protocol.json">Frozen protocol</a> | <a href="source_audit.json">Source audit</a> | <a href="metrics.json">Metrics</a> | <a href="audit.json">Verification</a></p>

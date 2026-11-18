@@ -1,0 +1,17 @@
+{
+  "weights": "yolo11n-pose.pt",
+  "weights_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+  "ultralytics": "8.4.183",
+  "torch": "2.11.0+cu128",
+  "frames": 32,
+  "max_people": 8,
+  "image_size": 640,
+  "box_confidence": 0.2,
+  "joint_threshold": 0.25,
+  "max_detections": 100,
+  "tracking": "hungarian-iou-center-v1",
+  "feature_schema": "coco17-hip-box-center-v1",
+  "device": "0",
+  "batch_size": 12,
+  "signature": "b2fde119883aa286515b369b57e25ba3de6a4325428e8fb6be186ce3533aee91"
+}

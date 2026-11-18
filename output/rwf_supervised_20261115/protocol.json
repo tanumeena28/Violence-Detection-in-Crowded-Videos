@@ -1,0 +1,93 @@
+{
+  "schema": "rwf-supervised-frozen-r3d18-v1",
+  "date": "2026-11-15",
+  "encoder": {
+    "encoder": "torchvision R3D-18 KINETICS400_V1",
+    "weights_file": "r3d_18-b3b3357e.pth",
+    "weights_sha256": "b3b3357ead25631ec9c57362ff2128a92d0427e01e2cd184951a44380c3f2e9d",
+    "weights_url": "https://download.pytorch.org/models/r3d_18-b3b3357e.pth",
+    "frames": 32,
+    "windows": 2,
+    "frames_per_window": 16,
+    "embedding_size": 512,
+    "encoder_parameters": 33166272,
+    "sampling": "Uniform 32-frame whole-clip samples; two chronological nonoverlapping 16-frame windows; average pooled encoder vectors",
+    "preprocessing": "Official weights transform: RGB, resize [128,171], center crop [112,112], mean [0.43216,0.394666,0.37645], std [0.22803,0.22145,0.216989]"
+  },
+  "encoder_signature": "aa304a12e9fd6d7e4a5562b523b8efd5d45870c0d4cd61a9b8774a720605d6b1",
+  "manifest_sha256": "26fea00ac69521482c0b5938146e4f8bf9a6f4449b29b0f5ba19d2c4c2981d68",
+  "inventory_sha256": "8c23751c41616731ea4253488f69d4a8278a8188d0887404f00e52cc905fa153",
+  "source_audit_sha256": "e0042e8f96838a8bca17baad38d43a8f0a67f3907808ce91ca7a019deb4a5d1b",
+  "split": {
+    "method": "First fold of StratifiedGroupKFold(5, shuffle=True, seed=42) used as validation; rest train",
+    "counts": {
+      "train": {
+        "1": 638,
+        "0": 633
+      },
+      "val": {
+        "1": 159,
+        "0": 158
+      },
+      "test": {
+        "1": 200,
+        "0": 200
+      }
+    },
+    "groups": {
+      "train": 603,
+      "val": 153,
+      "test": 180
+    }
+  },
+  "regularization": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "head_solver": "lbfgs",
+  "maximum_iterations": 2000,
+  "C_selection": "Validation log loss; listed C order breaks exact ties",
+  "threshold_selection": "Validation macro-F1 across 0.10 to 0.90 at 0.01 steps; nearest 0.5 breaks ties",
+  "device": "cuda",
+  "precision": "float32 encoder; float64 head",
+  "cpu_threads": 4,
+  "evaluation_cache": {
+    "path": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\video_transfer_20261115",
+    "features_sha256": "f0816efb7b328f778bd6ad6db29a1e49a845293ad1c68ed45055d30529d204c2",
+    "manifest_sha256": "64f7cbd6e91633172673a13cd215a15669f4eef6b6c6e1a59d55e67490625734",
+    "protocol_sha256": "2f1b74effa554f3a72beeaff86a055d7f3d186a5b5b713ad83a1c0110aeed3e1"
+  },
+  "selection_boundary": "Freeze fitted head and all development artifacts before reading evaluation feature arrays or scoring test clips",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.5.2",
+    "opencv-python": "4.14.0.94",
+    "scikit-learn": "1.9.1"
+  },
+  "script_sha256": "7c23af8aeb9d19340ebbfbd4f2f91b46bc1011a6931ee284205b42b18c3fbe10",
+  "implementation_sha256": {
+    "ablation.py": "6958d30da901c9f304cea016a2a215b7e6200c146d7c57949ed993fce968a4bf",
+    "analysis.py": "8b60fc13d80c0cd33fe540e0cbd4aa43ce2bc903b8103d96e92e27c64c02f65f",
+    "cli.py": "00cd11d5046793b0d9ca0595d26364d010ebc84d0312316242b40a65c3f9de76",
+    "cross_validation.py": "8536bb443d0bb682c48596e1a8e24794d87eb971da6c6a0b71ad2f229ccae36d",
+    "cv_report.py": "3a9121343e505f1efc75129a88958015029886293bd5f0ade607afdb18d91733",
+    "data.py": "e36938b7f66a09c0b10bde503ae3b264e7e5d42c48651416145cef685f540876",
+    "demo.py": "8a90dec7b65092cfc7404cdf190fedcee13ca4559c05994963b6b0c3d0d69007",
+    "features.py": "515e60c47a4304652f9eb7417609c0f2bdab9b5e1fe7bdb4067a9914cde73048",
+    "input_controls.py": "a9b61a111e1f8911cdd24c3f43b6bad95dbbf4dcbb2b496feda59b81ccef53dc",
+    "model.py": "1a371b4de197de2917d41fc681dca97d1bd0795ae53143215c3b306520721b00",
+    "motion.py": "a1373c1e67f8a7726793d591fcdf7cace27786cc6edc2d268d33bf3ce286b417",
+    "pose.py": "cece46b2ffdcbc721110ed15b9944ac1c32d90184ce21bb3769b2066634eb308",
+    "report.py": "f6260149a76857ff1c9d5da536cbbbc542e6f4b7d10a369bbd0dac596ec08672",
+    "rwf_supervised.py": "5d8b06c2f43d525ed368bb1ec9707c3826734ddfca377c93c04a5765cb4d5e3c",
+    "source_review.py": "dbf41eecf813b82cf2b900d560f10c508b832d9c330565a8035ec3b800abaf55",
+    "tracking.py": "e12a1ff39227c96732a208979fe7690ac62543f19fe57bbf2b1f27f8474842d5",
+    "train.py": "a30d847b21e1a997d66f0360ea6a8e2f360fad34127f6ec9b03f2ef1fa2735b5",
+    "__init__.py": "54d2a2abe5601b5a7ce9c1cb5856d4c0982e2deab445a7c6e7c61bc48763df69"
+  },
+  "limitations": "Supervised RWF development experiment with a frozen Kinetics-400 encoder and logistic head. Released training footage supplies both fitting and source-grouped validation. The 400 released evaluation clips have already been inspected/scored in earlier transfer experiments, so this is exploratory development evaluation, not an untouched test claim or direct accuracy improvement over crowd-only transfer. Source IDs and byte hashes do not rule out renamed/shared footage. Independent labels and pretraining/source overlap remain unaudited. Scores are not calibrated."
+}

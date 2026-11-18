@@ -1,0 +1,639 @@
+{
+  "status": "pass",
+  "protocol_sha256": "d34242a284a3484fd9d8d1269d3b0355800495172967bf7ae3f175427b2edac8",
+  "clips": 245,
+  "runs_verified": 70,
+  "runs": [
+    {
+      "fold": 1,
+      "variant": "baseline",
+      "seed": 42,
+      "maximum_cpu_score_drift": 7.218122482299805e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "baseline",
+      "seed": 123,
+      "maximum_cpu_score_drift": 5.313754081726074e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "baseline",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 0.0002365708351135254,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "reliability",
+      "seed": 42,
+      "maximum_cpu_score_drift": 1.2516975402832031e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "reliability",
+      "seed": 123,
+      "maximum_cpu_score_drift": 1.9371509552001953e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "reliability",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 1.0192394256591797e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "interactions",
+      "seed": 42,
+      "maximum_cpu_score_drift": 0.0001227259635925293,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "interactions",
+      "seed": 123,
+      "maximum_cpu_score_drift": 0.00026285648345947266,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "interactions",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 6.139278411865234e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "combined",
+      "seed": 42,
+      "maximum_cpu_score_drift": 9.953975677490234e-06,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "combined",
+      "seed": 123,
+      "maximum_cpu_score_drift": 0.00013196468353271484,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "combined",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 9.357929229736328e-06,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "motion_linear",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "variant": "pose_quality_only",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "baseline",
+      "seed": 42,
+      "maximum_cpu_score_drift": 9.101629257202148e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "baseline",
+      "seed": 123,
+      "maximum_cpu_score_drift": 8.887052536010742e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "baseline",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 0.00018218159675598145,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "reliability",
+      "seed": 42,
+      "maximum_cpu_score_drift": 1.1533498764038086e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "reliability",
+      "seed": 123,
+      "maximum_cpu_score_drift": 4.1872262954711914e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "reliability",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 7.94529914855957e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "interactions",
+      "seed": 42,
+      "maximum_cpu_score_drift": 5.513429641723633e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "interactions",
+      "seed": 123,
+      "maximum_cpu_score_drift": 4.1544437408447266e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "interactions",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 2.6106834411621094e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "combined",
+      "seed": 42,
+      "maximum_cpu_score_drift": 1.3232231140136719e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "combined",
+      "seed": 123,
+      "maximum_cpu_score_drift": 1.84476375579834e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "combined",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 1.9669532775878906e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "motion_linear",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "variant": "pose_quality_only",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "baseline",
+      "seed": 42,
+      "maximum_cpu_score_drift": 5.313754081726074e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "baseline",
+      "seed": 123,
+      "maximum_cpu_score_drift": 6.082653999328613e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "baseline",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 7.43865966796875e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "reliability",
+      "seed": 42,
+      "maximum_cpu_score_drift": 1.8477439880371094e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "reliability",
+      "seed": 123,
+      "maximum_cpu_score_drift": 1.4573335647583008e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "reliability",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 6.3478946685791016e-06,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "interactions",
+      "seed": 42,
+      "maximum_cpu_score_drift": 3.916025161743164e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "interactions",
+      "seed": 123,
+      "maximum_cpu_score_drift": 7.766485214233398e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "interactions",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 0.00012350082397460938,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "combined",
+      "seed": 42,
+      "maximum_cpu_score_drift": 6.67572021484375e-06,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "combined",
+      "seed": 123,
+      "maximum_cpu_score_drift": 7.957220077514648e-06,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "combined",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 8.404254913330078e-06,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "motion_linear",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "variant": "pose_quality_only",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "baseline",
+      "seed": 42,
+      "maximum_cpu_score_drift": 6.845593452453613e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "baseline",
+      "seed": 123,
+      "maximum_cpu_score_drift": 4.607439041137695e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "baseline",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 4.169344902038574e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "reliability",
+      "seed": 42,
+      "maximum_cpu_score_drift": 0.0001462101936340332,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "reliability",
+      "seed": 123,
+      "maximum_cpu_score_drift": 5.7637691497802734e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "reliability",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 3.6850571632385254e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "interactions",
+      "seed": 42,
+      "maximum_cpu_score_drift": 8.410215377807617e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "interactions",
+      "seed": 123,
+      "maximum_cpu_score_drift": 5.1140785217285156e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "interactions",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 5.4776668548583984e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "combined",
+      "seed": 42,
+      "maximum_cpu_score_drift": 2.1576881408691406e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "combined",
+      "seed": 123,
+      "maximum_cpu_score_drift": 1.8835067749023438e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "combined",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 7.238984107971191e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "motion_linear",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "variant": "pose_quality_only",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "baseline",
+      "seed": 42,
+      "maximum_cpu_score_drift": 8.83936882019043e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "baseline",
+      "seed": 123,
+      "maximum_cpu_score_drift": 6.568431854248047e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "baseline",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 0.00011807680130004883,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "reliability",
+      "seed": 42,
+      "maximum_cpu_score_drift": 2.1398067474365234e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "reliability",
+      "seed": 123,
+      "maximum_cpu_score_drift": 3.713369369506836e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "reliability",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 4.026293754577637e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "interactions",
+      "seed": 42,
+      "maximum_cpu_score_drift": 7.396936416625977e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "interactions",
+      "seed": 123,
+      "maximum_cpu_score_drift": 0.00016683340072631836,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "interactions",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 0.0001266002655029297,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "combined",
+      "seed": 42,
+      "maximum_cpu_score_drift": 3.5822391510009766e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "combined",
+      "seed": 123,
+      "maximum_cpu_score_drift": 3.8564205169677734e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "combined",
+      "seed": 2026,
+      "maximum_cpu_score_drift": 4.6819448471069336e-05,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "motion_linear",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    },
+    {
+      "fold": 5,
+      "variant": "pose_quality_only",
+      "seed": null,
+      "maximum_cpu_score_drift": 0.0,
+      "training_normalization_verified": true,
+      "validation_threshold_verified": true,
+      "saved_decisions_reproduced": true
+    }
+  ],
+  "limitations": "Checks artifact consistency and split provenance. Does not certify all source relationships, violence labels, generalization to new datasets or full-pipeline speed."
+}

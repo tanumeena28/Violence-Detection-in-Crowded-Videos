@@ -1,0 +1,411 @@
+{
+  "status": "pass",
+  "fits_verified": [
+    {
+      "condition": "full",
+      "fold": 1,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 1,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 1,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 2,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 2,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 2,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 3,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 3,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 3,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 4,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 4,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 4,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 5,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 5,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "full",
+      "fold": 5,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 1,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 1,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 1,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 2,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 2,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 2,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 3,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 3,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 3,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 4,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 4,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 4,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 5,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 5,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "detection_only",
+      "fold": 5,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 1,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 1,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 1,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 2,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 2,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 2,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 3,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 3,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 3,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 4,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 4,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 4,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 5,
+      "seed": 42,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 5,
+      "seed": 123,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    },
+    {
+      "condition": "shuffled_time",
+      "fold": 5,
+      "seed": 2026,
+      "maximum_score_drift": 0.0,
+      "normalization_verified": true,
+      "decisions_reproduced": true,
+      "validation_threshold_verified": true
+    }
+  ],
+  "verification_device": "cuda"
+}

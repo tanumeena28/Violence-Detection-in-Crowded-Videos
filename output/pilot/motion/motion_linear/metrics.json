@@ -1,0 +1,84 @@
+{
+  "variant": "motion_linear",
+  "features": 80,
+  "classifier_parameters": 81,
+  "threshold": 0.54,
+  "selected_C": 0.1,
+  "candidates": [
+    {
+      "C": 0.01,
+      "validation_log_loss": 0.5330438296641388
+    },
+    {
+      "C": 0.1,
+      "validation_log_loss": 0.4544100547688874
+    },
+    {
+      "C": 1.0,
+      "validation_log_loss": 0.5373377743564731
+    },
+    {
+      "C": 10.0,
+      "validation_log_loss": 1.0919265087533683
+    }
+  ],
+  "train_clips": 150,
+  "val_clips": 48,
+  "test_clips": 47,
+  "train": {
+    "n": 150,
+    "accuracy": 0.7933333333333333,
+    "macro_f1": 0.7931034482758621,
+    "precision_violent": 0.8142857142857143,
+    "recall_violent": 0.76,
+    "roc_auc": 0.8896000000000001,
+    "confusion_matrix": [
+      [
+        62,
+        13
+      ],
+      [
+        18,
+        57
+      ]
+    ]
+  },
+  "validation": {
+    "n": 48,
+    "accuracy": 0.8333333333333334,
+    "macro_f1": 0.8330434782608696,
+    "precision_violent": 0.8636363636363636,
+    "recall_violent": 0.7916666666666666,
+    "roc_auc": 0.8802083333333333,
+    "confusion_matrix": [
+      [
+        21,
+        3
+      ],
+      [
+        5,
+        19
+      ]
+    ]
+  },
+  "test": {
+    "n": 47,
+    "accuracy": 0.723404255319149,
+    "macro_f1": 0.7213862289101687,
+    "precision_violent": 0.7894736842105263,
+    "recall_violent": 0.625,
+    "roc_auc": 0.7771739130434782,
+    "confusion_matrix": [
+      [
+        19,
+        4
+      ],
+      [
+        9,
+        15
+      ]
+    ]
+  },
+  "protocol": "Fixed existing pilot split. Train-only scaling and classifier fit; validation log-loss selects C, validation macro-F1 selects threshold. All test clips retained. Test results are exploratory after prior pilot test inspection.",
+  "limitations": "Handcrafted linear control, not a reproduced published RGB or optical-flow deep model. Camera motion and edits can influence motion features; median subtraction is not validated camera stabilization."
+}

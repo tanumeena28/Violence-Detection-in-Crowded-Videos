@@ -1,0 +1,18 @@
+{
+  "id": "b5574acb481fde0c",
+  "path": "data/movies/1/Violence/Hooligans_violence__Accidents_Fights_Violence_Tragedies_Hooligans_Football_Fights_HORRIBLE_THINGS__darkhero00__PgujG07PUq0.avi",
+  "label": 1,
+  "decoded_frames": 83,
+  "header_frames": 83,
+  "duration_seconds": 3.32,
+  "decode_seconds": 0.03630970002268441,
+  "pose_tracking_seconds": 2.7957963999942876,
+  "features_transfer_seconds": 0.0030298999918159097,
+  "classifier_seconds": 0.0476947000133805,
+  "pipeline_seconds": 2.8828307000221685,
+  "score": 0.9956350922584534,
+  "threshold": 0.62,
+  "prediction": 1,
+  "model_initialization_seconds": 0.7906938999949489,
+  "child_seconds_including_imports": 7.42791379999835
+}

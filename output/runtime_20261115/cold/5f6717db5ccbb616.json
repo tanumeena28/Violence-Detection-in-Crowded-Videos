@@ -1,0 +1,18 @@
+{
+  "id": "5f6717db5ccbb616",
+  "path": "data/movies/4/NonViolence/stadium_crowds__Feel_the_buzz_of_Croke_Park__DiscoverGAA__bCYSflQwc7o.avi",
+  "label": 0,
+  "decoded_frames": 63,
+  "header_frames": 63,
+  "duration_seconds": 2.52,
+  "decode_seconds": 0.034520699991844594,
+  "pose_tracking_seconds": 2.7392468999896664,
+  "features_transfer_seconds": 0.00369660000433214,
+  "classifier_seconds": 0.0452588000043761,
+  "pipeline_seconds": 2.8227229999902193,
+  "score": 0.00817347876727581,
+  "threshold": 0.62,
+  "prediction": 0,
+  "model_initialization_seconds": 0.7913272999867331,
+  "child_seconds_including_imports": 7.421723100007512
+}

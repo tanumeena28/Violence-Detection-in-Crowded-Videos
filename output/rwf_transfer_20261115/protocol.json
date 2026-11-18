@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-15",
+  "model": "source-corrected crowd combined_seed42",
+  "source": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\source_corrected",
+  "threshold": 0.54,
+  "variant": "combined",
+  "seed": 42,
+  "use_coverage": true,
+  "clips": 400,
+  "class_counts": {
+    "0": 200,
+    "1": 200
+  },
+  "pose_settings": {
+    "weights": "yolo11n-pose.pt",
+    "weights_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+    "ultralytics": "8.4.183",
+    "torch": "2.11.0+cu128",
+    "frames": 32,
+    "max_people": 8,
+    "image_size": 640,
+    "box_confidence": 0.2,
+    "joint_threshold": 0.25,
+    "max_detections": 100,
+    "tracking": "hungarian-iou-center-v1",
+    "feature_schema": "coco17-hip-box-center-v1",
+    "device": "0",
+    "batch_size": 12,
+    "signature": "b2fde119883aa286515b369b57e25ba3de6a4325428e8fb6be186ce3533aee91"
+  },
+  "manifest_sha256": "64f7cbd6e91633172673a13cd215a15669f4eef6b6c6e1a59d55e67490625734",
+  "model_sha256": "5a6b394596edd3e9830417287c379892e385f11150974ccf0578d94eb8046bff",
+  "weights_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+  "previously_inspected_ids": [
+    "0d819873ff00800e"
+  ],
+  "duplicate_video_hashes": {},
+  "byte_overlap_with_crowd_manifest": [],
+  "source_artifacts_sha256": {
+    "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\source_corrected\\runs\\combined_seed42\\model.pt": "5a6b394596edd3e9830417287c379892e385f11150974ccf0578d94eb8046bff",
+    "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\source_corrected\\manifest.csv": "eefaff23881ba331d1c69afb1ab7c20e609adf48831ab7dae4fc24edf091c0bb",
+    "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\output\\source_corrected\\pose_settings.json": "30c4bc3ec5647dda6294a9fa7dc49c16d6af85d51c8646fd528d55b558f5cece"
+  },
+  "implementation_sha256": {
+    "data.py": "e36938b7f66a09c0b10bde503ae3b264e7e5d42c48651416145cef685f540876",
+    "pose.py": "7ccd334d5e74933626c850738f352c5b1c24dc5bba02affa9319fed759404796",
+    "tracking.py": "e12a1ff39227c96732a208979fe7690ac62543f19fe57bbf2b1f27f8474842d5",
+    "features.py": "65da0f9eb3ba54e2519683e81ed1d29fb7161489d185bd4371966a9bb40e0819",
+    "model.py": "1a371b4de197de2917d41fc681dca97d1bd0795ae53143215c3b306520721b00",
+    "demo.py": "cc297ded8f45859607fdef2f0392f1531a1a2f266bf258c78c7be384b391bf5c",
+    "train.py": "219a75aa0b99fc915462ec707b97342fc6ccfcd6c32c2567ca354e7939147ee0",
+    "cross_validation.py": "80662ec25090c6d1e12d091d8d5c3a4e1609b2105a98764faca08a5cc35b82da"
+  },
+  "script_sha256": "3bc94b917fba2a9b279570a90b08645c130416c48c1ef57fa960581dd92919f0",
+  "limitations": "Exploratory transfer of a crowd-trained classifier to the released RWF-2000 evaluation split. No RWF training, normalization fitting, checkpoint selection or threshold tuning is performed. This is different from supervised training and evaluation on RWF. Supplied labels are retained. One known clip was inspected in an earlier demo; other prior viewing and unknown shared footage cannot be ruled out. Scores are not calibrated probabilities. All clips remain in primary metrics, including low-pose cases."
+}

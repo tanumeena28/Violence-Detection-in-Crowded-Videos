@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "model": "source-corrected crowd combined_seed42",
+  "threshold": 0.54,
+  "primary_all_released_clips": {
+    "n": 400,
+    "accuracy": 0.56,
+    "macro_f1": 0.5062282572101897,
+    "precision_violent": 0.536144578313253,
+    "recall_violent": 0.89,
+    "roc_auc": 0.5775750000000001,
+    "confusion_matrix": [
+      [
+        46,
+        154
+      ],
+      [
+        22,
+        178
+      ]
+    ]
+  },
+  "excluding_known_prior_demo": {
+    "n": 399,
+    "accuracy": 0.5614035087719298,
+    "macro_f1": 0.5075012166994647,
+    "precision_violent": 0.5377643504531722,
+    "recall_violent": 0.89,
+    "roc_auc": 0.5773115577889447,
+    "confusion_matrix": [
+      [
+        46,
+        153
+      ],
+      [
+        22,
+        178
+      ]
+    ]
+  },
+  "previously_inspected_clips": 1,
+  "low_pose_clips": 53,
+  "pose_supported_coverage": 0.8675,
+  "pose_supported_subset": {
+    "n": 347,
+    "accuracy": 0.5417867435158501,
+    "macro_f1": 0.4099964710788874,
+    "precision_violent": 0.5569620253164557,
+    "recall_violent": 0.9025641025641026,
+    "roc_auc": 0.5082995951417004,
+    "confusion_matrix": [
+      [
+        12,
+        140
+      ],
+      [
+        19,
+        176
+      ]
+    ]
+  },
+  "device": "cuda",
+  "feature_cache_load_and_normalization_seconds": 4.7861195000004955,
+  "classifier_pass_seconds": 0.30308910002349876,
+  "evaluation_wall_seconds": 190.33397360000527,
+  "runtime_boundary": "Fresh full-video decode and sampled pose extraction, cache writes/loads, fixed feature normalization and GPU classification. Includes model initialization; excludes inventory preparation and report generation. Not a cold/warm per-video latency benchmark.",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "limitations": "Exploratory transfer of a crowd-trained classifier to the released RWF-2000 evaluation split. No RWF training, normalization fitting, checkpoint selection or threshold tuning is performed. This is different from supervised training and evaluation on RWF. Supplied labels are retained. One known clip was inspected in an earlier demo; other prior viewing and unknown shared footage cannot be ruled out. Scores are not calibrated probabilities. All clips remain in primary metrics, including low-pose cases."
+}

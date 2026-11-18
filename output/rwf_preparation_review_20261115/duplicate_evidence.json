@@ -1,0 +1,284 @@
+{
+  "source_group_policy": "Filename source ID after stripping final numeric segment suffix; union all source IDs linked by identical video SHA256, ignoring class folder. Mixed-label sources remain whole.",
+  "cross_release_identical_byte_sets": [
+    {
+      "sha256": "d76f2f2a4d8beb01f904b30909e398bb9a73a9e0c55802f5901bcecd5b46edae",
+      "clips": [
+        {
+          "id": "add1bc98323ca807",
+          "path": "data/RWF-2000/train/NonFight/EBwt3Thb_0.avi",
+          "released_partition": "train",
+          "label": 0
+        },
+        {
+          "id": "4d7176a1081f4462",
+          "path": "data/RWF-2000/val/NonFight/cw8fPfUL_0.avi",
+          "released_partition": "val",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "sha256": "73af22960bb0ab55a71c895d96f0a1491a8998b4806b6a1e2a2dc1678619902d",
+      "clips": [
+        {
+          "id": "174a9c2770ff25b3",
+          "path": "data/RWF-2000/train/NonFight/XQR0CvyY_1.avi",
+          "released_partition": "train",
+          "label": 0
+        },
+        {
+          "id": "57f102ea194b83ab",
+          "path": "data/RWF-2000/val/NonFight/xV69l7Vj_0.avi",
+          "released_partition": "val",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "sha256": "ddf8dfdf46b95e9372adfa1e6b49a860127a51535fbe24f417b5ed1a443f8095",
+      "clips": [
+        {
+          "id": "da9c6c3d659d9c15",
+          "path": "data/RWF-2000/train/NonFight/aGfwZ3E4_0.avi",
+          "released_partition": "train",
+          "label": 0
+        },
+        {
+          "id": "2db00111aa17df4a",
+          "path": "data/RWF-2000/val/NonFight/aZxUVVqk_0.avi",
+          "released_partition": "val",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "sha256": "c344e296d5084b7caee6a296b4a7a8773d0555f302336c9420d7ea05ca8271f9",
+      "clips": [
+        {
+          "id": "099006b14ec1db62",
+          "path": "data/RWF-2000/train/NonFight/ndNHBJbS_0.avi",
+          "released_partition": "train",
+          "label": 0
+        },
+        {
+          "id": "80691a8034a6c8f8",
+          "path": "data/RWF-2000/val/NonFight/E9SvEiNt_0.avi",
+          "released_partition": "val",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "sha256": "05414b6a92b3efb8988412f30236b1113d6c323686a14c5404051a628dba19f4",
+      "clips": [
+        {
+          "id": "ba8a7f998f66ad16",
+          "path": "data/RWF-2000/train/NonFight/uz4dXoN5_0.avi",
+          "released_partition": "train",
+          "label": 0
+        },
+        {
+          "id": "901fbf630b101080",
+          "path": "data/RWF-2000/val/NonFight/7emxm3za_0.avi",
+          "released_partition": "val",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "sha256": "7988666c3a3dd8115b02aed5cfb0cac0e7880d655a0f3bbb8da7f7b49a4325a7",
+      "clips": [
+        {
+          "id": "02556361f1ed8580",
+          "path": "data/RWF-2000/train/NonFight/wKMXI2vp_0.avi",
+          "released_partition": "train",
+          "label": 0
+        },
+        {
+          "id": "080d79e2668fc668",
+          "path": "data/RWF-2000/val/NonFight/ZCa5f4yq_0.avi",
+          "released_partition": "val",
+          "label": 0
+        }
+      ]
+    }
+  ],
+  "excluded_training_clips": [
+    {
+      "id": "b0574c2bd7bc9c36",
+      "path": "data/RWF-2000/train/Fight/mRqg-WXiR7Q_1.avi",
+      "sha256": "3f9cc7f69f5d74f305d3f56be41b0cb9b34e4a42b08c7ea8e5517f6cbdcaf054",
+      "source_group": "mrqg-wxir7q",
+      "released_partition": "train",
+      "label": 1,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 1280,
+      "height": 720,
+      "reason": "Same-label byte duplicate in development",
+      "retained_id": "1dbb5356f18d099f"
+    },
+    {
+      "id": "1c1cab3cd7019efa",
+      "path": "data/RWF-2000/train/Fight/mRqg-WXiR7Q_2.avi",
+      "sha256": "6dcca31f1b764aba418928b6b8744721e060adb0b36af54ad86e60aa2bfb9448",
+      "source_group": "mrqg-wxir7q",
+      "released_partition": "train",
+      "label": 1,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 1280,
+      "height": 720,
+      "reason": "Same-label byte duplicate in development",
+      "retained_id": "573a472168f4bacc"
+    },
+    {
+      "id": "494c4a950917e46c",
+      "path": "data/RWF-2000/train/Fight/\u0393\u00f2\u00f2\u2568\u00a2\u2564\u00eb\u2568\u2524\u2568\u00e1\u2564\u00e0\u2568\u20a7\u2568\u00f2\u2564\u00e4\u0393\u00f2\u00f2\u2568\u00c9\u2564\u00e7\u0393\u00f2\u00a2\u2568\u2524\u2564\u00e0\u0393\u00fb\u00e6\u2568\u0192\u2564\u00e4\u0393\u00f2\u00a5\u2568\u2310\u2564\u00e5\u2568\u00d6\u2568\u00fa\u2564\u00e5\u2568\u00ab\u0393\u00f2\u00f3\u2564\u00e5\u2568\u00aa\u2568\u00ba\u2564\u00e5\u2568\u255b\u0393\u00f6\u00f1 \u2564\u00ea\u2568\u00c9\u2568\u00e6\u2564\u00e5\u2568\u00a1\u0393\u00f6\u00c9\u2564\u00e7\u2568\u00ab\u2568\u255d\u2564\u00eb\u2568\u00ba\u0393\u00f6\u00f1\u2564\u00e0\u2568\u0192\u2568\u00ed\u2564\u00eb\u2568\u2502\u2568\u2310\u2564\u00e4\u0393\u00f2\u00e6\u2568\u00fb_urlgot_279.avi",
+      "sha256": "5561ba5284a1049ef6c937e9e2aea621936605c9028f059d7da875e989784124",
+      "source_group": "\u03b3\u00f2\u00f2\u2568\u00a2\u2564\u00eb\u2568\u2524\u2568\u00e1\u2564\u00e0\u2568\u20a7\u2568\u00f2\u2564\u00e4\u03b3\u00f2\u00f2\u2568\u00e9\u2564\u00e7\u03b3\u00f2\u00a2\u2568\u2524\u2564\u00e0\u03b3\u00fb\u00e6\u2568\u0192\u2564\u00e4\u03b3\u00f2\u00a5\u2568\u2310\u2564\u00e5\u2568\u00f6\u2568\u00fa\u2564\u00e5\u2568\u00ab\u03b3\u00f2\u00f3\u2564\u00e5\u2568\u00aa\u2568\u00ba\u2564\u00e5\u2568\u255b\u03b3\u00f6\u00f1 \u2564\u00ea\u2568\u00e9\u2568\u00e6\u2564\u00e5\u2568\u00a1\u03b3\u00f6\u00e9\u2564\u00e7\u2568\u00ab\u2568\u255d\u2564\u00eb\u2568\u00ba\u03b3\u00f6\u00f1\u2564\u00e0\u2568\u0192\u2568\u00ed\u2564\u00eb\u2568\u2502\u2568\u2310\u2564\u00e4\u03b3\u00f2\u00e6\u2568\u00fb_urlgot",
+      "released_partition": "train",
+      "label": 1,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 480,
+      "height": 272,
+      "reason": "Same-label byte duplicate in development",
+      "retained_id": "7df13175fe3fa797"
+    },
+    {
+      "id": "add1bc98323ca807",
+      "path": "data/RWF-2000/train/NonFight/EBwt3Thb_0.avi",
+      "sha256": "d76f2f2a4d8beb01f904b30909e398bb9a73a9e0c55802f5901bcecd5b46edae",
+      "source_group": "cw8fpful",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Source group linked to released evaluation"
+    },
+    {
+      "id": "636c0b3aeacb9236",
+      "path": "data/RWF-2000/train/NonFight/XQR0CvyY_0.avi",
+      "sha256": "992ca849d35081aff8ce54f0d3cdba070c7efdec627b885dfdc38c0eae406217",
+      "source_group": "xqr0cvyy",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Source group linked to released evaluation"
+    },
+    {
+      "id": "174a9c2770ff25b3",
+      "path": "data/RWF-2000/train/NonFight/XQR0CvyY_1.avi",
+      "sha256": "73af22960bb0ab55a71c895d96f0a1491a8998b4806b6a1e2a2dc1678619902d",
+      "source_group": "xqr0cvyy",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Source group linked to released evaluation"
+    },
+    {
+      "id": "c8fcea4170a17315",
+      "path": "data/RWF-2000/train/NonFight/XwiwESMn_0.avi",
+      "sha256": "5145462994a96b32aa1ac4d8c20d8919fa6824b39caf868e1643b78c7a86ad40",
+      "source_group": "r2x2rowh",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Same-label byte duplicate in development",
+      "retained_id": "8acaaedbdb193fd3"
+    },
+    {
+      "id": "da9c6c3d659d9c15",
+      "path": "data/RWF-2000/train/NonFight/aGfwZ3E4_0.avi",
+      "sha256": "ddf8dfdf46b95e9372adfa1e6b49a860127a51535fbe24f417b5ed1a443f8095",
+      "source_group": "agfwz3e4",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Source group linked to released evaluation"
+    },
+    {
+      "id": "099006b14ec1db62",
+      "path": "data/RWF-2000/train/NonFight/ndNHBJbS_0.avi",
+      "sha256": "c344e296d5084b7caee6a296b4a7a8773d0555f302336c9420d7ea05ca8271f9",
+      "source_group": "e9sveint",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Source group linked to released evaluation"
+    },
+    {
+      "id": "ba8a7f998f66ad16",
+      "path": "data/RWF-2000/train/NonFight/uz4dXoN5_0.avi",
+      "sha256": "05414b6a92b3efb8988412f30236b1113d6c323686a14c5404051a628dba19f4",
+      "source_group": "7emxm3za",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Source group linked to released evaluation"
+    },
+    {
+      "id": "02556361f1ed8580",
+      "path": "data/RWF-2000/train/NonFight/wKMXI2vp_0.avi",
+      "sha256": "7988666c3a3dd8115b02aed5cfb0cac0e7880d655a0f3bbb8da7f7b49a4325a7",
+      "source_group": "wkmxi2vp",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Source group linked to released evaluation"
+    },
+    {
+      "id": "1fb21bcb55628141",
+      "path": "data/RWF-2000/train/NonFight/xYWhwcqL_0.avi",
+      "sha256": "961e50c0e08d60751610037727aa09fa4258c2f2be30c6e98644e2b2678db001",
+      "source_group": "4fqxw7nl",
+      "released_partition": "train",
+      "label": 0,
+      "fold": 0,
+      "fps": 30.0,
+      "frames": 150,
+      "width": 320,
+      "height": 240,
+      "reason": "Same-label byte duplicate in development",
+      "retained_id": "e7384613422a7108"
+    }
+  ],
+  "evaluation_unique_byte_hashes": 400,
+  "claim_boundary": "Byte-identical evidence plus conservative source-group exclusion; not a full visual-overlap or independent-label audit."
+}

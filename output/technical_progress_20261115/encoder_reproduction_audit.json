@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "selection": "First three manifest IDs in each dataset, fixed without outcomes",
+  "clips": [
+    {
+      "dataset": "crowd",
+      "id": "00e7bc523a5823fc",
+      "maximum_embedding_drift": 0.0
+    },
+    {
+      "dataset": "crowd",
+      "id": "00ee0c5c5d3c8830",
+      "maximum_embedding_drift": 0.0
+    },
+    {
+      "dataset": "crowd",
+      "id": "010be17670427bab",
+      "maximum_embedding_drift": 0.0
+    },
+    {
+      "dataset": "rwf",
+      "id": "5da2e6b6a26f4c11",
+      "maximum_embedding_drift": 0.0
+    },
+    {
+      "dataset": "rwf",
+      "id": "a825abccc23104e9",
+      "maximum_embedding_drift": 0.0
+    },
+    {
+      "dataset": "rwf",
+      "id": "59dd313717fb7fbf",
+      "maximum_embedding_drift": 0.0
+    }
+  ]
+}

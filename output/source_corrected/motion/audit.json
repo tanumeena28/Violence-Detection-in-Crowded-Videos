@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "manifest_sha256": "eefaff23881ba331d1c69afb1ab7c20e609adf48831ab7dae4fc24edf091c0bb",
+  "motion_caches_verified": 242,
+  "controls": [
+    {
+      "variant": "motion_linear",
+      "predictions_reproduced": true,
+      "maximum_score_drift": 0.0,
+      "train_scaling_verified": true,
+      "validation_threshold_verified": true,
+      "model_sha256": "bf04b78ec91da31d53b956977d0114fe0f6de3b00d27c696c86f3f2052421b61"
+    },
+    {
+      "variant": "pose_quality_only",
+      "predictions_reproduced": true,
+      "maximum_score_drift": 0.0,
+      "train_scaling_verified": true,
+      "validation_threshold_verified": true,
+      "model_sha256": "66c473645d0b9be28e3ab80201f7b75347cc4adce7d00171a0a0c0609111a79a"
+    }
+  ],
+  "claim_boundary": "Cached-input provenance and saved-checkpoint consistency. Does not establish source independence, label validity, or unbiased generalization."
+}

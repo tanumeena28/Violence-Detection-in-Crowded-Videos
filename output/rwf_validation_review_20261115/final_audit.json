@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "previous_experiments_preserved": [
+    {
+      "directory": "cross_validation_20261107",
+      "files_preserved": 947
+    },
+    {
+      "directory": "coverage_ablation_20261114",
+      "files_preserved": 981
+    },
+    {
+      "directory": "rwf_transfer_20261115",
+      "files_preserved": 444
+    },
+    {
+      "directory": "centering_reference_cpu_20261115",
+      "files_preserved": 949
+    },
+    {
+      "directory": "centering_corrected_cpu_20261115",
+      "files_preserved": 955
+    },
+    {
+      "directory": "input_controls_20261115",
+      "files_preserved": 557
+    },
+    {
+      "directory": "video_baseline_v2_20261115",
+      "files_preserved": 304
+    },
+    {
+      "directory": "video_transfer_20261115",
+      "files_preserved": 43
+    },
+    {
+      "directory": "rwf_supervised_20261115",
+      "files_preserved": 1648
+    }
+  ],
+  "implementation_tests_passed": 53,
+  "raw_validation_demos_verified": 4,
+  "raw_video_frames_verified": 600,
+  "maximum_raw_prediction_score_drift": 2.220446049250313e-16,
+  "candidate_promoted": false,
+  "candidate_evaluation_artifacts_present": false,
+  "independent_review_pending": true,
+  "paper_drafting_deferred": true
+}

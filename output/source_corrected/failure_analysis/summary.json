@@ -1,0 +1,286 @@
+{
+  "test_clips": 47,
+  "combined_errors": 16,
+  "combined_false_positives": 6,
+  "combined_false_negatives": 10,
+  "combined_errors_with_pose_at_least_25_percent": 11,
+  "all_skeleton_models_wrong": 13,
+  "metrics_by_variant": [
+    {
+      "variant": "baseline",
+      "strata": {
+        "all": {
+          "n": 47,
+          "correct": 32,
+          "accuracy": 0.6808510638297872
+        },
+        "pose_below_25_percent": {
+          "n": 9,
+          "correct": 5,
+          "accuracy": 0.5555555555555556
+        },
+        "pose_at_least_25_percent": {
+          "n": 38,
+          "correct": 27,
+          "accuracy": 0.7105263157894737
+        },
+        "discarded_tracks": {
+          "n": 36,
+          "correct": 27,
+          "accuracy": 0.75
+        },
+        "no_discarded_tracks": {
+          "n": 11,
+          "correct": 5,
+          "accuracy": 0.45454545454545453
+        },
+        "median_track_at_most_4_samples": {
+          "n": 14,
+          "correct": 7,
+          "accuracy": 0.5
+        },
+        "median_track_above_4_samples": {
+          "n": 33,
+          "correct": 25,
+          "accuracy": 0.7575757575757576
+        }
+      }
+    },
+    {
+      "variant": "reliability",
+      "strata": {
+        "all": {
+          "n": 47,
+          "correct": 30,
+          "accuracy": 0.6382978723404256
+        },
+        "pose_below_25_percent": {
+          "n": 9,
+          "correct": 5,
+          "accuracy": 0.5555555555555556
+        },
+        "pose_at_least_25_percent": {
+          "n": 38,
+          "correct": 25,
+          "accuracy": 0.6578947368421053
+        },
+        "discarded_tracks": {
+          "n": 36,
+          "correct": 25,
+          "accuracy": 0.6944444444444444
+        },
+        "no_discarded_tracks": {
+          "n": 11,
+          "correct": 5,
+          "accuracy": 0.45454545454545453
+        },
+        "median_track_at_most_4_samples": {
+          "n": 14,
+          "correct": 7,
+          "accuracy": 0.5
+        },
+        "median_track_above_4_samples": {
+          "n": 33,
+          "correct": 23,
+          "accuracy": 0.696969696969697
+        }
+      }
+    },
+    {
+      "variant": "interactions",
+      "strata": {
+        "all": {
+          "n": 47,
+          "correct": 32,
+          "accuracy": 0.6808510638297872
+        },
+        "pose_below_25_percent": {
+          "n": 9,
+          "correct": 5,
+          "accuracy": 0.5555555555555556
+        },
+        "pose_at_least_25_percent": {
+          "n": 38,
+          "correct": 27,
+          "accuracy": 0.7105263157894737
+        },
+        "discarded_tracks": {
+          "n": 36,
+          "correct": 27,
+          "accuracy": 0.75
+        },
+        "no_discarded_tracks": {
+          "n": 11,
+          "correct": 5,
+          "accuracy": 0.45454545454545453
+        },
+        "median_track_at_most_4_samples": {
+          "n": 14,
+          "correct": 7,
+          "accuracy": 0.5
+        },
+        "median_track_above_4_samples": {
+          "n": 33,
+          "correct": 25,
+          "accuracy": 0.7575757575757576
+        }
+      }
+    },
+    {
+      "variant": "combined",
+      "strata": {
+        "all": {
+          "n": 47,
+          "correct": 31,
+          "accuracy": 0.6595744680851063
+        },
+        "pose_below_25_percent": {
+          "n": 9,
+          "correct": 4,
+          "accuracy": 0.4444444444444444
+        },
+        "pose_at_least_25_percent": {
+          "n": 38,
+          "correct": 27,
+          "accuracy": 0.7105263157894737
+        },
+        "discarded_tracks": {
+          "n": 36,
+          "correct": 27,
+          "accuracy": 0.75
+        },
+        "no_discarded_tracks": {
+          "n": 11,
+          "correct": 4,
+          "accuracy": 0.36363636363636365
+        },
+        "median_track_at_most_4_samples": {
+          "n": 14,
+          "correct": 6,
+          "accuracy": 0.42857142857142855
+        },
+        "median_track_above_4_samples": {
+          "n": 33,
+          "correct": 25,
+          "accuracy": 0.7575757575757576
+        }
+      }
+    },
+    {
+      "variant": "motion_linear",
+      "strata": {
+        "all": {
+          "n": 47,
+          "correct": 35,
+          "accuracy": 0.7446808510638298
+        },
+        "pose_below_25_percent": {
+          "n": 9,
+          "correct": 7,
+          "accuracy": 0.7777777777777778
+        },
+        "pose_at_least_25_percent": {
+          "n": 38,
+          "correct": 28,
+          "accuracy": 0.7368421052631579
+        },
+        "discarded_tracks": {
+          "n": 36,
+          "correct": 27,
+          "accuracy": 0.75
+        },
+        "no_discarded_tracks": {
+          "n": 11,
+          "correct": 8,
+          "accuracy": 0.7272727272727273
+        },
+        "median_track_at_most_4_samples": {
+          "n": 14,
+          "correct": 11,
+          "accuracy": 0.7857142857142857
+        },
+        "median_track_above_4_samples": {
+          "n": 33,
+          "correct": 24,
+          "accuracy": 0.7272727272727273
+        }
+      }
+    },
+    {
+      "variant": "pose_quality_only",
+      "strata": {
+        "all": {
+          "n": 47,
+          "correct": 36,
+          "accuracy": 0.7659574468085106
+        },
+        "pose_below_25_percent": {
+          "n": 9,
+          "correct": 7,
+          "accuracy": 0.7777777777777778
+        },
+        "pose_at_least_25_percent": {
+          "n": 38,
+          "correct": 29,
+          "accuracy": 0.7631578947368421
+        },
+        "discarded_tracks": {
+          "n": 36,
+          "correct": 29,
+          "accuracy": 0.8055555555555556
+        },
+        "no_discarded_tracks": {
+          "n": 11,
+          "correct": 7,
+          "accuracy": 0.6363636363636364
+        },
+        "median_track_at_most_4_samples": {
+          "n": 14,
+          "correct": 10,
+          "accuracy": 0.7142857142857143
+        },
+        "median_track_above_4_samples": {
+          "n": 33,
+          "correct": 26,
+          "accuracy": 0.7878787878787878
+        }
+      }
+    }
+  ],
+  "paired_motion_comparisons": {
+    "baseline": {
+      "motion_correct_skeleton_wrong": 14,
+      "skeleton_correct_motion_wrong": 11,
+      "both_wrong": 1
+    },
+    "interactions": {
+      "motion_correct_skeleton_wrong": 13,
+      "skeleton_correct_motion_wrong": 10,
+      "both_wrong": 2
+    },
+    "combined": {
+      "motion_correct_skeleton_wrong": 14,
+      "skeleton_correct_motion_wrong": 10,
+      "both_wrong": 2
+    }
+  },
+  "visual_similarity_flagged_pairs": 0,
+  "contact_sheets": [
+    "test_sheet_01.jpg",
+    "test_sheet_02.jpg",
+    "test_sheet_03.jpg",
+    "test_sheet_04.jpg",
+    "test_sheet_05.jpg",
+    "test_sheet_06.jpg",
+    "test_sheet_07.jpg",
+    "test_sheet_08.jpg",
+    "test_sheet_09.jpg",
+    "test_sheet_10.jpg",
+    "test_sheet_11.jpg",
+    "test_sheet_12.jpg"
+  ],
+  "source_id_overlap_candidate_count": 0,
+  "source_independence_status": "no_known_id_overlap",
+  "manifest_sha256": "eefaff23881ba331d1c69afb1ab7c20e609adf48831ab7dae4fc24edf091c0bb",
+  "claim_boundary": "Descriptive associations on the previously inspected test split. Pose failures, track length and discarded tracks are proxies, not verified causes or measured identity switches. Sparse frame review does not verify full-clip labels."
+}

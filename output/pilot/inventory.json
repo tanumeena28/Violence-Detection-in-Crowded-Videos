@@ -1,0 +1,30 @@
+{
+  "dataset": "crowd",
+  "seed": 42,
+  "video_count": 246,
+  "usable_count": 245,
+  "split_counts": {
+    "train": {
+      "0": 75,
+      "1": 75
+    },
+    "val": {
+      "0": 24,
+      "1": 24
+    },
+    "test": {
+      "0": 23,
+      "1": 24
+    }
+  },
+  "decode_header_failures": [],
+  "exact_duplicates": [
+    {
+      "kept": "data/movies/5/NonViolence/football_crowds__Brisbane_Lions_vs_Melbourne_Demons_The_Gabba__StudyinBrisbane__Y.avi",
+      "removed": "data/movies/5/NonViolence/stadium_crowds__Brisbane_Lions_vs_Melbourne_Demons_The_Gabba__StudyinBrisbane__Y.avi"
+    }
+  ],
+  "source_overlap_exclusions": [],
+  "protocol": "Pilot holdout: crowd folds 1-3 train, 4 validation, 5 test; source overlaps removed. Not full five-fold evaluation.",
+  "limitation": "Source grouping uses filenames and byte hashes; near-duplicates and truncated source names still need manual review."
+}

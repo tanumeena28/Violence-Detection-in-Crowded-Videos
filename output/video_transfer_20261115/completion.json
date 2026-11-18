@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "artifacts_sha256": {
+    "protocol.json": "2f1b74effa554f3a72beeaff86a055d7f3d186a5b5b713ad83a1c0110aeed3e1",
+    "manifest.csv": "64f7cbd6e91633172673a13cd215a15669f4eef6b6c6e1a59d55e67490625734",
+    "features.npz": "f0816efb7b328f778bd6ad6db29a1e49a845293ad1c68ed45055d30529d204c2",
+    "metrics.json": "6725cb9617444b06589aa282a257c069fa66ba70fa42d45d592838e13b4d90bc",
+    "predictions.csv": "f30df1d35c9e5312b79348fcb653910587dd69ab53becd1109b7309e2f3af1c7",
+    "head_fold_1.json": "163ea965f5ba4ee1a2e5b8e35d3473609bc7f1a36d93673a1cc111f794469835",
+    "head_fold_2.json": "95b25ded4eee60db4067cbcb23d1a60fce6356f7f6cb80cbca54d728fb1843ee",
+    "head_fold_3.json": "d0d2a3274f722f59cc18f486d9a08970e812fe362a310a0a888407142235641e",
+    "head_fold_4.json": "c7b443668b683a8efd00ae951a584ed20f0ea325d96b2b5bc4d9a4e59958c87b",
+    "head_fold_5.json": "c790149ddcd0df8f85f84a36e987740bb4d7d1b390451a59a4b0f94737d965f1",
+    "weights/r3d_18-b3b3357e.pth": "b3b3357ead25631ec9c57362ff2128a92d0427e01e2cd184951a44380c3f2e9d"
+  }
+}

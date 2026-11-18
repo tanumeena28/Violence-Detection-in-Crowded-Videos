@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "artifacts_sha256": {
+    "protocol.json": "071a69b1fc58b297eb34d70be593eb9e9dfcbf8a27e6f95c8ad87fd97015078e",
+    "manifest.csv": "26fea00ac69521482c0b5938146e4f8bf9a6f4449b29b0f5ba19d2c4c2981d68",
+    "source_inventory.csv": "8c23751c41616731ea4253488f69d4a8278a8188d0887404f00e52cc905fa153",
+    "source_audit.json": "e0042e8f96838a8bca17baad38d43a8f0a67f3907808ce91ca7a019deb4a5d1b",
+    "model.json": "50283bc44a38c60451e4dc54a392960e84f61c8887aef3c425ad133279e1b642",
+    "selection.json": "b7f9036fc3a11252e79daafb82d3541f1ff33d1b342e2b4e130dbaabe0fee2eb",
+    "head_frozen.json": "0b4ed0f644e0d0e3cb94f38124a97bd7fcb8f0e64c9c2848173a3852c9edfb34",
+    "development_predictions.csv": "f698ea8744286be356681268c1e2397c30c19bf20688f6ecce4fbabb043e1161",
+    "development_feature_audit.json": "e34e9a36494984c9a39fd3222f9c9eef52bfdfb423ead31f0711b91073950570",
+    "evaluation_predictions.csv": "1b3f46d159b96095213b9add253646371dd4f3dc591c3f4d159e20978e17446a",
+    "metrics.json": "9ad43667a444b73ea798c09f6f747620ff01cba29f442adf9f18952cb5cf3413"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "artifacts_sha256": {
+    "protocol.json": "6562f52565b5c65360c2aac05d2d9808ca0f6baae57b7bd5c5df245a4c395bf0",
+    "feature_audit.json": "ae500504a3431fdacc810acf057bb69adbec55904d74dfea392dc449e70dad7f",
+    "assignments.csv": "e568e32544dbb76dd49d27e9878b96e73ad20dd37ebc4854967aa21fc4058c77",
+    "fold_1/manifest.csv": "74ff07832d05e907fb9e1008826d187a25c6a93d4f3c4dba559b6d5f162cad4b",
+    "fold_2/manifest.csv": "8de3be355285b4167b5a4c12239827a2463ac81ce4cca45566d7f5744665ea58",
+    "fold_3/manifest.csv": "8efc84f9e8578a3c2c9b8069edac32c3784d0ed9182ac6d81d448b84d6755d3f",
+    "fold_4/manifest.csv": "1eb121cbe2a7d4b34f3ee2d0a3a110268cda7ebfc5f05487b0a79a91f32210f8",
+    "fold_5/manifest.csv": "9d6e0fd088adf9711565d67405d7f3eabbac5a7a3758d3f3cb162cbbd6bcab1e",
+    "fold_1/motion/rgb_r3d18_frozen/metrics.json": "e2fc06094c1bd14f88d63c61bd3cff6dc077d477d019c92c35a9fd2f997faa32",
+    "fold_1/motion/rgb_r3d18_frozen/model.json": "163ea965f5ba4ee1a2e5b8e35d3473609bc7f1a36d93673a1cc111f794469835",
+    "fold_2/motion/rgb_r3d18_frozen/metrics.json": "655fe854e27a1c93602edc04e9ee76d87a60045eeec504829e2f0448f5daf7b8",
+    "fold_2/motion/rgb_r3d18_frozen/model.json": "95b25ded4eee60db4067cbcb23d1a60fce6356f7f6cb80cbca54d728fb1843ee",
+    "fold_3/motion/rgb_r3d18_frozen/metrics.json": "e62dd8236a9cb8a480d57036811cae7006ff5711a0d0c7e4bc7ca97a8d5192d1",
+    "fold_3/motion/rgb_r3d18_frozen/model.json": "d0d2a3274f722f59cc18f486d9a08970e812fe362a310a0a888407142235641e",
+    "fold_4/motion/rgb_r3d18_frozen/metrics.json": "5232a8d78cb89838ddf68deb1011f62990396b1c4afdea489239e670187768f4",
+    "fold_4/motion/rgb_r3d18_frozen/model.json": "c7b443668b683a8efd00ae951a584ed20f0ea325d96b2b5bc4d9a4e59958c87b",
+    "fold_5/motion/rgb_r3d18_frozen/metrics.json": "c6c2b243927202a6e178307baa4a7b3d7bde1e4e56475cdc864b3a61409c560f",
+    "fold_5/motion/rgb_r3d18_frozen/model.json": "c790149ddcd0df8f85f84a36e987740bb4d7d1b390451a59a4b0f94737d965f1",
+    "fold_1/motion/rgb_r3d18_frozen/predictions.csv": "ab2a8977877e024b7f6408ade536a5ba83e936f292404e8a1ee0f11556868893",
+    "fold_2/motion/rgb_r3d18_frozen/predictions.csv": "a45708069a9f4b43b12c19e0c0534bab12f176284d88dd445b83083c57e0de98",
+    "fold_3/motion/rgb_r3d18_frozen/predictions.csv": "ab6f47f2e1d2ae37a154963096b824ca72b77b880029ceefcf7d8f2f7d74d7e0",
+    "fold_4/motion/rgb_r3d18_frozen/predictions.csv": "7ae237d408e873dc64ab135c3b0c1c037710ab924dd6487ebc4295e223b45e66",
+    "fold_5/motion/rgb_r3d18_frozen/predictions.csv": "de63f66b008a0558c78a7d43f5a2be07a21d72dd7c327edbf993f491e36d783e"
+  }
+}

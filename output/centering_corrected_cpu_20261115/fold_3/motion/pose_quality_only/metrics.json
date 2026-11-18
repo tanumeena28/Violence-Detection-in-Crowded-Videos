@@ -1,0 +1,81 @@
+{
+  "variant": "pose_quality_only",
+  "features": 7,
+  "classifier_parameters": 8,
+  "threshold": 0.73,
+  "selected_C": 1.0,
+  "candidates": [
+    {
+      "C": 1.0,
+      "validation_log_loss": 0.5707411881648907
+    }
+  ],
+  "train_clips": 147,
+  "val_clips": 49,
+  "test_clips": 49,
+  "train": {
+    "n": 147,
+    "accuracy": 0.7210884353741497,
+    "macro_f1": 0.7072139907699782,
+    "precision_violent": 0.8809523809523809,
+    "recall_violent": 0.5068493150684932,
+    "roc_auc": 0.8672713809700111,
+    "confusion_matrix": [
+      [
+        69,
+        5
+      ],
+      [
+        36,
+        37
+      ]
+    ]
+  },
+  "validation": {
+    "n": 49,
+    "accuracy": 0.8367346938775511,
+    "macro_f1": 0.8366666666666667,
+    "precision_violent": 0.8695652173913043,
+    "recall_violent": 0.8,
+    "roc_auc": 0.87,
+    "confusion_matrix": [
+      [
+        21,
+        3
+      ],
+      [
+        5,
+        20
+      ]
+    ]
+  },
+  "test": {
+    "n": 49,
+    "accuracy": 0.8367346938775511,
+    "macro_f1": 0.8361204013377926,
+    "precision_violent": 0.9047619047619048,
+    "recall_violent": 0.76,
+    "roc_auc": 0.9116666666666666,
+    "confusion_matrix": [
+      [
+        22,
+        2
+      ],
+      [
+        6,
+        19
+      ]
+    ]
+  },
+  "protocol": "Custom stratified source-grouped outer folds with the preceding fold used for validation and remaining folds for training. Training-only normalization; validation-selected checkpoints and thresholds. Existing videos have been inspected previously: exploratory repeated evaluation, not a fresh untouched test or reproduction of the dataset's supplied five-fold protocol. Filename grouping does not replace full-video source/label review. Linear controls use training-only scaling and fitting; validation log loss selects motion regularization and validation macro-F1 selects thresholds. Each deterministic control is fitted once per fold, not repeated per TCN seed.",
+  "limitations": "Aggregate detection counts and quality can encode scene, crowd density and pose-estimator behavior. This is a confound diagnostic, not a skeleton-motion classifier.",
+  "feature_names": [
+    "usable_pose_fraction",
+    "mean_people",
+    "valid_joint_fraction",
+    "total_tracks",
+    "max_people_detected",
+    "discarded_tracks",
+    "frames_with_people"
+  ]
+}

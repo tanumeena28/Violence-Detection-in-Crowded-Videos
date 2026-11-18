@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "model": "rwf_r3d18_frozen",
+  "train": {
+    "n": 1271,
+    "accuracy": 0.9103068450039339,
+    "macro_f1": 0.9103023474643424,
+    "precision_violent": 0.9198717948717948,
+    "recall_violent": 0.8996865203761756,
+    "roc_auc": 0.9764122677997494,
+    "confusion_matrix": [
+      [
+        583,
+        50
+      ],
+      [
+        64,
+        574
+      ]
+    ]
+  },
+  "validation": {
+    "n": 317,
+    "accuracy": 0.8201892744479495,
+    "macro_f1": 0.8189714766613567,
+    "precision_violent": 0.8863636363636364,
+    "recall_violent": 0.7358490566037735,
+    "roc_auc": 0.9006846588647401,
+    "confusion_matrix": [
+      [
+        143,
+        15
+      ],
+      [
+        42,
+        117
+      ]
+    ]
+  },
+  "test": {
+    "n": 400,
+    "accuracy": 0.84,
+    "macro_f1": 0.8395145314576594,
+    "precision_violent": 0.8820224719101124,
+    "recall_violent": 0.785,
+    "roc_auc": 0.9002750000000002,
+    "confusion_matrix": [
+      [
+        179,
+        21
+      ],
+      [
+        43,
+        157
+      ]
+    ]
+  },
+  "threshold": 0.5,
+  "selected_C": 0.01,
+  "train_clips": 1271,
+  "val_clips": 317,
+  "test_clips": 400,
+  "head_frozen_before_evaluation": true,
+  "encoder_frozen": true,
+  "limitations": "Supervised RWF development experiment with a frozen Kinetics-400 encoder and logistic head. Released training footage supplies both fitting and source-grouped validation. The 400 released evaluation clips have already been inspected/scored in earlier transfer experiments, so this is exploratory development evaluation, not an untouched test claim or direct accuracy improvement over crowd-only transfer. Source IDs and byte hashes do not rule out renamed/shared footage. Independent labels and pretraining/source overlap remain unaudited. Scores are not calibrated."
+}

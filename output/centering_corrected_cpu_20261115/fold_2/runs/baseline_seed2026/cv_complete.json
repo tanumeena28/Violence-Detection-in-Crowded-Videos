@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "48c7541e085e8ae098dd6c61238ab1d987309daca3ab5459683c6dfa52e1fc39",
+  "artifacts": {
+    "model.pt": "ae85bec8254679f9c131bb61b74759445a769fa122ef673a99a9e8481a022ed1",
+    "metrics.json": "452ade70b64ab6d3c14dc85b364a61c04ea690e019dcba0e0172691e8e189731",
+    "predictions.csv": "8c5698df493206fe042114f8738f74c4ad57bb2e0e49a6683a2110eca050e417",
+    "history.json": "5f727f0c32905125d9804628b9c93f37ef905dbd5eb8df3a0a1c8e54886175f1",
+    "environment.json": "5da7b8ffcb9596343c79f56df94eeccee5679f7a53474832d186765cf0b22d77"
+  }
+}

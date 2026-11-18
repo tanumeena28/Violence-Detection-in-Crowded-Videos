@@ -1,0 +1,139 @@
+{
+  "status": "complete",
+  "clips": 400,
+  "primary_fold_1": {
+    "head": 1,
+    "threshold": 0.4,
+    "metrics": {
+      "n": 400,
+      "accuracy": 0.6325,
+      "macro_f1": 0.6191093117408907,
+      "precision_violent": 0.5963636363636363,
+      "recall_violent": 0.82,
+      "roc_auc": 0.712225,
+      "confusion_matrix": [
+        [
+          89,
+          111
+        ],
+        [
+          36,
+          164
+        ]
+      ]
+    }
+  },
+  "supplementary_heads": [
+    {
+      "head": 2,
+      "threshold": 0.21000000000000002,
+      "metrics": {
+        "n": 400,
+        "accuracy": 0.51,
+        "macro_f1": 0.35928867967702915,
+        "precision_violent": 0.5050761421319797,
+        "recall_violent": 0.995,
+        "roc_auc": 0.7164750000000001,
+        "confusion_matrix": [
+          [
+            5,
+            195
+          ],
+          [
+            1,
+            199
+          ]
+        ]
+      }
+    },
+    {
+      "head": 3,
+      "threshold": 0.71,
+      "metrics": {
+        "n": 400,
+        "accuracy": 0.6125,
+        "macro_f1": 0.5838227890585669,
+        "precision_violent": 0.5737704918032787,
+        "recall_violent": 0.875,
+        "roc_auc": 0.6988,
+        "confusion_matrix": [
+          [
+            70,
+            130
+          ],
+          [
+            25,
+            175
+          ]
+        ]
+      }
+    },
+    {
+      "head": 4,
+      "threshold": 0.6799999999999999,
+      "metrics": {
+        "n": 400,
+        "accuracy": 0.68,
+        "macro_f1": 0.6704767789105138,
+        "precision_violent": 0.6343283582089553,
+        "recall_violent": 0.85,
+        "roc_auc": 0.7453,
+        "confusion_matrix": [
+          [
+            102,
+            98
+          ],
+          [
+            30,
+            170
+          ]
+        ]
+      }
+    },
+    {
+      "head": 5,
+      "threshold": 0.51,
+      "metrics": {
+        "n": 400,
+        "accuracy": 0.635,
+        "macro_f1": 0.6189879694146507,
+        "precision_violent": 0.5957446808510638,
+        "recall_violent": 0.84,
+        "roc_auc": 0.7359249999999999,
+        "confusion_matrix": [
+          [
+            86,
+            114
+          ],
+          [
+            32,
+            168
+          ]
+        ]
+      }
+    }
+  ],
+  "predeclared_ensemble": {
+    "threshold": 0.502,
+    "metrics": {
+      "n": 400,
+      "accuracy": 0.6375,
+      "macro_f1": 0.6148508210982064,
+      "precision_violent": 0.5925925925925926,
+      "recall_violent": 0.88,
+      "roc_auc": 0.742575,
+      "confusion_matrix": [
+        [
+          79,
+          121
+        ],
+        [
+          24,
+          176
+        ]
+      ]
+    }
+  },
+  "full_decodes_and_frame_indices_verified": true,
+  "limitations": "Exploratory transfer to previously evaluated RWF footage. No RWF fitting, normalization, threshold optimization or model selection. Primary head is crowd fold 1 by fixed convention, not selected for test performance. Other crowd fold heads and a predeclared equal-weight ensemble are supplementary. The ensemble threshold is the arithmetic mean of the five crowd-validation-selected thresholds. Scores are not calibrated probabilities. No supervised RWF or untouched benchmark claim is made; pretraining/source overlap is unaudited."
+}

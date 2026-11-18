@@ -1,0 +1,59 @@
+{
+  "variant": "interactions",
+  "seed": 42,
+  "parameters": 36385,
+  "device": "cpu",
+  "use_coverage": true,
+  "feature_schema": "coco17-hip-box-center-v1",
+  "epochs_executed": 34,
+  "selected_epoch": 4,
+  "threshold": 0.33,
+  "training_seconds": 6.94148629999836,
+  "train_clips": 147,
+  "val_clips": 49,
+  "test_clips": 49,
+  "validation": {
+    "n": 49,
+    "accuracy": 0.7551020408163265,
+    "macro_f1": 0.755,
+    "precision_violent": 0.76,
+    "recall_violent": 0.76,
+    "roc_auc": 0.8183333333333334,
+    "confusion_matrix": [
+      [
+        18,
+        6
+      ],
+      [
+        6,
+        19
+      ]
+    ]
+  },
+  "test": {
+    "n": 49,
+    "accuracy": 0.6938775510204082,
+    "macro_f1": 0.6743464776251662,
+    "precision_violent": 0.6388888888888888,
+    "recall_violent": 0.92,
+    "roc_auc": 0.8816666666666667,
+    "confusion_matrix": [
+      [
+        11,
+        13
+      ],
+      [
+        2,
+        23
+      ]
+    ]
+  },
+  "majority_baseline_test_accuracy": 0.5102040767669678,
+  "feature_shape": [
+    32,
+    8,
+    76
+  ],
+  "pose_signature": "b2fde119883aa286515b369b57e25ba3de6a4325428e8fb6be186ce3533aee91",
+  "protocol": "Custom stratified source-grouped outer folds with the preceding fold used for validation and remaining folds for training. Training-only normalization; validation-selected checkpoints and thresholds. Existing videos have been inspected previously: exploratory repeated evaluation, not a fresh untouched test or reproduction of the dataset's supplied five-fold protocol. Filename grouping does not replace full-video source/label review."
+}

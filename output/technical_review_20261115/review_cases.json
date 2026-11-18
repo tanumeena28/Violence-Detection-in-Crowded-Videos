@@ -1,0 +1,405 @@
+{
+  "selection": "First ten filenames within each of FP, FN, TN and TP; exploratory diagnosis, not independent label review.",
+  "cases": [
+    {
+      "id": "a825abccc23104e9",
+      "path": "data/RWF-2000/val/NonFight/1AURh0Wj_0.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.7232440710067749,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "59dd313717fb7fbf",
+      "path": "data/RWF-2000/val/NonFight/1MVS2QPWbHc_0.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.9041731357574463,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "b1a8f0e5b540a57b",
+      "path": "data/RWF-2000/val/NonFight/1MVS2QPWbHc_1.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.6318144202232361,
+      "usable_pose_fraction": 0.96875,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "bf16c6ac00b7dbc2",
+      "path": "data/RWF-2000/val/NonFight/1W8hsVvyKt4_0.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.9443197846412659,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "d1bd467ec1880d17",
+      "path": "data/RWF-2000/val/NonFight/1W8hsVvyKt4_1.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.831466555595398,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "afe56bbf91ea0554",
+      "path": "data/RWF-2000/val/NonFight/1W8hsVvyKt4_2.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.8599407076835632,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "44cd81fe92984602",
+      "path": "data/RWF-2000/val/NonFight/1W8hsVvyKt4_3.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.9140621423721313,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "6ff0803e54726049",
+      "path": "data/RWF-2000/val/NonFight/2lrARl7utL4_0.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.9356903433799744,
+      "usable_pose_fraction": 0.34375,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "4f8918fcd9cf0416",
+      "path": "data/RWF-2000/val/NonFight/2lrARl7utL4_1.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.9535129070281982,
+      "usable_pose_fraction": 0.46875,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "4cbaa5a819014f45",
+      "path": "data/RWF-2000/val/NonFight/2lrARl7utL4_2.avi",
+      "outcome": "false_positive",
+      "dataset_label": 0,
+      "prediction": 1,
+      "score": 0.9460803866386414,
+      "usable_pose_fraction": 0.1875,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "5658e6b5b882861a",
+      "path": "data/RWF-2000/val/Fight/1Kbw1bUw_3.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.5003058910369873,
+      "usable_pose_fraction": 0.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "5384e2364ed1c3bf",
+      "path": "data/RWF-2000/val/Fight/1MVS2QPWbHc_1.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.4905346632003784,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "8b94571d14f16adf",
+      "path": "data/RWF-2000/val/Fight/48J5lk4QcpE_0.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.5255354642868042,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "73caf98441548731",
+      "path": "data/RWF-2000/val/Fight/48J5lk4QcpE_2.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.2842409312725067,
+      "usable_pose_fraction": 0.96875,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "76553b2d814a3103",
+      "path": "data/RWF-2000/val/Fight/48J5lk4QcpE_3.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.31168821454048157,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "59018b077c143ebd",
+      "path": "data/RWF-2000/val/Fight/6Rl7q_kXYbg_4.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.5003058910369873,
+      "usable_pose_fraction": 0.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "1a3b7fa2a91710f0",
+      "path": "data/RWF-2000/val/Fight/6Rl7q_kXYbg_5.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.5003058910369873,
+      "usable_pose_fraction": 0.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "6db4fc722a1940b0",
+      "path": "data/RWF-2000/val/Fight/A7FCl8G35Cs_1.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.5091572403907776,
+      "usable_pose_fraction": 0.9375,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "8e44960dacaf5c2f",
+      "path": "data/RWF-2000/val/Fight/I-QiUMPTWNE_3.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.4638390839099884,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "a62e6ccb49fa9b5b",
+      "path": "data/RWF-2000/val/Fight/I-QiUMPTWNE_4.avi",
+      "outcome": "false_negative",
+      "dataset_label": 1,
+      "prediction": 0,
+      "score": 0.4910804033279419,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "5da2e6b6a26f4c11",
+      "path": "data/RWF-2000/val/NonFight/10uSOcwS_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.24449215829372406,
+      "usable_pose_fraction": 0.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "3a4001b7b94a7eae",
+      "path": "data/RWF-2000/val/NonFight/4p2iGvo8_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.18445149064064026,
+      "usable_pose_fraction": 0.59375,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "175b34070b49a83f",
+      "path": "data/RWF-2000/val/NonFight/66U2c3YMjOI_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.29322320222854614,
+      "usable_pose_fraction": 0.21875,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "c258214144c85c6c",
+      "path": "data/RWF-2000/val/NonFight/6doZoiaG9PM_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.5003058910369873,
+      "usable_pose_fraction": 0.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "4a7c09d8ac3416ae",
+      "path": "data/RWF-2000/val/NonFight/8SmT9rE9_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.2800464928150177,
+      "usable_pose_fraction": 0.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "04487f18d5d9ec50",
+      "path": "data/RWF-2000/val/NonFight/8tWVjrUW_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.5119124054908752,
+      "usable_pose_fraction": 0.71875,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "f5cbc6a54c3b7666",
+      "path": "data/RWF-2000/val/NonFight/9JxNZtUK_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.4183041453361511,
+      "usable_pose_fraction": 0.09375,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "5634498d90d67ee5",
+      "path": "data/RWF-2000/val/NonFight/9kly-mpQczg_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.41918057203292847,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "0fc5093051e25f71",
+      "path": "data/RWF-2000/val/NonFight/9kly-mpQczg_1.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.43736347556114197,
+      "usable_pose_fraction": 0.78125,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "80691a8034a6c8f8",
+      "path": "data/RWF-2000/val/NonFight/E9SvEiNt_0.avi",
+      "outcome": "true_negative",
+      "dataset_label": 0,
+      "prediction": 0,
+      "score": 0.3007027506828308,
+      "usable_pose_fraction": 0.9375,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "ac0da033ebab1513",
+      "path": "data/RWF-2000/val/Fight/0Ow4cotKOuw_0.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.9152273535728455,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "fd8f88fa47a485dc",
+      "path": "data/RWF-2000/val/Fight/0Ow4cotKOuw_1.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.7865332365036011,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "a576c5bd9fb13029",
+      "path": "data/RWF-2000/val/Fight/0Ow4cotKOuw_2.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.7302436232566833,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "9f4e43ba83b02168",
+      "path": "data/RWF-2000/val/Fight/0Ow4cotKOuw_3.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.953079879283905,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "e394c9dc3cf025ad",
+      "path": "data/RWF-2000/val/Fight/0Ow4cotKOuw_4.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.9133028388023376,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "d00a40bc38deece4",
+      "path": "data/RWF-2000/val/Fight/1Kbw1bUw_0.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.7703407406806946,
+      "usable_pose_fraction": 0.75,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "11e1ffe5f486cc57",
+      "path": "data/RWF-2000/val/Fight/1Kbw1bUw_1.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.5944806933403015,
+      "usable_pose_fraction": 0.78125,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "036a4c765cb5de12",
+      "path": "data/RWF-2000/val/Fight/1Kbw1bUw_2.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.6127627491950989,
+      "usable_pose_fraction": 0.59375,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "56b90375b622501d",
+      "path": "data/RWF-2000/val/Fight/1MVS2QPWbHc_0.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.5789154171943665,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "974937d437d70e23",
+      "path": "data/RWF-2000/val/Fight/1MVS2QPWbHc_2.avi",
+      "outcome": "true_positive",
+      "dataset_label": 1,
+      "prediction": 1,
+      "score": 0.8748520612716675,
+      "usable_pose_fraction": 1.0,
+      "review_status": "unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "score": 0.8870635032653809,
+    "threshold": 0.43000000000000005,
+    "raw_prediction": 1,
+    "decision": "violent",
+    "abstain": false,
+    "usable_pose_fraction": 1.0,
+    "cpu_model_only_ms": 2.063099993392825,
+    "pose_seconds": 5.214448199985782,
+    "input_shape": [
+      1,
+      32,
+      8,
+      110
+    ],
+    "variant": "combined",
+    "source": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\data\\RWF-2000\\val\\NonFight\\etyiEs3j8x8_1.avi",
+    "label": null,
+    "video": "demos/new_video_66aa5cc52df4ca32.mp4",
+    "snapshot": "demos/new_video_66aa5cc52df4ca32.jpg",
+    "encoded_frames": 150,
+    "selection": "Explicitly selected video passed through the new-video inference path"
+  }
+]

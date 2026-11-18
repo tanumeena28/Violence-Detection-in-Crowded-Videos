@@ -1,0 +1,8 @@
+{
+  "legacy_feature_checks": 980,
+  "all_legacy_features_and_masks_bit_exact": true,
+  "model_variant_checks": 4,
+  "coverage_enabled_architecture_initialization_and_cpu_outputs_bit_exact": true,
+  "reference": "output\\cross_validation_20261107",
+  "device": "cpu"
+}

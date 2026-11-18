@@ -1,0 +1,56 @@
+# RWF layer-4 fine-tuning study
+
+{
+  "eligible_for_evaluation": true,
+  "criteria": {
+    "log_loss_improved": true,
+    "macro_f1_improved": true,
+    "fight_recall_not_reduced": true
+  },
+  "chosen_epoch": 2,
+  "candidate_validation": {
+    "epoch": 2,
+    "training_loss": 0.11929473167420916,
+    "validation_log_loss": 0.33700312878874644,
+    "threshold": 0.23,
+    "validation": {
+      "n": 317,
+      "accuracy": 0.8643533123028391,
+      "macro_f1": 0.8639145410073379,
+      "precision_violent": 0.8295454545454546,
+      "recall_violent": 0.9182389937106918,
+      "roc_auc": 0.9394156516200939,
+      "confusion_matrix": [
+        [
+          128,
+          30
+        ],
+        [
+          13,
+          146
+        ]
+      ]
+    },
+    "elapsed_seconds": 101.3988318000047
+  },
+  "baseline_validation": {
+    "n": 317,
+    "accuracy": 0.8201892744479495,
+    "macro_f1": 0.8189714766613567,
+    "precision_violent": 0.8863636363636364,
+    "recall_violent": 0.7358490566037735,
+    "roc_auc": 0.9006846588647401,
+    "confusion_matrix": [
+      [
+        143,
+        15
+      ],
+      [
+        42,
+        117
+      ]
+    ]
+  }
+}
+
+Exploratory supervised development. Supplied labels remain unchanged. Original RWF evaluation footage was previously inspected. No independent human review or pretraining/near-duplicate audit is implied.

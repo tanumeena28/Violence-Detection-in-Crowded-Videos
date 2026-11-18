@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "epochs": 8,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "peak_allocated_gpu_bytes": 621134848,
+  "wall_seconds": 327.318671200017,
+  "trainable_parameters": 24904193,
+  "batch_norm_statistics": "Frozen throughout training",
+  "selection_inputs": "Validation only"
+}

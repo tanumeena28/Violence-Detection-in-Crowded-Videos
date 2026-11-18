@@ -1,0 +1,47 @@
+{
+  "eligible_for_evaluation": false,
+  "criteria": {
+    "log_loss_improved": false,
+    "macro_f1_improved": false,
+    "fight_recall_not_reduced": true
+  },
+  "baseline_validation_log_loss": 0.39298102478645885,
+  "candidate_validation_log_loss": 0.3954266338969171,
+  "baseline_validation": {
+    "n": 317,
+    "accuracy": 0.8201892744479495,
+    "macro_f1": 0.8189714766613567,
+    "precision_violent": 0.8863636363636364,
+    "recall_violent": 0.7358490566037735,
+    "roc_auc": 0.9006846588647401,
+    "confusion_matrix": [
+      [
+        143,
+        15
+      ],
+      [
+        42,
+        117
+      ]
+    ]
+  },
+  "candidate_validation": {
+    "n": 317,
+    "accuracy": 0.8170347003154574,
+    "macro_f1": 0.8162282104589798,
+    "precision_violent": 0.8686131386861314,
+    "recall_violent": 0.7484276729559748,
+    "roc_auc": 0.9004060186290901,
+    "confusion_matrix": [
+      [
+        140,
+        18
+      ],
+      [
+        40,
+        119
+      ]
+    ]
+  },
+  "decision_inputs": "Validation only; no evaluation metrics accepted"
+}

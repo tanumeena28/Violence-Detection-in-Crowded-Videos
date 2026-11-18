@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "development_caches_verified": 1588,
+  "evaluation_caches_verified": 0,
+  "train_only_scaling_verified": true,
+  "source_groups_disjoint": true,
+  "sampling_and_pooling_reproduced": true,
+  "promotion_and_selection_reproduced": true,
+  "scores_and_metrics_reproduced": true,
+  "head_seal_unchanged": true
+}

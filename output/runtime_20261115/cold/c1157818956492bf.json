@@ -1,0 +1,18 @@
+{
+  "id": "c1157818956492bf",
+  "path": "data/movies/2/NonViolence/football_crowds__Massena_Central_High_School_Hall_Of_Fame_Football_Game_2009__joh.avi",
+  "label": 0,
+  "decoded_frames": 75,
+  "header_frames": 75,
+  "duration_seconds": 3.0,
+  "decode_seconds": 0.035488199995597824,
+  "pose_tracking_seconds": 2.8309675000200514,
+  "features_transfer_seconds": 0.005784699984360486,
+  "classifier_seconds": 0.05239870000514202,
+  "pipeline_seconds": 2.9246391000051517,
+  "score": 0.01311920303851366,
+  "threshold": 0.62,
+  "prediction": 0,
+  "model_initialization_seconds": 0.7845780000207014,
+  "child_seconds_including_imports": 7.673522500001127
+}

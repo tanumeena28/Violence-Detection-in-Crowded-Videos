@@ -1,0 +1,12 @@
+{
+  "status": "selected_before_evaluation",
+  "protocol_sha256": "bbcd2c11cfae23cfaedb1d5878c06131dc32569bddfc24944c04fddb303bb362",
+  "artifacts_sha256": {
+    "model.json": "f30dc5c0ae04468a1d1873cec178628327e03cf5f9d24ad3058cc29039d597a3",
+    "selection.json": "88c195ddb497b4b03045938517fd5e30722f5c49053eed259d389ffe964912b0",
+    "promotion.json": "3b5ef5792c6a0d0ff3ff40c915f5ba62ac1c8caf97d7245d0b40ff93ef45d09f",
+    "development_predictions.csv": "52e09472789a23f6a5c3c0e0e09a0b32450b2095fba1ad13e59e5f215d2c3e67",
+    "development_feature_audit.json": "6d7aad751b0f990034fc8b1c16fc7b5c7d1048644b5690791dc26fe5087cb790"
+  },
+  "boundary": "Seal development caches, fitted head and promotion decision before loading evaluation global arrays or extracting evaluation local features"
+}

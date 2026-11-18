@@ -1,0 +1,14 @@
+{
+  "status": "development_complete",
+  "artifacts_sha256": {
+    "protocol.json": "6e639289b117ac4dd0d37e37d5ee0a080c15f9242235364e101adc70b588d3ee",
+    "manifest.csv": "26fea00ac69521482c0b5938146e4f8bf9a6f4449b29b0f5ba19d2c4c2981d68",
+    "model.pt": "04692366a21cd5469573733281d3124289e1584df6fdd7c175dd42aa558cab4f",
+    "training_history.json": "2cc3b7271243ba4cdef69dd2454402fec1d96eeb711432247d6b21aeecb5fbcf",
+    "promotion.json": "fee722fa4094678818727055dfd822995c51ea6469b8df28443ef7d340530604",
+    "validation_predictions.csv": "31d20216d80597f99294a608d5568ad48923db63ae49e3b40d846d7d6daca613",
+    "input_audit.json": "0f18eac707f5c6b3269931e7a2a5b07631cff787ac70d56ab6f1af4f7d50934f",
+    "training_audit.json": "ec3d50e7a76402e78150a21e41e4599b1f38a6eaba9d70e34804b45650c73144",
+    "head_frozen.json": "2c9ba2ab3bc8237cc37f615d1ace085233125d73679667b95d1343828610d06b"
+  }
+}

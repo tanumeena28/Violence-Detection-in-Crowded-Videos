@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "source_sha256": "66aa5cc52df4ca32e85ac734d304eac0bb6c9965628106e369410ca707f1c60a",
+      "source": "C:\\Users\\Vishal Gautam\\Desktop\\Affective Lab\\AffectiveProject\\data\\RWF-2000\\val\\NonFight\\etyiEs3j8x8_1.avi",
+      "video": "demos/new_video_66aa5cc52df4ca32.mp4",
+      "decoded_frames": 150,
+      "score_reproduced": true,
+      "maximum_score_drift": 0.0,
+      "decision": "violent",
+      "pose_signature": "b2fde119883aa286515b369b57e25ba3de6a4325428e8fb6be186ce3533aee91"
+    }
+  ],
+  "claim_boundary": "Raw-video source/cache provenance, saved-model prediction reproduction and complete annotated-video decode. Not label verification or accuracy evaluation."
+}

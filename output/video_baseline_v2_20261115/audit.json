@@ -1,0 +1,61 @@
+{
+  "status": "pass",
+  "feature_caches_verified": 245,
+  "heads_verified": [
+    {
+      "fold": 1,
+      "normalization_verified": true,
+      "scores_and_decisions_reproduced": true,
+      "validation_choices_verified": true,
+      "artifacts_sha256": {
+        "metrics.json": "e2fc06094c1bd14f88d63c61bd3cff6dc077d477d019c92c35a9fd2f997faa32",
+        "model.json": "163ea965f5ba4ee1a2e5b8e35d3473609bc7f1a36d93673a1cc111f794469835",
+        "predictions.csv": "ab2a8977877e024b7f6408ade536a5ba83e936f292404e8a1ee0f11556868893"
+      }
+    },
+    {
+      "fold": 2,
+      "normalization_verified": true,
+      "scores_and_decisions_reproduced": true,
+      "validation_choices_verified": true,
+      "artifacts_sha256": {
+        "metrics.json": "655fe854e27a1c93602edc04e9ee76d87a60045eeec504829e2f0448f5daf7b8",
+        "model.json": "95b25ded4eee60db4067cbcb23d1a60fce6356f7f6cb80cbca54d728fb1843ee",
+        "predictions.csv": "a45708069a9f4b43b12c19e0c0534bab12f176284d88dd445b83083c57e0de98"
+      }
+    },
+    {
+      "fold": 3,
+      "normalization_verified": true,
+      "scores_and_decisions_reproduced": true,
+      "validation_choices_verified": true,
+      "artifacts_sha256": {
+        "metrics.json": "e62dd8236a9cb8a480d57036811cae7006ff5711a0d0c7e4bc7ca97a8d5192d1",
+        "model.json": "d0d2a3274f722f59cc18f486d9a08970e812fe362a310a0a888407142235641e",
+        "predictions.csv": "ab6f47f2e1d2ae37a154963096b824ca72b77b880029ceefcf7d8f2f7d74d7e0"
+      }
+    },
+    {
+      "fold": 4,
+      "normalization_verified": true,
+      "scores_and_decisions_reproduced": true,
+      "validation_choices_verified": true,
+      "artifacts_sha256": {
+        "metrics.json": "5232a8d78cb89838ddf68deb1011f62990396b1c4afdea489239e670187768f4",
+        "model.json": "c7b443668b683a8efd00ae951a584ed20f0ea325d96b2b5bc4d9a4e59958c87b",
+        "predictions.csv": "7ae237d408e873dc64ab135c3b0c1c037710ab924dd6487ebc4295e223b45e66"
+      }
+    },
+    {
+      "fold": 5,
+      "normalization_verified": true,
+      "scores_and_decisions_reproduced": true,
+      "validation_choices_verified": true,
+      "artifacts_sha256": {
+        "metrics.json": "c6c2b243927202a6e178307baa4a7b3d7bde1e4e56475cdc864b3a61409c560f",
+        "model.json": "c790149ddcd0df8f85f84a36e987740bb4d7d1b390451a59a4b0f94737d965f1",
+        "predictions.csv": "de63f66b008a0558c78a7d43f5a2be07a21d72dd7c327edbf993f491e36d783e"
+      }
+    }
+  ]
+}

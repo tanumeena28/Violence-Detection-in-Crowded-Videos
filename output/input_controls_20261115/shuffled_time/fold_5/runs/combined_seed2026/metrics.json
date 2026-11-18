@@ -1,0 +1,60 @@
+{
+  "variant": "combined",
+  "seed": 2026,
+  "parameters": 38017,
+  "device": "cuda",
+  "use_coverage": true,
+  "feature_schema": "coco17-continuous-hip-offset-v2",
+  "input_control": "shuffled_time",
+  "epochs_executed": 37,
+  "selected_epoch": 7,
+  "threshold": 0.5,
+  "training_seconds": 3.286762200004887,
+  "train_clips": 147,
+  "val_clips": 49,
+  "test_clips": 49,
+  "validation": {
+    "n": 49,
+    "accuracy": 0.9183673469387755,
+    "macro_f1": 0.9183333333333333,
+    "precision_violent": 0.9166666666666666,
+    "recall_violent": 0.9166666666666666,
+    "roc_auc": 0.9516666666666667,
+    "confusion_matrix": [
+      [
+        23,
+        2
+      ],
+      [
+        2,
+        22
+      ]
+    ]
+  },
+  "test": {
+    "n": 49,
+    "accuracy": 0.6938775510204082,
+    "macro_f1": 0.6938775510204082,
+    "precision_violent": 0.68,
+    "recall_violent": 0.7083333333333334,
+    "roc_auc": 0.8166666666666667,
+    "confusion_matrix": [
+      [
+        17,
+        8
+      ],
+      [
+        7,
+        17
+      ]
+    ]
+  },
+  "majority_baseline_test_accuracy": 0.5102040767669678,
+  "feature_shape": [
+    32,
+    8,
+    110
+  ],
+  "pose_signature": "b2fde119883aa286515b369b57e25ba3de6a4325428e8fb6be186ce3533aee91",
+  "protocol": "Exploratory comparisons on inspected crowd footage. Same 110-channel combined TCN dimensions, source-grouped folds, seeds, training budget, GPU and validation-only selection. Detection-only removes coordinates, body velocities and six interaction kinematic channels; confidence, joint validity, observation masks, neighbor counts and explicit coverage remain. Time-shuffling permutes already-derived feature/mask slices consistently per clip: velocity vectors remain available. It tests ordering, not removal of all motion. Fold/seed SD and paired changes are descriptive, not significance tests. No independent label review or RWF claim is made."
+}

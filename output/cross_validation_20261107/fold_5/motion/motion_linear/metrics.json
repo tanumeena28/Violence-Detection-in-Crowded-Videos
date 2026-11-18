@@ -1,0 +1,84 @@
+{
+  "variant": "motion_linear",
+  "features": 80,
+  "classifier_parameters": 81,
+  "threshold": 0.51,
+  "selected_C": 0.01,
+  "candidates": [
+    {
+      "C": 0.01,
+      "validation_log_loss": 0.6158349055016312
+    },
+    {
+      "C": 0.1,
+      "validation_log_loss": 0.6967532575346383
+    },
+    {
+      "C": 1.0,
+      "validation_log_loss": 1.072112944577122
+    },
+    {
+      "C": 10.0,
+      "validation_log_loss": 2.13169988310439
+    }
+  ],
+  "train_clips": 147,
+  "val_clips": 49,
+  "test_clips": 49,
+  "train": {
+    "n": 147,
+    "accuracy": 0.8231292517006803,
+    "macro_f1": 0.8217350746268657,
+    "precision_violent": 0.788235294117647,
+    "recall_violent": 0.8933333333333333,
+    "roc_auc": 0.8807407407407407,
+    "confusion_matrix": [
+      [
+        54,
+        18
+      ],
+      [
+        8,
+        67
+      ]
+    ]
+  },
+  "validation": {
+    "n": 49,
+    "accuracy": 0.6938775510204082,
+    "macro_f1": 0.6892177589852009,
+    "precision_violent": 0.6451612903225806,
+    "recall_violent": 0.8333333333333334,
+    "roc_auc": 0.72,
+    "confusion_matrix": [
+      [
+        14,
+        11
+      ],
+      [
+        4,
+        20
+      ]
+    ]
+  },
+  "test": {
+    "n": 49,
+    "accuracy": 0.7551020408163265,
+    "macro_f1": 0.75,
+    "precision_violent": 0.6875,
+    "recall_violent": 0.9166666666666666,
+    "roc_auc": 0.825,
+    "confusion_matrix": [
+      [
+        15,
+        10
+      ],
+      [
+        2,
+        22
+      ]
+    ]
+  },
+  "protocol": "Custom stratified source-grouped outer folds with the preceding fold used for validation and remaining folds for training. Training-only normalization; validation-selected checkpoints and thresholds. Existing videos have been inspected previously: exploratory repeated evaluation, not a fresh untouched test or reproduction of the dataset's supplied five-fold protocol. Filename grouping does not replace full-video source/label review. Linear controls use training-only scaling and fitting; validation log loss selects motion regularization and validation macro-F1 selects thresholds. Each deterministic control is fitted once per fold, not repeated per TCN seed.",
+  "limitations": "Handcrafted linear control, not a reproduced published RGB or optical-flow deep model. Camera motion and edits can influence motion features; median subtraction is not validated camera stabilization."
+}

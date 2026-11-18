@@ -1,0 +1,11 @@
+{
+  "status": "selected_before_evaluation",
+  "protocol_sha256": "071a69b1fc58b297eb34d70be593eb9e9dfcbf8a27e6f95c8ad87fd97015078e",
+  "artifacts_sha256": {
+    "model.json": "50283bc44a38c60451e4dc54a392960e84f61c8887aef3c425ad133279e1b642",
+    "selection.json": "b7f9036fc3a11252e79daafb82d3541f1ff33d1b342e2b4e130dbaabe0fee2eb",
+    "development_predictions.csv": "f698ea8744286be356681268c1e2397c30c19bf20688f6ecce4fbabb043e1161",
+    "development_feature_audit.json": "e34e9a36494984c9a39fd3222f9c9eef52bfdfb423ead31f0711b91073950570"
+  },
+  "boundary": "Freeze fitted head and all development artifacts before reading evaluation feature arrays or scoring test clips"
+}

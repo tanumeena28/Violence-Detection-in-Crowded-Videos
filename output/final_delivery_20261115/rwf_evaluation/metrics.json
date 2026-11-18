@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-15",
+  "models": {
+    "rwf_frozen_video": {
+      "threshold": 0.5,
+      "all_clips": {
+        "n": 400,
+        "accuracy": 0.84,
+        "macro_f1": 0.8395145314576594,
+        "precision_violent": 0.8820224719101124,
+        "recall_violent": 0.785,
+        "roc_auc": 0.9002750000000002,
+        "confusion_matrix": [
+          [
+            179,
+            21
+          ],
+          [
+            43,
+            157
+          ]
+        ]
+      }
+    },
+    "rwf_finetuned_video": {
+      "threshold": 0.23,
+      "all_clips": {
+        "n": 400,
+        "accuracy": 0.8375,
+        "macro_f1": 0.8372711625723674,
+        "precision_violent": 0.813953488372093,
+        "recall_violent": 0.875,
+        "roc_auc": 0.9290375,
+        "confusion_matrix": [
+          [
+            160,
+            40
+          ],
+          [
+            25,
+            175
+          ]
+        ]
+      }
+    }
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "all_clips": 400,
+  "labels": "Unchanged supplied dataset labels, independently unreviewed",
+  "scoring_record_seconds": 321.54660170021816,
+  "runtime_boundary": "Shared full decode and all declared GPU models per clip; initialization/reporting excluded. Offline, not streaming."
+}

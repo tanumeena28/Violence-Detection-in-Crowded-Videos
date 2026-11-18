@@ -1,0 +1,68 @@
+{
+  "candidates": [
+    {
+      "C": 0.001,
+      "validation_log_loss": 0.3954266338969171,
+      "iterations": 20
+    },
+    {
+      "C": 0.01,
+      "validation_log_loss": 0.41472934290615454,
+      "iterations": 39
+    },
+    {
+      "C": 0.1,
+      "validation_log_loss": 0.5751250811679421,
+      "iterations": 52
+    },
+    {
+      "C": 1.0,
+      "validation_log_loss": 0.9060954116338586,
+      "iterations": 60
+    },
+    {
+      "C": 10.0,
+      "validation_log_loss": 1.5168514378176976,
+      "iterations": 45
+    }
+  ],
+  "selected_C": 0.001,
+  "threshold": 0.53,
+  "train": {
+    "n": 1271,
+    "accuracy": 0.8906372934697089,
+    "macro_f1": 0.8905177430179645,
+    "precision_violent": 0.922165820642978,
+    "recall_violent": 0.85423197492163,
+    "roc_auc": 0.9650715357530196,
+    "confusion_matrix": [
+      [
+        587,
+        46
+      ],
+      [
+        93,
+        545
+      ]
+    ]
+  },
+  "validation": {
+    "n": 317,
+    "accuracy": 0.8170347003154574,
+    "macro_f1": 0.8162282104589798,
+    "precision_violent": 0.8686131386861314,
+    "recall_violent": 0.7484276729559748,
+    "roc_auc": 0.9004060186290901,
+    "confusion_matrix": [
+      [
+        140,
+        18
+      ],
+      [
+        40,
+        119
+      ]
+    ]
+  },
+  "selection_boundary": "Scaling and logistic coefficients fitted on train only; C selected by validation log loss, threshold by validation macro-F1. No test inputs accepted."
+}

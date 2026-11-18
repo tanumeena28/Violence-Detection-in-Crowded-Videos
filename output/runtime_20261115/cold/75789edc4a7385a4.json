@@ -1,0 +1,18 @@
+{
+  "id": "75789edc4a7385a4",
+  "path": "data/movies/3/Violence/football_violence__A_Town_Called_Football_by_Nil_Satis__louderthanyourface__Ptvoh4L_FxY.avi",
+  "label": 1,
+  "decoded_frames": 121,
+  "header_frames": 121,
+  "duration_seconds": 4.84,
+  "decode_seconds": 0.042032299999846146,
+  "pose_tracking_seconds": 2.8052333000232466,
+  "features_transfer_seconds": 0.00375879998318851,
+  "classifier_seconds": 0.05269450001651421,
+  "pipeline_seconds": 2.9037189000227954,
+  "score": 0.6489294171333313,
+  "threshold": 0.62,
+  "prediction": 1,
+  "model_initialization_seconds": 0.7909294000128284,
+  "child_seconds_including_imports": 7.450031399988802
+}

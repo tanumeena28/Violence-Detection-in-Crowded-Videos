@@ -1,0 +1,18 @@
+{
+  "id": "c97b7d53fe71c224",
+  "path": "data/movies/1/Violence/football_violence__Football_Hooligans_Hull_Pub_Brawl_News_Report__lancashirelads__--3xfJHXlOc.avi",
+  "label": 1,
+  "decoded_frames": 161,
+  "header_frames": 161,
+  "duration_seconds": 6.44,
+  "decode_seconds": 0.04830509997555055,
+  "pose_tracking_seconds": 2.7549502000038046,
+  "features_transfer_seconds": 0.0032746000215411186,
+  "classifier_seconds": 0.05013739998685196,
+  "pipeline_seconds": 2.8566672999877483,
+  "score": 0.9990414977073669,
+  "threshold": 0.62,
+  "prediction": 1,
+  "model_initialization_seconds": 0.7864204999932554,
+  "child_seconds_including_imports": 7.433502500003669
+}

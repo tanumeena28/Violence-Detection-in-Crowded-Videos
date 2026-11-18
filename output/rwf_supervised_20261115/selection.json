@@ -1,0 +1,68 @@
+{
+  "candidates": [
+    {
+      "C": 0.001,
+      "validation_log_loss": 0.42210168215435945,
+      "iterations": 14
+    },
+    {
+      "C": 0.01,
+      "validation_log_loss": 0.39298102478645885,
+      "iterations": 22
+    },
+    {
+      "C": 0.1,
+      "validation_log_loss": 0.550888490957327,
+      "iterations": 40
+    },
+    {
+      "C": 1.0,
+      "validation_log_loss": 1.1389445587289744,
+      "iterations": 66
+    },
+    {
+      "C": 10.0,
+      "validation_log_loss": 1.957156688560427,
+      "iterations": 74
+    }
+  ],
+  "selected_C": 0.01,
+  "threshold": 0.5,
+  "train": {
+    "n": 1271,
+    "accuracy": 0.9103068450039339,
+    "macro_f1": 0.9103023474643424,
+    "precision_violent": 0.9198717948717948,
+    "recall_violent": 0.8996865203761756,
+    "roc_auc": 0.9764122677997494,
+    "confusion_matrix": [
+      [
+        583,
+        50
+      ],
+      [
+        64,
+        574
+      ]
+    ]
+  },
+  "validation": {
+    "n": 317,
+    "accuracy": 0.8201892744479495,
+    "macro_f1": 0.8189714766613567,
+    "precision_violent": 0.8863636363636364,
+    "recall_violent": 0.7358490566037735,
+    "roc_auc": 0.9006846588647401,
+    "confusion_matrix": [
+      [
+        143,
+        15
+      ],
+      [
+        42,
+        117
+      ]
+    ]
+  },
+  "selection_boundary": "Scaling and logistic coefficients fitted on train only; C selected by validation log loss, threshold by validation macro-F1. No test inputs accepted."
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "score": 0.8566746711730957,
+    "threshold": 0.43000000000000005,
+    "raw_prediction": 1,
+    "decision": "insufficient pose evidence",
+    "abstain": true,
+    "usable_pose_fraction": 0.09375,
+    "cpu_model_only_ms": 2.008500014198944,
+    "pose_seconds": 5.458323400001973,
+    "input_shape": [
+      1,
+      32,
+      8,
+      110
+    ],
+    "variant": "combined",
+    "source": "data/movies/5/NonViolence/football_crowds__2008_Penn_State_Football_Crowd_Pump_Up_Video__rmcmillen50__rQB1R.avi",
+    "label": 0,
+    "video": "demos/nonviolent_55c7c028b9123d06.mp4",
+    "snapshot": "demos/nonviolent_55c7c028b9123d06.jpg",
+    "encoded_frames": 81,
+    "selection": "First filename in each held-out class; no filtering by correctness."
+  },
+  {
+    "score": 0.5036895275115967,
+    "threshold": 0.43000000000000005,
+    "raw_prediction": 1,
+    "decision": "insufficient pose evidence",
+    "abstain": true,
+    "usable_pose_fraction": 0.0,
+    "cpu_model_only_ms": 1.6734000237192959,
+    "pose_seconds": 0.22211929998593405,
+    "input_shape": [
+      1,
+      32,
+      8,
+      110
+    ],
+    "variant": "combined",
+    "source": "data/movies/5/NonViolence/football_crowds__Brazilian_Football__WELLBRAN__kKRw-i7pukY.avi",
+    "label": 0,
+    "video": "demos/nonviolent_f895027aa901e894.mp4",
+    "snapshot": "demos/nonviolent_f895027aa901e894.jpg",
+    "encoded_frames": 56,
+    "selection": "First filename in each held-out class; no filtering by correctness."
+  },
+  {
+    "score": 0.06951089948415756,
+    "threshold": 0.43000000000000005,
+    "raw_prediction": 0,
+    "decision": "nonviolent",
+    "abstain": false,
+    "usable_pose_fraction": 0.59375,
+    "cpu_model_only_ms": 2.805099997203797,
+    "pose_seconds": 0.28607370000099763,
+    "input_shape": [
+      1,
+      32,
+      8,
+      110
+    ],
+    "variant": "combined",
+    "source": "data/movies/5/NonViolence/football_crowds__Brisbane_Lions_vs_Melbourne_Demons_The_Gabba__StudyinBrisbane__Y.avi",
+    "label": 0,
+    "video": "demos/nonviolent_907f54265076af88.mp4",
+    "snapshot": "demos/nonviolent_907f54265076af88.jpg",
+    "encoded_frames": 47,
+    "selection": "First filename in each held-out class; no filtering by correctness."
+  },
+  {
+    "score": 0.9623353481292725,
+    "threshold": 0.43000000000000005,
+    "raw_prediction": 1,
+    "decision": "violent",
+    "abstain": false,
+    "usable_pose_fraction": 0.9375,
+    "cpu_model_only_ms": 2.364299987675622,
+    "pose_seconds": 0.38220280001405627,
+    "input_shape": [
+      1,
+      32,
+      8,
+      110
+    ],
+    "variant": "combined",
+    "source": "data/movies/5/Violence/Hooligans_violence__English_Hooligans__JohnLaw__Wob3r1Leamw.avi",
+    "label": 1,
+    "video": "demos/violent_dc1b654139c8c90f.mp4",
+    "snapshot": "demos/violent_dc1b654139c8c90f.jpg",
+    "encoded_frames": 116,
+    "selection": "First filename in each held-out class; no filtering by correctness."
+  },
+  {
+    "score": 0.12144921720027924,
+    "threshold": 0.43000000000000005,
+    "raw_prediction": 0,
+    "decision": "nonviolent",
+    "abstain": false,
+    "usable_pose_fraction": 0.96875,
+    "cpu_model_only_ms": 1.930700003867969,
+    "pose_seconds": 0.29094379997695796,
+    "input_shape": [
+      1,
+      32,
+      8,
+      110
+    ],
+    "variant": "combined",
+    "source": "data/movies/5/Violence/Hooligans_violence__Football_Hooligans_Germany_v_Poland_Euro_2008__MorningGlory1997__gtaGluIXEaU.avi",
+    "label": 1,
+    "video": "demos/violent_59a24584d1abb3ee.mp4",
+    "snapshot": "demos/violent_59a24584d1abb3ee.jpg",
+    "encoded_frames": 100,
+    "selection": "First filename in each held-out class; no filtering by correctness."
+  },
+  {
+    "score": 0.8346584439277649,
+    "threshold": 0.43000000000000005,
+    "raw_prediction": 1,
+    "decision": "violent",
+    "abstain": false,
+    "usable_pose_fraction": 0.84375,
+    "cpu_model_only_ms": 1.7097000090871006,
+    "pose_seconds": 0.28197690000524744,
+    "input_shape": [
+      1,
+      32,
+      8,
+      110
+    ],
+    "variant": "combined",
+    "source": "data/movies/5/Violence/Hooligans_violence__Footballs_Blood_Sport_prt2__Tramppercy__P9a6qZ3r90k.avi",
+    "label": 1,
+    "video": "demos/violent_6d6c5effa0e1fe8f.mp4",
+    "snapshot": "demos/violent_6d6c5effa0e1fe8f.jpg",
+    "encoded_frames": 114,
+    "selection": "First filename in each held-out class; no filtering by correctness."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "d3bfd20e90ab372a",
+  "path": "data/movies/3/NonViolence/football_crowds__Inside_the_Iowa_Spirit_Squads__uimediaproduction__V365Mro2t88.avi",
+  "label": 0,
+  "decoded_frames": 26,
+  "header_frames": 26,
+  "duration_seconds": 1.04,
+  "decode_seconds": 0.027748100023018196,
+  "pose_tracking_seconds": 2.7935046999773476,
+  "features_transfer_seconds": 0.005500900006154552,
+  "classifier_seconds": 0.04544950000126846,
+  "pipeline_seconds": 2.872203200007789,
+  "score": 0.0068923006765544415,
+  "threshold": 0.62,
+  "prediction": 0,
+  "model_initialization_seconds": 0.771408300002804,
+  "child_seconds_including_imports": 7.492479499982437
+}

@@ -1,0 +1,201 @@
+{
+  "status": "pass",
+  "manifest_sha256": "2cad94b006e99c1aca3c9a539709c5733af25a9d8102c2712311abb2f470a1b3",
+  "source_videos_verified": 245,
+  "pose_caches_verified": 245,
+  "runs": [
+    {
+      "variant": "baseline",
+      "seed": 42,
+      "saved_predictions_reproduced_on_cpu": true,
+      "maximum_cpu_score_drift": 3.889203071594238e-05,
+      "maximum_cuda_score_drift": 0.0,
+      "cpu_threshold_decisions_identical": true,
+      "accuracy": 0.6595744680851063,
+      "accuracy_95_percent_bootstrap_ci": [
+        0.5319148936170213,
+        0.7872340425531915
+      ],
+      "pose_quality_strata": {
+        "below_25_percent": {
+          "n": 9,
+          "accuracy": 0.5555555555555556
+        },
+        "at_least_25_percent": {
+          "n": 38,
+          "accuracy": 0.6842105263157895
+        }
+      },
+      "checkpoint_sha256": "c4f55a9cf33f38fc993a4f2a519040c615e389827b8f63708376b77cee0a956f"
+    },
+    {
+      "variant": "reliability",
+      "seed": 42,
+      "saved_predictions_reproduced_on_cpu": true,
+      "maximum_cpu_score_drift": 2.2113323211669922e-05,
+      "maximum_cuda_score_drift": 0.0,
+      "cpu_threshold_decisions_identical": true,
+      "accuracy": 0.6382978723404256,
+      "accuracy_95_percent_bootstrap_ci": [
+        0.48936170212765956,
+        0.7659574468085106
+      ],
+      "pose_quality_strata": {
+        "below_25_percent": {
+          "n": 9,
+          "accuracy": 0.4444444444444444
+        },
+        "at_least_25_percent": {
+          "n": 38,
+          "accuracy": 0.6842105263157895
+        }
+      },
+      "checkpoint_sha256": "5e62744b7d109aefa0c3c7e1276467a079a406a9198da0dfbf2a78942979e79a"
+    },
+    {
+      "variant": "interactions",
+      "seed": 42,
+      "saved_predictions_reproduced_on_cpu": true,
+      "maximum_cpu_score_drift": 0.0001939535140991211,
+      "maximum_cuda_score_drift": 0.0,
+      "cpu_threshold_decisions_identical": true,
+      "accuracy": 0.7021276595744681,
+      "accuracy_95_percent_bootstrap_ci": [
+        0.574468085106383,
+        0.8297872340425532
+      ],
+      "pose_quality_strata": {
+        "below_25_percent": {
+          "n": 9,
+          "accuracy": 0.6666666666666666
+        },
+        "at_least_25_percent": {
+          "n": 38,
+          "accuracy": 0.7105263157894737
+        }
+      },
+      "checkpoint_sha256": "e39f67c72ba4acea27e6b5ae3025a47cbb691a03d2deb45faffa26cbbebe764e"
+    },
+    {
+      "variant": "combined",
+      "seed": 42,
+      "saved_predictions_reproduced_on_cpu": true,
+      "maximum_cpu_score_drift": 1.8835067749023438e-05,
+      "maximum_cuda_score_drift": 0.0,
+      "cpu_threshold_decisions_identical": true,
+      "accuracy": 0.6808510638297872,
+      "accuracy_95_percent_bootstrap_ci": [
+        0.5531914893617021,
+        0.8085106382978723
+      ],
+      "pose_quality_strata": {
+        "below_25_percent": {
+          "n": 9,
+          "accuracy": 0.5555555555555556
+        },
+        "at_least_25_percent": {
+          "n": 38,
+          "accuracy": 0.7105263157894737
+        }
+      },
+      "checkpoint_sha256": "0a4e9ce788325c311021418be5d7f770eea7ba2630d43c9a4b3f0a77610662a4"
+    }
+  ],
+  "demos": [
+    {
+      "video": "demos/nonviolent_55c7c028b9123d06.mp4",
+      "decoded_frames": 81,
+      "snapshot_readable": true
+    },
+    {
+      "video": "demos/nonviolent_f895027aa901e894.mp4",
+      "decoded_frames": 56,
+      "snapshot_readable": true
+    },
+    {
+      "video": "demos/nonviolent_907f54265076af88.mp4",
+      "decoded_frames": 47,
+      "snapshot_readable": true
+    },
+    {
+      "video": "demos/violent_dc1b654139c8c90f.mp4",
+      "decoded_frames": 116,
+      "snapshot_readable": true
+    },
+    {
+      "video": "demos/violent_59a24584d1abb3ee.mp4",
+      "decoded_frames": 100,
+      "snapshot_readable": true
+    },
+    {
+      "video": "demos/violent_6d6c5effa0e1fe8f.mp4",
+      "decoded_frames": 114,
+      "snapshot_readable": true
+    }
+  ],
+  "mean_usable_pose_coverage": 0.7396683673469387,
+  "clips_below_25_percent_pose_coverage": 32,
+  "decode_header_mismatches": [
+    "data/movies/5/NonViolence/football_crowds_cheering__Goldfellas_GT_vs_Maryland_1999_Crowd_Shot__tonyanddanielleoliva__xiCWDdaUSbg.avi"
+  ],
+  "clips_with_discarded_tracks": 201,
+  "source_independence_status": "review_required",
+  "source_id_overlap_candidates": [
+    {
+      "first_id": "96710966507869d7",
+      "second_id": "f747c93e3407f19c",
+      "first_path": "data/movies/2/Violence/fans_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwrOc8xmlpY.avi",
+      "second_path": "data/movies/4/Violence/soccer_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwr.avi",
+      "first_split": "train",
+      "second_split": "val",
+      "source_group": "football_hooligans_preston_north_end_mix__prestonparasoccer__qwr",
+      "evidence": "Matching title/uploader and exact or prefix-compatible source ID; frames require review."
+    },
+    {
+      "first_id": "e7165d720931dfbc",
+      "second_id": "f747c93e3407f19c",
+      "first_path": "data/movies/2/Violence/football_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwrOc8xmlpY.avi",
+      "second_path": "data/movies/4/Violence/soccer_violence__Football_Hooligans_Preston_North_End_Mix__prestonparasoccer__qwr.avi",
+      "first_split": "train",
+      "second_split": "val",
+      "source_group": "football_hooligans_preston_north_end_mix__prestonparasoccer__qwr",
+      "evidence": "Matching title/uploader and exact or prefix-compatible source ID; frames require review."
+    },
+    {
+      "first_id": "cacf7bff89f4fe90",
+      "second_id": "f93c01316e7a4eca",
+      "first_path": "data/movies/3/Violence/football_violence__FUCK_YOU_FOOTBALL_HOOLIGANS_RUSSIA_and_UKRAINE_part1__W00FAM__DB.avi",
+      "second_path": "data/movies/4/Violence/Hooligans_violence__FUCK_YOU_FOOTBALL_HOOLIGANS_RUSSIA_and_UKRAINE_part1__W00FAM__DB9PSdrfulE.avi",
+      "first_split": "train",
+      "second_split": "val",
+      "source_group": "fuck_you_football_hooligans_russia_and_ukraine_part1__w00fam__db",
+      "evidence": "Matching title/uploader and exact or prefix-compatible source ID; frames require review."
+    }
+  ],
+  "control_audit": {
+    "status": "pass",
+    "manifest_sha256": "2cad94b006e99c1aca3c9a539709c5733af25a9d8102c2712311abb2f470a1b3",
+    "motion_caches_verified": 245,
+    "controls": [
+      {
+        "variant": "motion_linear",
+        "predictions_reproduced": true,
+        "maximum_score_drift": 0.0,
+        "train_scaling_verified": true,
+        "validation_threshold_verified": true,
+        "model_sha256": "2dd2e954a43e3b492555367b7c19e498abac380ecce985f8decc86d8dca6c758"
+      },
+      {
+        "variant": "pose_quality_only",
+        "predictions_reproduced": true,
+        "maximum_score_drift": 0.0,
+        "train_scaling_verified": true,
+        "validation_threshold_verified": true,
+        "model_sha256": "fd624d30fbeec2a8957a3c388e1de2aedbc63e0f787dc1e976b3b0bbcbb666b8"
+      }
+    ],
+    "claim_boundary": "Cached-input provenance and saved-checkpoint consistency. Does not establish source independence, label validity, or unbiased generalization."
+  },
+  "uncertainty_method": "10,000 class-stratified clip bootstrap resamples; percentile 95% intervals. These reflect this holdout only, not training-seed, fold, or source-group uncertainty.",
+  "claim_boundary": "Artifact consistency, source hashes, CPU prediction reproduction, and full video decoding. This does not verify labels, remove near-duplicates, or establish deployment readiness."
+}
