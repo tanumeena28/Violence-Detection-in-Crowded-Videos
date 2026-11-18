@@ -2,6 +2,16 @@
 
 This project runs raw crowd videos through multi-person pose extraction, within-clip tracking, motion/interaction features, a small temporal convolutional network, and binary clip prediction. It implements the four configurations described in `presentations/Stage1_Crowd_Violence_Detection.pptx`.
 
+## Final presentation
+
+The [final technical deck](presentations/Final_Crowd_Violence_Presentation_20261119.pptx)
+contains 16 main slides and four appendix slides, with completed results,
+limitations and speaker notes. Slides 13 and 14 link to the four saved MP4s in
+`presentations/media`. Keep that folder beside the deck when sharing it.
+[Opening instructions](presentations/FINAL_PRESENTATION.md) explain playback.
+The original Stage 1 deck is preserved. Paper drafting and independent label
+review remain pending.
+
 ## Instructions for teammates
 
 Start with [TEAMMATE_SETUP.md](TEAMMATE_SETUP.md) for cloning, dependencies,

@@ -24,4 +24,5 @@ output/**/weights/
 coordinator_mapping.json
 *.mp4
 !output/final_delivery_20261115/demos/*.mp4
+!presentations/media/*.mp4
 !output/centering_corrected_cpu_20261115/fold_1/runs/interactions_seed42/model.pt

@@ -3,6 +3,14 @@
 Repository updated on 18 November 2026 with the technical delivery evaluated
 on 15 November. The existing project PDF remains in the repository.
 
+## Final presentation
+
+Open [the final technical deck](presentations/Final_Crowd_Violence_Presentation_20261119.pptx)
+after cloning or extracting the repository. It has 16 main slides and four
+appendix slides. Keep `presentations/media` beside the deck for the linked demos
+on slides 13 and 14. The clips can also be opened directly in a video player.
+See [opening instructions](presentations/FINAL_PRESENTATION.md).
+
 ## Start with the results
 
 Read [PROJECT_STATUS.md](PROJECT_STATUS.md) and
