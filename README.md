@@ -2,7 +2,7 @@
 
 This project runs raw crowd videos through multi-person pose extraction, within-clip tracking, motion/interaction features, a small temporal convolutional network, and binary clip prediction. It implements the four configurations described in `presentations/Stage1_Crowd_Violence_Detection.pptx`.
 
-## Sharing with teammates: 18 November 2026
+## Instructions for teammates
 
 Start with [TEAMMATE_SETUP.md](TEAMMATE_SETUP.md) for cloning, dependencies,
 checking the shared results and running the frozen-video reference. The current
@@ -15,7 +15,7 @@ pretrained weights, raw datasets and caches are separate from Git. The setup
 guide explains the required assets and their checksums. Independent review is
 still pending, and the coordinator mapping is not published.
 
-## Final technical delivery: 15 November 2026
+## Final technical delivery
 
 The local GPU evaluation and delivery work is complete. Independent human
 label/difficulty review remains pending because no reviewer is available.
@@ -63,7 +63,7 @@ accounting, sealed-protocol rejection and the validation batch-shape check.
 [Preservation audit](output/final_delivery_20261115/preservation_audit.json) |
 [Independent review pack](output/blind_review_20261115/index.html)
 
-## Earlier technical progress: 15 November 2026
+## Earlier technical progress:
 
 Paper drafting is deferred. The active technical work is roughly 85 to 90%
 complete as a planning estimate, separate from prediction accuracy.
@@ -119,7 +119,7 @@ are preserved, and older checkpoints retain their legacy feature semantics.
 [Demonstrations](output/demo_20261115/index.html) |
 [Completion estimate](PROJECT_STATUS.md)
 
-## One-time RWF-2000 transfer: 15 November 2026
+## One-time RWF-2000 transfer:
 
 The saved source-corrected combined crowd model was evaluated once on the local
 RTX 3050 GPU using all 400 released RWF-2000 evaluation clips: 200 Fight and
@@ -146,7 +146,7 @@ The current project is roughly 70% complete overall; the core pipeline is
 complete and the full manuscript is approximately 40% complete. These are
 planning estimates, separate from classification accuracy.
 
-## Explicit coverage ablation: 14 November 2026
+## Explicit coverage ablation:
 
 The next focused experiment is complete: 60 new TCN fits and 10 control fits on
 the same 245 clips, 204 reviewed source groups, five folds and three seeds as
@@ -180,7 +180,7 @@ and [supplemental CPU audit](output/coverage_ablation_20261114/cpu_precision_aud
 record both outcomes. The improved verifier is archived separately from the
 frozen training implementation.
 
-## Repeated source-grouped evaluation: 7 November 2026
+## Repeated source-grouped evaluation:
 
 The five-fold experiment is complete: 245 unique clips, 204 known source groups,
 60 TCN fits and 10 linear-control fits. Each rotation uses 147 training,
@@ -231,7 +231,7 @@ artifacts and reproduction commands. [The next-stage plan](NEXT_STEPS.md)
 prioritizes detection-cue ablations, label/difficulty review, a stronger RGB
 reference, RWF-2000 evaluation and full-pipeline latency.
 
-## Source grouping corrected: 22 October 2026
+## Source grouping corrected: 
 
 **After the presentation, 25 October:** the professor requested no changes;
 college GPU access is expected through SSH, with credentials pending.
@@ -264,7 +264,7 @@ To reproduce the correction from the archived feature caches, use `scripts/run_s
 & '.\.venv\Scripts\python.exe' scripts/audit_pilot.py --out output/source_corrected
 ```
 
-## Archived pilot: 21 October 2026
+## Archived pilot: 
 
 All 245 unique crowd clips have cached poses. Four models were trained on the local RTX 3050 with seed 42, using 150 training clips, 48 validation clips, and 47 test clips. Checkpoints and thresholds use validation data only.
 
