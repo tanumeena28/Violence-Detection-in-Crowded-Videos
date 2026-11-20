@@ -1,0 +1,1 @@
+# Environment Variables and Cache Paths\n\nDetails `TORCH_HOME`, `CUDA_VISIBLE_DEVICES`, and internal cache directory structures for reproducible runs.\n
