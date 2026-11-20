@@ -1,0 +1,1 @@
+# Module: affective.train\n\nHandles mini-batch training loops, AdamW updates, validation loss early stopping, and metric tracking.\n
