@@ -1,0 +1,1 @@
+# Project Glossary\n\nDefinitions of technical terminology: IoU, TCN, COCO-17, R3D-18, Farneback, Macro-F1.\n
