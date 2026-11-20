@@ -1,0 +1,1 @@
+# Uniform Temporal Sampling\n\nUniform sampling selects exactly 32 frames spanning the entire clip duration $T$, ensuring invariant temporal resolution across videos with varying frame rates.\n
