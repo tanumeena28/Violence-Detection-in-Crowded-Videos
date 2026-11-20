@@ -1,0 +1,1 @@
+# Bounded Layer-4 Fine-Tuning Protocol\n\nOnly the final residual stage (Layer-4) and classification head are trained, while BatchNorm statistics and early layers remain strictly frozen.\n
