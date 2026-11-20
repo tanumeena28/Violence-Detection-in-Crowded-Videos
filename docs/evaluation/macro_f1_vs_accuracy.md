@@ -1,0 +1,1 @@
+# Macro-F1 vs Accuracy in Crowd Evaluation\n\nMacro-F1 assigns equal weight to violent and non-violent classes, preventing biased evaluation under class imbalances.\n
