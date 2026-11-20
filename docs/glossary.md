@@ -1,0 +1,1 @@
+# Extended Glossary\n\nComprehensive technical terms and definitions used across affective computing research.\n
