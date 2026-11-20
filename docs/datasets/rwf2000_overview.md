@@ -1,0 +1,1 @@
+# RWF-2000 Surveillance Benchmark\n\nRWF-2000 comprises 2,000 five-second 30 fps surveillance video clips (1,000 violent, 1,000 non-violent) captured from real security cameras.\n
