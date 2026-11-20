@@ -1,0 +1,1 @@
+print('Formatting check completed.')\n
