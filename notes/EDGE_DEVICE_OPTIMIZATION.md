@@ -1,0 +1,1 @@
+# Edge Device Deployment on Jetson / Raspberry Pi\n\nQuantization and pruning techniques for resource-constrained edge computing devices.\n
