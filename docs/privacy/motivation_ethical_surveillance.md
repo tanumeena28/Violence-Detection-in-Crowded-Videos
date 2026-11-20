@@ -1,0 +1,1 @@
+# Ethical Surveillance and Privacy Motivation\n\nProtests represent lawful assembly; deploying surveillance tools that identify participants creates an unacceptable chilling effect on civil liberties.\n
