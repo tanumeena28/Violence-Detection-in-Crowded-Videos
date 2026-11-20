@@ -1,0 +1,1 @@
+# Ablation Study Field Notes\n\nObservations on how zeroing explicit coverage affects decision boundaries across seeds.\n
