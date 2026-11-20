@@ -1,0 +1,11 @@
+name: Documentation Update
+description: Propose improvements or corrections to existing documentation
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: doc-issue
+    attributes:
+      label: Documentation Issue
+      description: Which section of the docs or report needs improvement?
+    validations:
+      required: true
