@@ -1,0 +1,1 @@
+# Module: affective.temporal_video\n\nImplements temporal window feature extraction for the 3D-CNN video candidate.\n
