@@ -1,0 +1,1 @@
+# Seed Variation Protocol (Seeds 42, 123, 2026)\n\nEach model variant is trained across three distinct random seeds to report mean performance and standard deviation across runs.\n
