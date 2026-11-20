@@ -1,0 +1,1 @@
+# Relative Inter-Person Velocity Vectors\n\nRelative velocity $\\mathbf{v}_{rel} = \\mathbf{v}_i - \\mathbf{v}_j$ captures closing speed and physical conflict between interacting individuals.\n
