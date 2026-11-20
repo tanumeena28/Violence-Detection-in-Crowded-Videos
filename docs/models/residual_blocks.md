@@ -1,0 +1,1 @@
+# Residual Bottleneck Connections\n\nResidual skip connections facilitate stable gradient flow across temporal layers, preventing vanishing gradients during training.\n
