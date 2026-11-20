@@ -1,0 +1,1 @@
+# Hardware & Testbed Specifications\n\nHardware profiles: CPU cores, memory channels, NVIDIA RTX 3050 Laptop GPU clock rates.\n
