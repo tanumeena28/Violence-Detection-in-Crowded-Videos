@@ -1,0 +1,1 @@
+# Stratified Group 5-Fold Evaluation\n\nWhole source groups are assigned to folds to guarantee zero overlap of background environments across training and test splits.\n
