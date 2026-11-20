@@ -1,0 +1,1 @@
+# Mathematical Formulations\n\nDetailed LaTeX equations covering continuous hip centering, TCN dilated convolutions, and masked pooling.\n
