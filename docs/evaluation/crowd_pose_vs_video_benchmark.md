@@ -1,0 +1,1 @@
+# Crowd Pose vs 3D Video Benchmark\n\nPose interactions achieve 78.6% on crowd folds, while 3D-CNN video models reach 91.0% by exploiting background and optical flow cues.\n
