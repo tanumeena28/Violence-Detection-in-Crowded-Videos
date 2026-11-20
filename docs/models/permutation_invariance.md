@@ -1,0 +1,1 @@
+# Permutation Invariance Across People\n\nPooling symmetric functions (mean and max) guarantees that the output violence prediction is independent of track ordering.\n
