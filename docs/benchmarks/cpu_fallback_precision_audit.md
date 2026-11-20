@@ -1,0 +1,1 @@
+# CPU Precision and Score Drift Audit\n\nEvaluating floating-point score drift between CUDA float32 and CPU execution; maximum observed drift was 0.000335, causing zero decision changes.\n
