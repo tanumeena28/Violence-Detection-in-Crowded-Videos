@@ -1,0 +1,1 @@
+# Module: affective.cross_validation\n\nManages stratified group 5-fold cross-validation rotations.\n
