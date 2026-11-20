@@ -1,0 +1,1 @@
+# Baseline Feature Schema (68 Channels)\n\nConsists of 34 normalized 2D position channels and 34 normalized 2D velocity channels for the 17 body keypoints.\n
