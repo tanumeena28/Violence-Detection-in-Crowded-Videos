@@ -1,0 +1,1 @@
+print('Receptive field calculator.')\n
