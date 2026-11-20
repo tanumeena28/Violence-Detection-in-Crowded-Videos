@@ -1,0 +1,1 @@
+# Module: affective.input_controls\n\nImplements Farneback optical flow and 7-feature quality control baselines.\n
