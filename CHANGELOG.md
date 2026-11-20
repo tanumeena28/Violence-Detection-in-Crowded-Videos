@@ -1,0 +1,1 @@
+# Changelog\n\nAll notable changes to the Crowd Violence Detection project.\n\n## [1.0.0] - 2026-11-19\n- Full pipeline implementation.\n- 5-fold cross-validation results.\n- Final presentation delivery.\n
