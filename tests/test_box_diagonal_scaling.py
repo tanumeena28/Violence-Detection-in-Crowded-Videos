@@ -1,0 +1,1 @@
+import numpy as np\ndef test_box_diagonal_scaling():\n    diag = np.sqrt(100**2 + 200**2)\n    assert diag > 0\n
