@@ -1,0 +1,1 @@
+print('CUDA vs CPU benchmark.')\n
