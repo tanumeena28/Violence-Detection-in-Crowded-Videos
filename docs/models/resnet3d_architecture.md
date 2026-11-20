@@ -1,0 +1,1 @@
+# ResNet3D (R3D-18) Video Backbone\n\nA spatio-temporal 3D convolutional network pretrained on Kinetics-400 serves as the primary RGB reference baseline.\n
