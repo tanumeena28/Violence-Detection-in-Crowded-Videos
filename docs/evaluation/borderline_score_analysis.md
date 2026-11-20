@@ -1,0 +1,1 @@
+# Analysis of Borderline Confidence Scores\n\nClips with prediction probabilities near 0.23 exhibit ambiguous physical interactions or severe keypoint dropouts.\n
