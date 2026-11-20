@@ -1,0 +1,1 @@
+# Cross-Dataset Domain Divergence\n\nSurveillance cameras, handheld crowd footage, and sports broadcasts exhibit distinct motion distributions, camera motion, and occlusion characteristics.\n
