@@ -1,0 +1,1 @@
+print('Diagnostic suite runner.')\n
