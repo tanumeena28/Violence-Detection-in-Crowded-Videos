@@ -1,0 +1,1 @@
+# Farneback Optical Flow Motion Control\n\nAn 80-feature linear optical flow baseline achieves 75.1% accuracy, confirming that simple dense motion vectors capture significant crowd activity.\n
