@@ -1,0 +1,1 @@
+# Track Lifecycle Management\n\nTrack IDs are strictly clip-local. No cross-clip or cross-camera re-identification is performed to preserve subject anonymity.\n
