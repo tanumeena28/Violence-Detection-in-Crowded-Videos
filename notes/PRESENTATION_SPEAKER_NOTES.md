@@ -1,0 +1,1 @@
+# Final Presentation Speaker Notes\n\nSlide-by-slide guidance and talking points for the 16-slide final technical presentation.\n
