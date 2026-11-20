@@ -1,0 +1,1 @@
+import time\nprint('Profiling tool initialized.')\n
