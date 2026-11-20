@@ -1,0 +1,1 @@
+# Kinetics-400 Pretrained Representations\n\nUsing pretrained spatio-temporal filters enables effective video feature extraction even with limited domain-specific crowd data.\n
