@@ -1,0 +1,1 @@
+# Module: affective.inference\n\nProvides clean inference abstractions for single-video and windowed clip prediction.\n
