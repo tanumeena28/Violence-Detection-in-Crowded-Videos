@@ -1,0 +1,1 @@
+# Hockey Fight External Dataset\n\nConsists of 1,000 video clips (500 fight, 500 non-fight) from National Hockey League broadcasts, used as an out-of-domain generalization test.\n
