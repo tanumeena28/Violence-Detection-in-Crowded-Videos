@@ -1,0 +1,1 @@
+# Video Decoding Strategy\n\nVideos are fully decoded to determine their exact frame count before uniform sampling, avoiding inaccuracies in container metadata.\n
