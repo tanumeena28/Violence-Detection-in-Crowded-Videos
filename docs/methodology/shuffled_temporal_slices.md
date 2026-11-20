@@ -1,0 +1,1 @@
+# Shuffled Derived Time Slices Experiment\n\nShuffling temporal slices after velocity calculation retained 75.4% accuracy, indicating velocity distributions alone carry predictive weight.\n
