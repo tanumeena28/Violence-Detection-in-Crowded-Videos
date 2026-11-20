@@ -1,0 +1,1 @@
+import numpy as np\ndef test_sampling_bounds():\n    idx = np.linspace(0, 100, 32, dtype=int)\n    assert len(idx) == 32 and idx[-1] == 100\n
