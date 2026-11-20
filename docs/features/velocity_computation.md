@@ -1,0 +1,1 @@
+# Inter-Frame Joint Velocity Computation\n\nJoint velocities are calculated as temporal differences normalized by the actual elapsed time $\\Delta t$ between consecutive sampled frames.\n
