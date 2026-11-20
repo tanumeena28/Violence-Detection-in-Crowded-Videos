@@ -1,5 +1,5 @@
 # Install the recorded torch/torchvision versions separately with the selected CUDA or CPU index.
-ultralytics==8.4.183
+ultralytics==8.4.215
 numpy==2.5.2
 opencv-python==4.14.0.94
 scipy==1.18.1
