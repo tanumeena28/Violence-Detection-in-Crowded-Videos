@@ -1,0 +1,1 @@
+# Body-Centered Coordinate Normalization\n\nJoint coordinates are normalized relative to the human body origin to achieve translation invariance and minimize identity leakage.\n
