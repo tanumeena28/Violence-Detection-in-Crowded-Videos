@@ -1,0 +1,1 @@
+# ROC-AUC and Score Calibration\n\nROC-AUC measures ranking discrimination across all possible decision thresholds, independent of operational cutoffs.\n
