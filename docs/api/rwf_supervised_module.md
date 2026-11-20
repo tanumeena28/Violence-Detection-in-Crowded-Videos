@@ -1,0 +1,1 @@
+# Module: affective.rwf_supervised\n\nSupervised training and evaluation pipeline for RWF-2000 surveillance video.\n
