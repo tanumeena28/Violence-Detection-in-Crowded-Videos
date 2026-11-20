@@ -1,0 +1,1 @@
+# Hardware Configuration & Benchmark Environment\n\nAll GPU experiments were evaluated on an NVIDIA GeForce RTX 3050 Laptop GPU (4 GB VRAM) with CUDA 12.8.\n
