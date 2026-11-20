@@ -1,0 +1,1 @@
+import numpy as np\ndef test_rel_vel():\n    v1 = np.array([1.0, 2.0])\n    v2 = np.array([0.5, 1.0])\n    assert np.allclose(v1 - v2, [0.5, 1.0])\n
