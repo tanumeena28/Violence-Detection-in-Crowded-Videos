@@ -1,0 +1,1 @@
+# Score Calibration and Expected Calibration Error (ECE)\n\nAnalyzing reliability diagrams and probability calibration in video classifiers.\n
