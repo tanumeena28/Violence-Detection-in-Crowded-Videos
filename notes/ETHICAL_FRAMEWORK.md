@@ -1,0 +1,1 @@
+# Ethical Framework for Video Surveillance\n\nAnalyzing civil liberties, protest rights, and privacy preservation in automated visual recognition.\n
