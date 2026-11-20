@@ -1,0 +1,1 @@
+# Clip-Level Binary Classification Head\n\nA two-layer MLP with ReLU activation maps pooled crowd embeddings and the observed track coverage scalar to a single logit.\n
