@@ -1,0 +1,1 @@
+# Blind Human Review Rubric\n\nStandardized evaluation rubric for annotating difficulty, occlusion, and violence labels on 40 diagnostic clips.\n
