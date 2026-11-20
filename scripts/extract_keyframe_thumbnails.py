@@ -1,0 +1,1 @@
+print('Keyframe thumbnail generator.')\n
