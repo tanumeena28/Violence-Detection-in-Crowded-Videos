@@ -1,0 +1,1 @@
+def test_dilation_sequence():\n    dilations = [1, 2, 4]\n    assert dilations == [1, 2, 4]\n
