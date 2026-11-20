@@ -1,0 +1,1 @@
+# Development Roadmap\n\n- [x] Multi-person pose extraction with YOLO11n\n- [x] Hungarian clip-local tracking\n- [x] Continuous hip-offset interpolation\n- [x] 1D TCN with dilated convolutions\n- [x] R3D-18 Layer-4 fine-tuning\n- [x] Quality-only baseline study\n- [ ] Real-time streaming RTSP pipeline\n- [ ] Multi-camera re-identification audit\n
