@@ -1,0 +1,1 @@
+# Membership Inference Risks\n\nEvaluating whether shadow models can determine if a specific individual's skeleton was included in the training cohort.\n
