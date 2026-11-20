@@ -1,0 +1,1 @@
+def test_interactions_dim():\n    assert 68 + 8 == 76\n
