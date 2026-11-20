@@ -1,0 +1,1 @@
+# Spatial Occlusion Patterns in Protests\n\nCommon occlusion scenarios: front-row individuals occluding physical confrontations.\n
