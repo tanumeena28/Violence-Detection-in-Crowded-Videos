@@ -1,0 +1,1 @@
+# Perceptual Hashing and Frame Correlation\n\nAverage hashing (aHash), difference hashing (dHash), and frame correlation were deployed to detect shared origins across differently cropped clips.\n
