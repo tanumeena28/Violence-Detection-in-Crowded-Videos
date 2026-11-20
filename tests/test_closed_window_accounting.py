@@ -1,0 +1,1 @@
+def test_window():\n    total_frames = 150\n    win_size = 32\n    assert total_frames % win_size >= 0\n
