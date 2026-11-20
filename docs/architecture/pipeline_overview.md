@@ -1,0 +1,1 @@
+# End-to-End Pipeline Overview\n\nThe pipeline ingests video, samples 32 frames uniformly, detects 17 COCO joints using YOLO11n-pose, associates tracks using the Hungarian algorithm, computes relative spatial-temporal features, and classifies clips with a 1D Temporal Convolutional Network.\n
