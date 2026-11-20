@@ -1,0 +1,1 @@
+# Feature Engineering Overview\n\nFeatures are partitioned into four modular variants: baseline kinematic motion, detector reliability indicators, nearest-neighbor relative interactions, and combined representations.\n
