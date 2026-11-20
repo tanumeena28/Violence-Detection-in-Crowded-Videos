@@ -1,0 +1,1 @@
+# Masked Maximum Pooling\n\nMax pooling captures the single most aggressive interaction occurring anywhere in the crowd, ensuring localized violence is not washed out.\n
