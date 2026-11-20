@@ -1,0 +1,1 @@
+# Module: affective.motion\n\nImplements body centering, hip-to-box interpolation, and temporal velocity difference calculations.\n
