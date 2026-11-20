@@ -1,0 +1,1 @@
+# Privacy Audit Attack Protocols\n\nStep-by-step description of the linear probe attacker and within-split cross-validation.\n
