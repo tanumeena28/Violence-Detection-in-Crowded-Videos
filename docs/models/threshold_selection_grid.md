@@ -1,0 +1,1 @@
+# F1-Optimal Decision Threshold Grid\n\nDecision thresholds are selected on a fixed 0.10 to 0.90 grid by maximizing Macro-F1 exclusively on validation splits.\n
