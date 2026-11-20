@@ -1,0 +1,1 @@
+# Hip-Centering Coordinate Defense\n\nCentering coordinates on the hip midpoint eliminates spatial position cues and drops identity leakage to 35.2%.\n
