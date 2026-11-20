@@ -1,0 +1,1 @@
+# Pose-Quality-Only Diagnostic Control\n\nA logistic model trained on 7 aggregate pose detection statistics achieves 77.6% accuracy, demonstrating that detection failures carry strong label signal.\n
