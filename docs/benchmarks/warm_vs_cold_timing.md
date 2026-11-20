@@ -1,0 +1,1 @@
+# Cold Start vs Warm Runtime Comparison\n\nCold process startup requires median 8.36s due to PyTorch, CUDA, and Ultralytics library initialization overhead.\n
