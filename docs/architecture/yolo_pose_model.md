@@ -1,0 +1,1 @@
+# Multi-Person Pose Estimation\n\nA pretrained YOLO11n-pose model detects up to 17 human keypoints with a detection confidence threshold of 0.2 and joint validity threshold of 0.25.\n
