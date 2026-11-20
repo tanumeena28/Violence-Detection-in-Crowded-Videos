@@ -1,0 +1,1 @@
+# HTML and Markdown Report Generation\n\nHow HTML dashboards and markdown summaries are dynamically constructed from evaluation CSV records.\n
