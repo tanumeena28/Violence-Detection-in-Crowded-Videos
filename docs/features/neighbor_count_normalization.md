@@ -1,0 +1,1 @@
+# Normalized Local Crowd Density\n\nThe count of nearby persons within a fixed radius is normalized to provide local crowd density context to the temporal classifier.\n
