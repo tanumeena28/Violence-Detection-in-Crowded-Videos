@@ -1,0 +1,1 @@
+def test_c_grid():\n    grid = [0.01, 0.1, 1.0, 10.0]\n    assert 1.0 in grid\n
