@@ -1,0 +1,1 @@
+# Module: affective.cli\n\nCLI entrypoints and argument parsing for end-to-end pipeline execution.\n
