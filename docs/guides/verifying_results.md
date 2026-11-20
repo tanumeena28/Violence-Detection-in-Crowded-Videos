@@ -1,0 +1,1 @@
+# Verifying Shared Results and Checksums\n\nHow to run `scripts/verify_shared_results.py` to cryptographically verify model predictions and metric tables.\n
