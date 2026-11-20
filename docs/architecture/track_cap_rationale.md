@@ -1,0 +1,1 @@
+# Rationale for 8-Track Cap\n\nThe pipeline retains up to 8 active tracks sorted by keypoint confidence and observation count, balancing representation capacity with computational latency.\n
