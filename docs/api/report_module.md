@@ -1,0 +1,1 @@
+# Module: affective.report\n\nGenerates HTML dashboards with embedded figures and per-clip diagnostics.\n
