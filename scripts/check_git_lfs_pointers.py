@@ -1,0 +1,1 @@
+print('Git LFS check.')\n
