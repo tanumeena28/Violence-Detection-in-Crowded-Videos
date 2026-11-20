@@ -1,0 +1,1 @@
+# Data Augmentation Strategies for Skeletons\n\nTemporal jittering, random keypoint dropout, and spatial scaling augmentations.\n
