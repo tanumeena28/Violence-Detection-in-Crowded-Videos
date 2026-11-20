@@ -1,0 +1,1 @@
+# Project Overview\n\nThis project studies binary classification of short crowd video clips into violent or non-violent events using privacy-preserving 2D skeleton poses and compares them against 3D-CNN video baselines.\n
