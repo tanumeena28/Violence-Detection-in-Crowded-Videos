@@ -1,0 +1,1 @@
+# Temporal Window Length Optimization\n\nComparing 16-frame, 32-frame, and 64-frame sampling resolutions for violence classification.\n
