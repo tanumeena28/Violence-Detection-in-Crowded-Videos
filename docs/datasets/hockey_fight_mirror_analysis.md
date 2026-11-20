@@ -1,0 +1,1 @@
+# Hockey Fight Mirror Integrity Check\n\nAudited 1,000 mirror clips, discovering 997 unique byte hashes and 3 exact duplicate files.\n
