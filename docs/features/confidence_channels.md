@@ -1,0 +1,1 @@
+# Explicit Confidence Channels\n\nRaw detector confidence and binary validity indicators are appended as separate feature channels (34 additional dimensions).\n
