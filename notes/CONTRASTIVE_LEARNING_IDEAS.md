@@ -1,0 +1,1 @@
+# Self-Supervised Contrastive Pose Embeddings\n\nConceptual exploration of SimCLR / MoCo adaptations for human skeleton sequences.\n
