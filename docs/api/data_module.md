@@ -1,0 +1,1 @@
+# Module: affective.data\n\nData loading utilities, video manifest parsers, and batch collation logic for training.\n
