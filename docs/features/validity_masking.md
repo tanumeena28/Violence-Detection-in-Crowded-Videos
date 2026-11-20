@@ -1,0 +1,1 @@
+# Missing Joint Validity Masking\n\nVelocities are zero-masked unless the corresponding keypoint is valid in both adjacent temporal observations, eliminating missing-joint jump artifacts.\n
