@@ -1,0 +1,1 @@
+# Module: affective.model\n\nDefines `TemporalConvNet`, residual temporal blocks, and masked crowd pooling layers.\n
