@@ -1,0 +1,1 @@
+# Module: affective.demo\n\nRenders diagnostic MP4 videos with color-coded keypoints, track IDs, and violence probability meters.\n
