@@ -1,0 +1,1 @@
+# Streaming Real-Time Inference Blueprint\n\nArchitectural blueprint for deploying models on continuous RTSP camera streams.\n
