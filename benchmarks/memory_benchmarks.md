@@ -1,0 +1,1 @@
+# VRAM Allocation Profiling\n\nRecords peak GPU memory consumption across batch sizes.\n
