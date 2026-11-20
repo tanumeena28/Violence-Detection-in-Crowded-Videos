@@ -1,0 +1,1 @@
+# Generalized Interaction Feature Theory\n\nTheoretical underpinnings of relative spatial kinematics between interacting bodies.\n
