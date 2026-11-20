@@ -1,0 +1,1 @@
+print('Documentation builder ready.')\n
