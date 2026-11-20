@@ -1,0 +1,1 @@
+# Dilated Convolutions and Receptive Field\n\nDilations of 1, 2, and 4 expand the temporal receptive field to capture both rapid punches and prolonged physical grapples.\n
