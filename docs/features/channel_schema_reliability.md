@@ -1,0 +1,1 @@
+# Reliability Feature Schema (102 Channels)\n\nExtends baseline with 17 confidence values and 17 validity masks, totaling 102 channels per track per frame.\n
