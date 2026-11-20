@@ -1,0 +1,1 @@
+# The Source Leakage Phenomenon\n\nWhen clips from the same YouTube recording appear in both training and test sets, models can memorize background cues rather than learning violence motion.\n
