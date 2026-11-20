@@ -1,0 +1,1 @@
+# Scale Invariance via Bounding Box Diagonal\n\nJoint offsets are scaled by the bounding box diagonal length $\\sqrt{w^2 + h^2}$, establishing scale invariance across variable camera distances.\n
