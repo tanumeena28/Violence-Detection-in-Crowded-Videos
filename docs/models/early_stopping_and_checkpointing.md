@@ -1,0 +1,1 @@
+# Early Stopping and Checkpoint Selection\n\nValidation loss with a patience of 30 epochs governs checkpoint retention, preventing overfitting on training partitions.\n
