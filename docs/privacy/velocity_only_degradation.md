@@ -1,0 +1,1 @@
+# Velocity-Only Representation Breakdown\n\nPure velocity eliminates identity leakage (23.8%) but catastrophically degrades task recognition to 16.3% (chance 12.5%).\n
