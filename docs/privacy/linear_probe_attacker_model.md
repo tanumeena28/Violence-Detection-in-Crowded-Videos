@@ -1,0 +1,1 @@
+# Linear Probe Identity Leakage Attack\n\nA multinomial logistic regression probe trained on disjoint gesture classes serves as an empirical privacy auditor.\n
