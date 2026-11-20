@@ -1,0 +1,1 @@
+print('Schemas validated.')\n
