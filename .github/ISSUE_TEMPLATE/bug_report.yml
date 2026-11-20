@@ -1,0 +1,22 @@
+name: Bug Report
+description: Create a report to help us improve the pipeline
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for contributing to the Affective Computing Crowd Violence Detection project!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug encountered during video processing or model training.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS version, Python version, PyTorch version, GPU model.
+      placeholder: Windows 11, Python 3.13, PyTorch 2.11.0+cu128, NVIDIA RTX 3050 Laptop
+    validations:
+      required: true
