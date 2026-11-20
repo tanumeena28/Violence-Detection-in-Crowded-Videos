@@ -1,0 +1,1 @@
+# Quickstart Guide\n\nTo run inference on a new video clip:\n```powershell\npython scripts/predict_final_video.py --video sample.mp4 --output-json result.json\n```\n
