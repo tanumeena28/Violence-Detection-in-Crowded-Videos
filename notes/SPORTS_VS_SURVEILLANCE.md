@@ -1,0 +1,1 @@
+# Domain Discrepancies: Sports vs Surveillance\n\nWhy broadcast sports footage fails to transfer directly to surveillance models.\n
