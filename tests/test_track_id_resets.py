@@ -1,0 +1,1 @@
+def test_track_reset():\n    tracks = {}\n    assert len(tracks) == 0\n
