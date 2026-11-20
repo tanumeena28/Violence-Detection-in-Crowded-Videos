@@ -1,0 +1,1 @@
+# Spatial Nearest-Neighbor Association\n\nFor each tracked person, the nearest visible person in shared image space is identified at each frame to model aggressive interactions.\n
