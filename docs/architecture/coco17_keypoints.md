@@ -1,0 +1,1 @@
+# COCO-17 Keypoint Topology\n\nThe 17 joints correspond to: nose, eyes, ears, shoulders, elbows, wrists, hips, knees, and ankles. Upper-body joints provide the primary kinetic signal during physical violence.\n
