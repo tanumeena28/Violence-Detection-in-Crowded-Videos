@@ -1,0 +1,1 @@
+# Evaluation Metrics Formulation\n\nDefines formulas for Accuracy, Macro-F1, Precision, Recall, and Receiver Operating Characteristic Area Under the Curve (ROC-AUC).\n
