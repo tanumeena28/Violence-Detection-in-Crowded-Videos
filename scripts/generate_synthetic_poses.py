@@ -1,0 +1,1 @@
+print('Synthetic pose generator.')\n
