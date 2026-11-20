@@ -1,0 +1,1 @@
+# Clip-Local Hungarian Tracking\n\nWithin each clip, detections are matched across frames by minimizing a cost function composed of bounding-box IoU and Euclidean centroid distance.\n
