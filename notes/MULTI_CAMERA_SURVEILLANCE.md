@@ -1,0 +1,1 @@
+# Multi-Camera Cross-View Challenges\n\nDiscussing viewpoint variations and homography estimation across overlapping camera views.\n
