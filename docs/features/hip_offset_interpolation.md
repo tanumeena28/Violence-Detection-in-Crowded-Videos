@@ -1,0 +1,1 @@
+# Continuous Hip-Offset Interpolation\n\nTo prevent artificial velocity spikes when hip joints drop out, the offset between the hip midpoint and bounding-box center is continuously interpolated.\n
