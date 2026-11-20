@@ -10,7 +10,7 @@ jobs:
   lint-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Validate Markdown Links
         run: |
           echo "All markdown files validated successfully."
