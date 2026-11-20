@@ -1,0 +1,1 @@
+# Detector Reliability Weighting\n\nPositions and velocities are multiplied by the detector confidence score to attenuate unreliable keypoints under heavy crowd occlusion.\n
