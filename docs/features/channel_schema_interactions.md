@@ -1,0 +1,1 @@
+# Interaction Feature Schema (76 Channels)\n\nAugments baseline with 8 interaction channels: relative distance, 2D relative displacement, 2D relative velocity, radial velocity, neighbor count, and presence flag.\n
