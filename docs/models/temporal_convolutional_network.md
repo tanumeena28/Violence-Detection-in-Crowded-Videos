@@ -1,0 +1,1 @@
+# 1D Temporal Convolutional Network (TCN)\n\nA per-person 1D dilated residual network processes temporal sequences of pose features without recurrent latency bottlenecks.\n
