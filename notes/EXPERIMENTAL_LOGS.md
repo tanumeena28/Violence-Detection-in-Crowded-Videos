@@ -1,0 +1,1 @@
+# Experimental Execution Logs\n\nChronological record of local GPU runs, seed variations, and validation checkpoints.\n
