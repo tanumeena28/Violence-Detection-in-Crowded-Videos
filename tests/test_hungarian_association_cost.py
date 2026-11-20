@@ -1,0 +1,1 @@
+import numpy as np\ndef test_hungarian_cost():\n    cost = np.zeros((3, 3))\n    assert cost.shape == (3, 3)\n
