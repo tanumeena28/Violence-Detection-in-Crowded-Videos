@@ -1,0 +1,1 @@
+# Hardware and Latency Benchmarks\n\nDetailed benchmark measurements conducted on an NVIDIA RTX 3050 Laptop GPU.\n
