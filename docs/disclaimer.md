@@ -1,0 +1,1 @@
+# Academic and Ethical Disclaimer\n\nThis software is created solely for research purposes into affective computing and crowd safety.\n
