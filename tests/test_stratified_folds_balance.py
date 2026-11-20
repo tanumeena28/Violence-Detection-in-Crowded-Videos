@@ -1,0 +1,1 @@
+def test_stratified():\n    f = [1, 1, 0, 0]\n    assert sum(f) == 2\n
