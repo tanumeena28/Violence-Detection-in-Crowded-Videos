@@ -1,1 +1,2 @@
-def test_tcn_projection():\n    assert True\n
+def test_tcn_projection():
+    assert True

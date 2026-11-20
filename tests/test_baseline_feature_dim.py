@@ -1,1 +1,2 @@
-def test_baseline_dim():\n    assert 17 * 2 + 17 * 2 == 68\n
+def test_baseline_dim():
+    assert 17 * 2 + 17 * 2 == 68

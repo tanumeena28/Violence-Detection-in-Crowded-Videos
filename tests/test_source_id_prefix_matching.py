@@ -1,1 +1,2 @@
-def test_prefix():\n    id1 = 'rus_01_a'\n    id2 = 'rus_01'\n    assert id1.startswith(id2)\n
+def test_prefix():
+    assert "rus_01_a".startswith("rus_01")

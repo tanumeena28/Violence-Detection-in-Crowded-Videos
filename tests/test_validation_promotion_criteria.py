@@ -1,1 +1,2 @@
-def test_promotion():\n    loss_ref = 0.393\n    loss_cand = 0.337\n    assert loss_cand < loss_ref\n
+def test_promotion():
+    assert 0.337 < 0.393

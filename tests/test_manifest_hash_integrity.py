@@ -1,1 +1,3 @@
-import hashlib\ndef test_hash():\n    h = hashlib.sha256(b'test').hexdigest()\n    assert len(h) == 64\n
+import hashlib
+def test_hash():
+    assert len(hashlib.sha256(b"test").hexdigest()) == 64

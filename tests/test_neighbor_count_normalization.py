@@ -1,1 +1,2 @@
-def test_neighbor_norm():\n    count = 4\n    max_c = 8\n    assert count / max_c == 0.5\n
+def test_neighbor_norm():
+    assert 4 / 8 == 0.5

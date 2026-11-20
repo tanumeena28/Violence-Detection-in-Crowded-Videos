@@ -1,1 +1,2 @@
-def test_rounding():\n    score = 0.843219\n    assert round(score, 4) == 0.8432\n
+def test_rounding():
+    assert round(0.843219, 4) == 0.8432

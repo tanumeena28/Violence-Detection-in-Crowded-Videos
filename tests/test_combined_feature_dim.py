@@ -1,1 +1,2 @@
-def test_combined_dim():\n    assert 68 + 34 + 8 == 110\n
+def test_combined_dim():
+    assert 68 + 34 + 8 == 110

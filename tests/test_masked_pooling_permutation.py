@@ -1,1 +1,2 @@
-import numpy as np\ndef test_perm_inv():\n    arr1 = np.array([1, 2, 3])\n    arr2 = np.array([3, 2, 1])\n    assert arr1.mean() == arr2.mean()\n
+def test_perm_inv():
+    assert sum([1, 2, 3])/3 == sum([3, 2, 1])/3

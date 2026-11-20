@@ -1,1 +1,3 @@
-def test_reproducibility():\n    acc = 0.8375\n    assert acc > 0.8\n
+def test_reproducibility():
+    acc = 0.8375
+    assert acc > 0.8

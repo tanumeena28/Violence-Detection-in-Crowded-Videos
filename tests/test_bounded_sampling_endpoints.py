@@ -1,1 +1,3 @@
-import numpy as np\ndef test_sampling_bounds():\n    idx = np.linspace(0, 100, 32, dtype=int)\n    assert len(idx) == 32 and idx[-1] == 100\n
+def test_sampling_bounds():
+    idx = [int(i * 100 / 31) for i in range(32)]
+    assert len(idx) == 32 and idx[-1] == 100

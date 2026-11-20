@@ -1,1 +1,3 @@
-def test_coverage_scalar():\n    cov = 0.5\n    assert 0 <= cov <= 1\n
+def test_coverage_scalar():
+    cov = 0.5
+    assert 0 <= cov <= 1

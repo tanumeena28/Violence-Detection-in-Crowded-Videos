@@ -1,1 +1,2 @@
-def test_stratified():\n    f = [1, 1, 0, 0]\n    assert sum(f) == 2\n
+def test_stratified():
+    assert sum([1, 1, 0, 0]) == 2

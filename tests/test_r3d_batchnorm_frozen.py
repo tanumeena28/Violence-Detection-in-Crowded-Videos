@@ -1,1 +1,2 @@
-def test_bn_frozen():\n    bn_eval = True\n    assert bn_eval\n
+def test_bn_frozen():
+    assert True

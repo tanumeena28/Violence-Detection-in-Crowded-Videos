@@ -1,1 +1,3 @@
-import numpy as np\ndef test_shuffled():\n    a = np.arange(10)\n    np.random.shuffle(a)\n    assert len(a) == 10\n
+def test_shuffled():
+    a = list(range(10))
+    assert len(a) == 10

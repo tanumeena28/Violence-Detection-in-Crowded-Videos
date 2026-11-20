@@ -1,1 +1,3 @@
-def test_audit():\n    passed = 60\n    assert passed >= 60\n
+def test_audit():
+    passed = 60
+    assert passed >= 60

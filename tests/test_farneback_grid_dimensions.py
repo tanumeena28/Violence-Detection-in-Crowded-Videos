@@ -1,1 +1,2 @@
-def test_farneback_grid():\n    grid_h, grid_w = 2, 2\n    assert grid_h * grid_w == 4\n
+def test_farneback_grid():
+    assert 2 * 2 == 4

@@ -1,1 +1,2 @@
-import numpy as np\ndef test_velocity():\n    diff = np.array([2.0, 4.0]) - np.array([1.0, 1.0])\n    assert np.allclose(diff, [1.0, 3.0])\n
+def test_velocity():
+    assert [2.0 - 1.0, 4.0 - 1.0] == [1.0, 3.0]

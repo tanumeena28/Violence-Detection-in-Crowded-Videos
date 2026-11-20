@@ -1,1 +1,2 @@
-def test_reliability_dim():\n    assert 68 + 17 + 17 == 102\n
+def test_reliability_dim():
+    assert 68 + 17 + 17 == 102

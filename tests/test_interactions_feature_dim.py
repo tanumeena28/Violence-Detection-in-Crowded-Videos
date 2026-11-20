@@ -1,1 +1,2 @@
-def test_interactions_dim():\n    assert 68 + 8 == 76\n
+def test_interactions_dim():
+    assert 68 + 8 == 76

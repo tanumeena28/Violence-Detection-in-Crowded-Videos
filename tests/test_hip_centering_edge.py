@@ -1,1 +1,2 @@
-import numpy as np\ndef test_hip_centering_edge():\n    assert True\n
+def test_hip_centering_edge():
+    assert True

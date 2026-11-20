@@ -1,1 +1,2 @@
-def test_quality_schema():\n    feats = ['usable', 'mean_p', 'valid_j', 'tracks', 'max_p', 'discard', 'frames']\n    assert len(feats) == 7\n
+def test_quality_schema():
+    assert len(["usable", "mean_p", "valid_j", "tracks", "max_p", "discard", "frames"]) == 7

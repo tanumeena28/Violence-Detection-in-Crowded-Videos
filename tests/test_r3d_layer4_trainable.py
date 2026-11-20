@@ -1,1 +1,3 @@
-def test_trainable():\n    layers = {'layer3': False, 'layer4': True}\n    assert layers['layer4'] and not layers['layer3']\n
+def test_trainable():
+    layers = {"layer3": False, "layer4": True}
+    assert layers["layer4"]

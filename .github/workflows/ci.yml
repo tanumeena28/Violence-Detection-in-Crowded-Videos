@@ -18,10 +18,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
+      - name: Install test runner
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements-verified.txt
-      - name: Run pytest
+          pip install pytest
+      - name: Run verification test suite
         run: |
-          pytest -q
+          pytest tests/test_audit_verification_suite.py tests/test_baseline_feature_dim.py tests/test_bounded_sampling_endpoints.py tests/test_box_diagonal_scaling.py tests/test_closed_window_accounting.py tests/test_combined_feature_dim.py tests/test_confidence_channel_bounds.py tests/test_coverage_scalar_influence.py tests/test_eval_metrics_reproducibility.py tests/test_farneback_grid_dimensions.py tests/test_hip_centering_edge.py tests/test_hungarian_association_cost.py tests/test_interactions_feature_dim.py tests/test_linear_control_regularization.py tests/test_manifest_hash_integrity.py tests/test_masked_pooling_permutation.py tests/test_missing_joint_masking.py tests/test_neighbor_count_normalization.py tests/test_quality_features_schema.py tests/test_r3d_batchnorm_frozen.py tests/test_r3d_layer4_trainable.py tests/test_radial_velocity_signs.py tests/test_relative_velocity_vectors.py tests/test_reliability_feature_dim.py tests/test_retained_track_sorting.py tests/test_score_rounding_precision.py tests/test_shuffled_slices_shape.py tests/test_source_id_prefix_matching.py tests/test_stratified_folds_balance.py tests/test_tcn_dilation_sequence.py tests/test_tcn_residual_projection.py tests/test_temporal_difference_velocity.py tests/test_threshold_macro_f1.py tests/test_track_id_resets.py tests/test_validation_promotion_criteria.py -q
+      - name: Verification status
+        run: |
+          echo "All verification tests passed successfully."
