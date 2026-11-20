@@ -1,0 +1,1 @@
+import numpy as np\ndef test_radial_sign():\n    pos = np.array([1.0, 0.0])\n    vel = np.array([-1.0, 0.0])\n    rad = np.dot(pos, vel)\n    assert rad < 0\n
