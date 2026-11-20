@@ -1,0 +1,1 @@
+# Confounding Factors in Affective Vision\n\nExamining how crowd motion statistics and camera shake correlate with dataset labels.\n
