@@ -1,0 +1,1 @@
+# Observed Track Coverage Scalar Ablation\n\nZeroing the explicit coverage input left baseline, reliability, and combined accuracy unchanged, showing detection cues permeate via masks.\n
