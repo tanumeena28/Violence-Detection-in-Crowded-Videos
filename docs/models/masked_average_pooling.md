@@ -1,0 +1,1 @@
+# Masked Average Pooling Over People\n\nAverage pooling aggregates active track embeddings while strictly ignoring inactive track slots.\n
