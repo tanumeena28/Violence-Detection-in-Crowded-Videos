@@ -1,0 +1,1 @@
+# Mathematical Receptive Field Analysis\n\nWith kernel size 3 and dilations [1, 2, 4], the effective temporal receptive field spans 15 frames, covering ~2.5 seconds of physical interaction.\n
