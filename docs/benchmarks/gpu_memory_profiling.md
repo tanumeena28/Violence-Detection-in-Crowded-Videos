@@ -1,0 +1,1 @@
+# GPU Memory Allocation Profile\n\nPeak GPU memory allocation during Layer-4 fine-tuning is approximately 0.62 GB, fitting comfortably within 4 GB VRAM.\n
