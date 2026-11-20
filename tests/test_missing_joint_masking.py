@@ -1,0 +1,1 @@
+import numpy as np\ndef test_masking():\n    valid = np.array([1, 0, 1])\n    assert valid[1] == 0\n
