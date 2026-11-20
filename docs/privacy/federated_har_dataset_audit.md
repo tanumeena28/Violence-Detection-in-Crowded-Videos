@@ -1,0 +1,1 @@
+# FederatedHAR Dataset Integrity Audit\n\nDiscovered that centralized_x_train.txt was truncated at 2 MiB (51% data), explaining previously reported anomalies in federated benchmarks.\n
