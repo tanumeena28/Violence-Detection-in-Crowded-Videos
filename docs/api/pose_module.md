@@ -1,0 +1,1 @@
+# Module: affective.pose\n\nImplements `extract_clip_poses`, wrapper around YOLO11n-pose for batched keypoint extraction.\n
