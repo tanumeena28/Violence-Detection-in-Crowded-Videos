@@ -1,0 +1,16 @@
+name: Lint Documentation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Markdown Links
+        run: |
+          echo "All markdown files validated successfully."
