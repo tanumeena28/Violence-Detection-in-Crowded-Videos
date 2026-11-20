@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "affective-crowd-violence"
+version = "1.0.0"
+description = "Violence and aggression detection in crowded video streams using pose reliability and interaction features."
+readme = "README.md"
+authors = [{ name = "tanumeena28", email = "meenatanu2004@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "ultralytics>=8.0.0",
+    "opencv-python>=4.8.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.2.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.65.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/tanumeena28/Violence-Detection-in-Crowded-Videos"
+Repository = "https://github.com/tanumeena28/Violence-Detection-in-Crowded-Videos.git"
