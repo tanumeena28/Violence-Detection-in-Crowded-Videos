@@ -1,0 +1,1 @@
+# Frequently Asked Questions (FAQ)\n\nAnswers to common queries regarding model design, dataset licensing, privacy audits, and real-time streaming.\n
