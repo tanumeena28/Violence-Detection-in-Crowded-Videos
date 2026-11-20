@@ -1,0 +1,1 @@
+# Confounding Factors in Crowd Datasets\n\nCamera shake, crowd density, and illumination changes often correlate with violence labels, creating spurious shortcuts for classifiers.\n
