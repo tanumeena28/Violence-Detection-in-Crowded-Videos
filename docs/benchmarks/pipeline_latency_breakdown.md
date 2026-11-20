@@ -1,0 +1,1 @@
+# Pipeline Latency Breakdown\n\nWarm offline inference takes median 0.270s per 5s clip: YOLO pose extraction takes 0.2408s, and TCN classification takes 0.00246s.\n
