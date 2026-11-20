@@ -1,0 +1,1 @@
+# Evaluation Execution Manual\n\nInstructions for reproducing 5-fold cross-validation and external benchmark scoring scripts.\n
