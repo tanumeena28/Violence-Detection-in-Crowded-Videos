@@ -1,0 +1,1 @@
+print('Test report generator.')\n
