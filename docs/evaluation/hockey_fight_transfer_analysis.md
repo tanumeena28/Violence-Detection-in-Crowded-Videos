@@ -1,0 +1,1 @@
+# Hockey Fight Transfer Breakdown\n\nFine-tuned R3D-18 transfers effectively (81.1%), whereas pose interactions collapse (40.9%) due to severe camera zooming and ice occlusions.\n
