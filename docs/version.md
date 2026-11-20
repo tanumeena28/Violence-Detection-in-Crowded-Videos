@@ -1,0 +1,1 @@
+# Release Version 1.0.0\n\nProduction release tagged on 2026-11-19.\n
