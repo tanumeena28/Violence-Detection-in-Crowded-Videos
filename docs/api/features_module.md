@@ -1,0 +1,1 @@
+# Module: affective.features\n\nConstructs baseline, reliability, and interaction feature matrices from tracked skeletons.\n
