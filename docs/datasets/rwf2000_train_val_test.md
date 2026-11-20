@@ -1,0 +1,1 @@
+# RWF-2000 Partitioning Strategy\n\nThe supervised reference uses 1,271 training clips, 317 source-grouped validation clips, and 400 held-out evaluation clips.\n
