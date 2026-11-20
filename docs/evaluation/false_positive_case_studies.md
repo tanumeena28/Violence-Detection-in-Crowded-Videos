@@ -1,0 +1,1 @@
+# Case Studies of False Alarms\n\nCelebratory dancing, sports cheering, and rapid athletic movements trigger false alarms due to high limb velocities.\n
