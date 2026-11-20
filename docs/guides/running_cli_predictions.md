@@ -1,0 +1,1 @@
+# CLI Video Prediction Guide\n\nComprehensive command-line examples for single video inference, windowed analysis, and overlay rendering.\n
