@@ -1,0 +1,1 @@
+# Duplicate File Detection in Violent-Flows\n\nSHA-256 byte hashing identified 1 exact duplicate clip in fold 5, reducing the effective evaluation corpus to 245 unique videos.\n
