@@ -1,0 +1,1 @@
+# Violent-Flows Source-Separated Folds\n\nClips are partitioned into 5 source-separated outer folds to ensure no footage from the same event spans training and testing sets.\n
