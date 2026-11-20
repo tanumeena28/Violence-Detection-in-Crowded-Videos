@@ -1,0 +1,1 @@
+# Module: affective.analysis\n\nStatistical analysis, confusion matrix computations, and metric aggregation.\n
