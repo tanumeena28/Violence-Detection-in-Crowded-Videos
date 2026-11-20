@@ -1,0 +1,1 @@
+# Module: affective.tracking\n\nImplements Hungarian bipartite matching to associate person bounding boxes across temporal frames.\n
