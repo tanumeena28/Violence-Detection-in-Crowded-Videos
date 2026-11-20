@@ -1,0 +1,1 @@
+# AdamW Optimizer Hyperparameters\n\nModels are optimized using AdamW with learning rate 0.001, weight decay 0.01, and gradient norm clipping at 1.0.\n
