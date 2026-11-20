@@ -1,0 +1,1 @@
+print('Metrics calculation script.')\n
