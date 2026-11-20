@@ -1,0 +1,1 @@
+# Signed Radial Relative Velocity\n\nRadial velocity projects relative velocity onto the unit vector connecting two subjects, quantifying whether individuals are colliding or separating.\n
