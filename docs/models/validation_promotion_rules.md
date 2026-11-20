@@ -1,0 +1,1 @@
+# Sealed Validation Promotion Criteria\n\nA fine-tuned checkpoint is promoted to evaluation only if it achieves strictly lower validation loss and higher validation Macro-F1 than the frozen reference.\n
