@@ -1,0 +1,1 @@
+# Skeleton Visualization and Video Rendering\n\nHow keypoints and tracking bounding boxes are rendered onto raw video frames for qualitative inspection.\n
