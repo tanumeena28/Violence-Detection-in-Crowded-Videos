@@ -1,0 +1,1 @@
+# Taxonomy of Failure Modes\n\nCategorization of detection failures: rapid hand waving, sports occlusions, and severe camera cuts.\n
