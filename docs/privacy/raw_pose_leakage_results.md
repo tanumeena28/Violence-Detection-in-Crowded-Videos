@@ -1,0 +1,1 @@
+# Identity Leakage on Raw Coordinates (59.3%)\n\nRaw frame-normalized coordinates leak subject identity at 59.3% accuracy against a 20.0% chance baseline.\n
